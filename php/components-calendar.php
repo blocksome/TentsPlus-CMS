@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Maps - Implement in your applications Google or vector maps.</title>
+    <title>Calendar - Calendars are used in a lot of apps. We thought to include one for React.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Implement in your applications Google or vector maps.">
+    <meta name="description" content="Calendars are used in a lot of apps. We thought to include one for React.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.php">
+                                    <a href="../index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -522,10 +522,10 @@
                                     
                                     
                                     
-                                    
-                                    
-                                    
                                      class="mm-active"
+                                    
+                                    
+                                    
                                 >
                                     <a href="#">
                                         <i class="metismenu-icon pe-7s-car"></i>
@@ -540,10 +540,10 @@
                                         
                                         
                                         
-                                        
-                                        
-                                        
                                          class="mm-show"
+                                        
+                                        
+                                        
                                     >
                                         <li>
                                             <a href="components-tabs.php">
@@ -588,7 +588,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-calendar.php">
+                                            <a href="components-calendar.php" class="mm-active">
                                                 <i class="metismenu-icon">
                                                 </i>Calendar
                                             </a>
@@ -606,7 +606,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-maps.php" class="mm-active">
+                                            <a href="components-maps.php">
                                                 <i class="metismenu-icon">
                                                 </i>Maps
                                             </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-map icon-gradient bg-premium-dark">
+                                        <i class="pe-7s-car icon-gradient bg-warm-flame">
                                         </i>
                                     </div>
-                                    <div>Maps
-                                        <div class="page-title-subheading">Implement in your applications Google or vector maps.
+                                    <div>Calendar
+                                        <div class="page-title-subheading">Calendars are used in a lot of apps. We thought to include one for React.
                                         </div>
                                     </div>
                                 </div>
@@ -728,20 +728,42 @@
                                         </div>
                                     </div>
                                 </div>    </div>
-                        </div>            <div class="row">
-                            <div class="col-md-6">
+                        </div>            <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
+                            <li class="nav-item">
+                                <a role="tab" class="nav-link active" id="tab-0" data-toggle="tab" href="#tab-content-0">
+                                    <span>Basic Calendar</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a role="tab" class="nav-link" id="tab-1" data-toggle="tab" href="#tab-content-1">
+                                    <span>List View</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a role="tab" class="nav-link" id="tab-2" data-toggle="tab" href="#tab-content-2">
+                                    <span>Background Events</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
                                 <div class="main-card mb-3 card">
                                     <div class="card-body">
-                                        <div class="card-title">World Map</div>
-                                        <div id="world-map-gdp" style="width: 100%; height: 300px;"></div>
+                                        <div id='calendar'></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="tab-pane tabs-animation fade" id="tab-content-1" role="tabpanel">
                                 <div class="main-card mb-3 card">
                                     <div class="card-body">
-                                        <div class="card-title">Google Maps</div>
-                                        <div id="gmap-example"></div>
+                                        <div id='calendar-list'></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane tabs-animation fade" id="tab-content-2" role="tabpanel">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body">
+                                        <div id="calendar-bg-events"></div>
                                     </div>
                                 </div>
                             </div>
@@ -784,7 +806,6 @@
                             </div>
                         </div>
                     </div>    </div>
-                <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
         </div>
     </div>
 <script type="text/javascript" src="./assets/scripts/main.js"></script></body>

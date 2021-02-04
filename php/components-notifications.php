@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Progress Bar - You can use the progress bars on their own or in combination with other widgets.</title>
+    <title>Notifications - Notifications represent one of the best ways to give feedback for various users actions.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="You can use the progress bars on their own or in combination with other widgets.">
+    <meta name="description" content="Notifications represent one of the best ways to give feedback for various users actions.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.php">
+                                    <a href="../index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -517,9 +517,9 @@
                                 <li
                                     
                                     
-                                    
-                                    
                                      class="mm-active"
+                                    
+                                    
                                     
                                     
                                     
@@ -535,9 +535,9 @@
                                     <ul
                                         
                                         
-                                        
-                                        
                                          class="mm-show"
+                                        
+                                        
                                         
                                         
                                         
@@ -558,7 +558,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-notifications.php">
+                                            <a href="components-notifications.php" class="mm-active">
                                                 <i class="metismenu-icon">
                                                 </i>Notifications
                                             </a>
@@ -570,7 +570,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-progress-bar.php" class="mm-active">
+                                            <a href="components-progress-bar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Progress Bar
                                             </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-filter icon-gradient bg-grow-early">
+                                        <i class="pe-7s-glasses icon-gradient bg-love-kiss">
                                         </i>
                                     </div>
-                                    <div>Progress Bar
-                                        <div class="page-title-subheading">You can use the progress bars on their own or in combination with other widgets.
+                                    <div>Notifications
+                                        <div class="page-title-subheading">Notifications represent one of the best ways to give feedback for various users actions.
                                         </div>
                                     </div>
                                 </div>
@@ -728,183 +728,268 @@
                                         </div>
                                     </div>
                                 </div>    </div>
-                        </div>            <div class="row">
-                            <div class="col-md-6">
+                        </div>            <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
+                            <li class="nav-item">
+                                <a role="tab" class="nav-link active" id="tab-0" data-toggle="tab" href="#tab-content-0">
+                                    <span>Toastr Alerts</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a role="tab" class="nav-link" id="tab-2" data-toggle="tab" href="#tab-content-2">
+                                    <span>Basic Alerts</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
                                 <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Basic</h5>
-                                        <div class="text-center">0%</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
-                                        </div>
-                                        <div class="text-center">25%</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
-                                        </div>
-                                        <div class="text-center">50%</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-                                        </div>
-                                        <div class="text-center">75%</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-                                        </div>
-                                        <div class="text-center">100%</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-                                        </div>
-                                        <div class="text-center">Multiple bars</div>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"></div>
-                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
-                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
-                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
-                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%;"></div>
+                                    <div class="card-body">
+                                        <div class="card-title">Toastr Configurator</div>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="title">Title</label>
+                                                    <input id="title" type="text" class="form-control" placeholder="Enter a title ..."/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="message">Message</label>
+                                                    <textarea class="form-control" id="message" rows="3" placeholder="Enter a message ..."></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="form-check">
+                                                        <input id="closeButton" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="closeButton">
+                                                            Close Button
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input id="addBehaviorOnToastClick" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="addBehaviorOnToastClick">
+                                                            Add behavior on toast click
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input disabled id="addBehaviorOnToastCloseClick" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="addBehaviorOnToastCloseClick">
+                                                            Add behavior on toast close button click
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input id="debugInfo" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="debugInfo">
+                                                            Debug
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input id="progressBar" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="progressBar">
+                                                            Progress Bar
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input id="rtl" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="rtl">
+                                                            Right-To-Left
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input id="preventDuplicates" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="preventDuplicates">
+                                                            Prevent Duplicates
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input id="addClear" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="addClear">
+                                                            Add button to force clearing a toast
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input id="newestOnTop" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="newestOnTop">
+                                                            Newest on top
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div id="toastTypeGroup">
+                                                    <h5>Toast Type</h5>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="toasts" class="form-check-input" value="success" checked/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Success
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="toasts" class="form-check-input" value="info" checked/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Info
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="toasts" class="form-check-input" value="warning" checked/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Warning
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="toasts" class="form-check-input" value="error" checked/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Error
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div id="positionGroup">
+                                                    <h5>Position</h5>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-right" checked/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Top Right
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-right"/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Bottom Right
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-left"/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Bottom Left
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-left"/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Top Left
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-full-width"/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Top Full Width
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-full-width"/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Bottom Full Width
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-center"/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Top Center
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-center"/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Bottom Center
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label for="showEasing">Show Easing</label>
+                                                    <input id="showEasing" type="text" placeholder="swing, linear" class="form-control" value="swing"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="hideEasing">Hide Easing</label>
+                                                    <input id="hideEasing" type="text" placeholder="swing, linear" class="form-control" value="linear"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="showMethod">Show Method</label>
+                                                    <input id="showMethod" type="text" placeholder="show, fadeIn, slideDown" class="form-control" value="fadeIn"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="hideMethod">Hide Method</label>
+                                                    <input id="hideMethod" type="text" placeholder="hide, fadeOut, slideUp" class="form-control" value="fadeOut"/>
+                                                </div>
+                                            </div>
+            
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="showDuration">Show Duration</label>
+                                                    <input id="showDuration" type="number" placeholder="ms" class="form-control" value="300"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="hideDuration">Hide Duration</label>
+                                                    <input id="hideDuration" type="number" placeholder="ms" class="form-control" value="1000"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="timeOut">Time out</label>
+                                                    <input id="timeOut" type="number" placeholder="ms" class="form-control" value="5000"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="extendedTimeOut">Extended time out</label>
+                                                    <input id="extendedTimeOut" type="number" placeholder="ms" class="form-control" value="1000"/>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Progress bar labels</h5>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">25%</div>
+                                    <div class="card-footer d-block clearfix">
+                                        <div class="float-left">
+                                            <button type="button" class="btn btn-link text-danger" id="cleartoasts">Clear Toasts</button>
+                                            <button type="button" class="btn btn-link" id="clearlasttoast">Clear Last Toast</button>
                                         </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">1/2</div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">You're almost there!</div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">You did it!</div>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">Meh</div>
-                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">Wow!</div>
-                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">Cool</div>
-                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">20%</div>
-                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">!!</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Progress bar max</h5>
-                                        <div class="text-center">1 of 5</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style="width: 20%;"></div>
-                                        </div>
-                                        <div class="text-center">50 of 135</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="135" style="width: 37.037%;"></div>
-                                        </div>
-                                        <div class="text-center">75 of 111</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="111" style="width: 67.5676%;"></div>
-                                        </div>
-                                        <div class="text-center">463 of 500</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="463" aria-valuemin="0" aria-valuemax="500" style="width: 92.6%;"></div>
-                                        </div>
-                                        <div class="text-center">Various (40) of 55</div>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="55" style="width: 9.09091%;">5</div>
-                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="55" style="width: 27.2727%;">15</div>
-                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="55" style="width: 18.1818%;">10</div>
-                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="55" style="width: 18.1818%;">10</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Progress bar striped</h5>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-success progress-bar-striped" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-danger progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
-                                            <div class="progress-bar bg-success progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
-                                            <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
-                                            <div class="progress-bar bg-danger progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+                                        <div class="float-right">
+                                            <button type="button" class="btn btn-success" id="showtoast">Show Toast</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Progress color</h5>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                            <div class="tab-pane tabs-animation fade" id="tab-content-2" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Alerts</h5>
+                                                <div class="alert alert-primary fade show" role="alert">This is a primary alert — check it out!</div>
+                                                <div class="alert alert-secondary fade show" role="alert">This is a secondary alert — check it out!</div>
+                                                <div class="alert alert-success fade show" role="alert">This is a success alert — check it out!</div>
+                                                <div class="alert alert-danger fade show" role="alert">This is a danger alert — check it out!</div>
+                                                <div class="alert alert-warning fade show" role="alert">This is a warning alert — check it out!</div>
+                                                <div class="alert alert-info fade show" role="alert">This is a info alert — check it out!</div>
+                                                <div class="alert alert-light fade show" role="alert">This is a light alert — check it out!</div>
+                                                <div class="alert alert-dark fade show" role="alert">This is a dark alert — check it out!</div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Progress bar multi</h5>
-                                        <div class="text-center">Plain</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"></div>
-                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
-                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
-                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
-                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"></div>
-                                        </div>
-                                        <div class="text-center">With Labels</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">Meh</div>
-                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%;">Wow!</div>
-                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">25%</div>
-                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">LOOK OUT!!</div>
-                                        </div>
-                                        <div class="text-center">Stripes and Animations</div>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">Stripes</div>
-                                            <div class="progress-bar progress-bar-animated bg-success progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">Animated Stripes</div>
-                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">Plain</div>
+                                    <div class="col-md-6">
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Alerts Link Color</h5>
+                                                <div class="alert alert-primary fade show" role="alert">This is a primary alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                                <div class="alert alert-secondary fade show" role="alert">This is a secondary alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                                <div class="alert alert-success fade show" role="alert">This is a success alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                                <div class="alert alert-danger fade show" role="alert">This is a danger alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                                <div class="alert alert-warning fade show" role="alert">This is a warning alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                                <div class="alert alert-info fade show" role="alert">This is a info alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                                <div class="alert alert-light fade show" role="alert">This is a light alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                                <div class="alert alert-dark fade show" role="alert">This is a dark alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Progress animated</h5>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+                                    <div class="col-md-6">
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Alerts Content</h5>
+                                                <div class="alert alert-success fade show" role="alert"><h4 class="alert-heading">Well done!</h4>
+                                                    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                                                    <hr>
+                                                    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p></div>
+                                            </div>
                                         </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar progress-bar-animated bg-success progress-bar-striped" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar progress-bar-animated bg-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar progress-bar-animated bg-warning progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar progress-bar-animated bg-danger progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
-                                            <div class="progress-bar progress-bar-animated bg-success progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
-                                            <div class="progress-bar progress-bar-animated bg-warning progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
-                                            <div class="progress-bar progress-bar-animated bg-danger progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Dismissable Alerts</h5>
+                                                <div class="alert alert-info alert-dismissible fade show" role="alert">
+                                                    <button type="button" class="close" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                                    I am an alert and I can be dismissed!
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

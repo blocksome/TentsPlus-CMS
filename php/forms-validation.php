@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Notifications - Notifications represent one of the best ways to give feedback for various users actions.</title>
+    <title>Form Validation - Inline validation is very easy to implement using the Architect Framework.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Notifications represent one of the best ways to give feedback for various users actions.">
+    <meta name="description" content="Inline validation is very easy to implement using the Architect Framework.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.php">
+                                    <a href="../index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -517,7 +517,7 @@
                                 <li
                                     
                                     
-                                     class="mm-active"
+                                    
                                     
                                     
                                     
@@ -535,7 +535,7 @@
                                     <ul
                                         
                                         
-                                         class="mm-show"
+                                        
                                         
                                         
                                         
@@ -558,7 +558,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-notifications.php" class="mm-active">
+                                            <a href="components-notifications.php">
                                                 <i class="metismenu-icon">
                                                 </i>Notifications
                                             </a>
@@ -640,7 +640,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-validation.php">
+                                    <a href="forms-validation.php" class="mm-active">
                                         <i class="metismenu-icon pe-7s-pendrive">
                                         </i>Forms Validation
                                     </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-glasses icon-gradient bg-love-kiss">
+                                        <i class="lnr-picture text-danger">
                                         </i>
                                     </div>
-                                    <div>Notifications
-                                        <div class="page-title-subheading">Notifications represent one of the best ways to give feedback for various users actions.
+                                    <div>Form Validation
+                                        <div class="page-title-subheading">Inline validation is very easy to implement using the Architect Framework.
                                         </div>
                                     </div>
                                 </div>
@@ -728,271 +728,154 @@
                                         </div>
                                     </div>
                                 </div>    </div>
-                        </div>            <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
-                            <li class="nav-item">
-                                <a role="tab" class="nav-link active" id="tab-0" data-toggle="tab" href="#tab-content-0">
-                                    <span>Toastr Alerts</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a role="tab" class="nav-link" id="tab-2" data-toggle="tab" href="#tab-content-2">
-                                    <span>Basic Alerts</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="tab-content">
-                            <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body">
-                                        <div class="card-title">Toastr Configurator</div>
-                                        <div class="row">
-                                            <div class="col-md-3">
-                                                <div class="form-group">
-                                                    <label class="form-label" for="title">Title</label>
-                                                    <input id="title" type="text" class="form-control" placeholder="Enter a title ..."/>
+                        </div>            <div class="main-card mb-3 card">
+                            <div class="card-body">
+                                <h5 class="card-title">Bootstrap 4 Form Validation</h5>
+                                <form class="needs-validation" novalidate>
+                                    <div class="form-row">
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationCustom01">First name</label>
+                                            <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationCustom02">Last name</label>
+                                            <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationCustomUsername">Username</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
                                                 </div>
-                                                <div class="form-group">
-                                                    <label class="form-label" for="message">Message</label>
-                                                    <textarea class="form-control" id="message" rows="3" placeholder="Enter a message ..."></textarea>
-                                                </div>
-                                                <div class="form-group">
-                                                    <div class="form-check">
-                                                        <input id="closeButton" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="closeButton">
-                                                            Close Button
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input id="addBehaviorOnToastClick" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="addBehaviorOnToastClick">
-                                                            Add behavior on toast click
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input disabled id="addBehaviorOnToastCloseClick" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="addBehaviorOnToastCloseClick">
-                                                            Add behavior on toast close button click
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input id="debugInfo" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="debugInfo">
-                                                            Debug
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input id="progressBar" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="progressBar">
-                                                            Progress Bar
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input id="rtl" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="rtl">
-                                                            Right-To-Left
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input id="preventDuplicates" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="preventDuplicates">
-                                                            Prevent Duplicates
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input id="addClear" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="addClear">
-                                                            Add button to force clearing a toast
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input id="newestOnTop" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="newestOnTop">
-                                                            Newest on top
-                                                        </label>
-                                                    </div>
+                                                <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
+                                                <div class="invalid-feedback">
+                                                    Please choose a username.
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
-                                                <div id="toastTypeGroup">
-                                                    <h5>Toast Type</h5>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="toasts" class="form-check-input" value="success" checked/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Success
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="toasts" class="form-check-input" value="info" checked/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Info
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="toasts" class="form-check-input" value="warning" checked/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Warning
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="toasts" class="form-check-input" value="error" checked/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Error
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                                <div id="positionGroup">
-                                                    <h5>Position</h5>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-right" checked/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Top Right
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-right"/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Bottom Right
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-left"/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Bottom Left
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-left"/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Top Left
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-full-width"/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Top Full Width
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-full-width"/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Bottom Full Width
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-center"/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Top Center
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-center"/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Bottom Center
-                                                        </label>
-                                                    </div>
-                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="validationCustom03">City</label>
+                                            <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+                                            <div class="invalid-feedback">
+                                                Please provide a valid city.
                                             </div>
-                                            <div class="col-md-3">
-                                                <div class="form-group">
-                                                    <label for="showEasing">Show Easing</label>
-                                                    <input id="showEasing" type="text" placeholder="swing, linear" class="form-control" value="swing"/>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="hideEasing">Hide Easing</label>
-                                                    <input id="hideEasing" type="text" placeholder="swing, linear" class="form-control" value="linear"/>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="showMethod">Show Method</label>
-                                                    <input id="showMethod" type="text" placeholder="show, fadeIn, slideDown" class="form-control" value="fadeIn"/>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="hideMethod">Hide Method</label>
-                                                    <input id="hideMethod" type="text" placeholder="hide, fadeOut, slideUp" class="form-control" value="fadeOut"/>
-                                                </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <label for="validationCustom04">State</label>
+                                            <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+                                            <div class="invalid-feedback">
+                                                Please provide a valid state.
                                             </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <label for="validationCustom05">Zip</label>
+                                            <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+                                            <div class="invalid-feedback">
+                                                Please provide a valid zip.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                            <label class="form-check-label" for="invalidCheck">
+                                                Agree to terms and conditions
+                                            </label>
+                                            <div class="invalid-feedback">
+                                                You must agree before submitting.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary" type="submit">Submit form</button>
+                                </form>
             
-                                            <div class="col-md-3">
-                                                <div class="form-group">
-                                                    <label class="form-label" for="showDuration">Show Duration</label>
-                                                    <input id="showDuration" type="number" placeholder="ms" class="form-control" value="300"/>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="form-label" for="hideDuration">Hide Duration</label>
-                                                    <input id="hideDuration" type="number" placeholder="ms" class="form-control" value="1000"/>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="form-label" for="timeOut">Time out</label>
-                                                    <input id="timeOut" type="number" placeholder="ms" class="form-control" value="5000"/>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="form-label" for="extendedTimeOut">Extended time out</label>
-                                                    <input id="extendedTimeOut" type="number" placeholder="ms" class="form-control" value="1000"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-footer d-block clearfix">
-                                        <div class="float-left">
-                                            <button type="button" class="btn btn-link text-danger" id="cleartoasts">Clear Toasts</button>
-                                            <button type="button" class="btn btn-link" id="clearlasttoast">Clear Last Toast</button>
-                                        </div>
-                                        <div class="float-right">
-                                            <button type="button" class="btn btn-success" id="showtoast">Show Toast</button>
-                                        </div>
-                                    </div>
-                                </div>
+                                <script>
+                                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                                    (function() {
+                                        'use strict';
+                                        window.addEventListener('load', function() {
+                                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                            var forms = document.getElementsByClassName('needs-validation');
+                                            // Loop over them and prevent submission
+                                            var validation = Array.prototype.filter.call(forms, function(form) {
+                                                form.addEventListener('submit', function(event) {
+                                                    if (form.checkValidity() === false) {
+                                                        event.preventDefault();
+                                                        event.stopPropagation();
+                                                    }
+                                                    form.classList.add('was-validated');
+                                                }, false);
+                                            });
+                                        }, false);
+                                    })();
+                                </script>
                             </div>
-                            <div class="tab-pane tabs-animation fade" id="tab-content-2" role="tabpanel">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Alerts</h5>
-                                                <div class="alert alert-primary fade show" role="alert">This is a primary alert — check it out!</div>
-                                                <div class="alert alert-secondary fade show" role="alert">This is a secondary alert — check it out!</div>
-                                                <div class="alert alert-success fade show" role="alert">This is a success alert — check it out!</div>
-                                                <div class="alert alert-danger fade show" role="alert">This is a danger alert — check it out!</div>
-                                                <div class="alert alert-warning fade show" role="alert">This is a warning alert — check it out!</div>
-                                                <div class="alert alert-info fade show" role="alert">This is a info alert — check it out!</div>
-                                                <div class="alert alert-light fade show" role="alert">This is a light alert — check it out!</div>
-                                                <div class="alert alert-dark fade show" role="alert">This is a dark alert — check it out!</div>
+                        </div>
+                        <div class="main-card mb-3 card">
+                            <div class="card-body">
+                                <h5 class="card-title">Tooltips Validation</h5>
+                                <form class="needs-validation" novalidate>
+                                    <div class="form-row">
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationTooltip01">First name</label>
+                                            <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Mark" required>
+                                            <div class="valid-tooltip">
+                                                Looks good!
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Alerts Link Color</h5>
-                                                <div class="alert alert-primary fade show" role="alert">This is a primary alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
-                                                <div class="alert alert-secondary fade show" role="alert">This is a secondary alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
-                                                <div class="alert alert-success fade show" role="alert">This is a success alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
-                                                <div class="alert alert-danger fade show" role="alert">This is a danger alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
-                                                <div class="alert alert-warning fade show" role="alert">This is a warning alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
-                                                <div class="alert alert-info fade show" role="alert">This is a info alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
-                                                <div class="alert alert-light fade show" role="alert">This is a light alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
-                                                <div class="alert alert-dark fade show" role="alert">This is a dark alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationTooltip02">Last name</label>
+                                            <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Otto" required>
+                                            <div class="valid-tooltip">
+                                                Looks good!
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Alerts Content</h5>
-                                                <div class="alert alert-success fade show" role="alert"><h4 class="alert-heading">Well done!</h4>
-                                                    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-                                                    <hr>
-                                                    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Dismissable Alerts</h5>
-                                                <div class="alert alert-info alert-dismissible fade show" role="alert">
-                                                    <button type="button" class="close" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                                    I am an alert and I can be dismissed!
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationTooltipUsername">Username</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                                                </div>
+                                                <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+                                                <div class="invalid-tooltip">
+                                                    Please choose a unique and valid username.
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                    <div class="form-row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="validationTooltip03">City</label>
+                                            <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
+                                            <div class="invalid-tooltip">
+                                                Please provide a valid city.
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <label for="validationTooltip04">State</label>
+                                            <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
+                                            <div class="invalid-tooltip">
+                                                Please provide a valid state.
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <label for="validationTooltip05">Zip</label>
+                                            <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
+                                            <div class="invalid-tooltip">
+                                                Please provide a valid zip.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary" type="submit">Submit form</button>
+                                </form>
                             </div>
                         </div>
                     </div>

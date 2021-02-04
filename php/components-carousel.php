@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Regular Tables - Tables are the backbone of almost all web applications.</title>
+    <title>Carousels &amp; Slideshows - Create easy and beautiful slideshows with these React components.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Tables are the backbone of almost all web applications.">
+    <meta name="description" content="Create easy and beautiful slideshows with these React components.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.php">
+                                    <a href="../index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -521,7 +521,7 @@
                                     
                                     
                                     
-                                    
+                                     class="mm-active"
                                     
                                     
                                     
@@ -539,7 +539,7 @@
                                         
                                         
                                         
-                                        
+                                         class="mm-show"
                                         
                                         
                                         
@@ -582,7 +582,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-carousel.php">
+                                            <a href="components-carousel.php" class="mm-active">
                                                 <i class="metismenu-icon">
                                                 </i>Carousel
                                             </a>
@@ -613,7 +613,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li  class="mm-active" >
+                                <li  >
                                     <a href="tables-regular.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Tables
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-drawer icon-gradient bg-happy-itmeo">
+                                        <i class="pe-7s-album icon-gradient bg-sunny-morning">
                                         </i>
                                     </div>
-                                    <div>Regular Tables
-                                        <div class="page-title-subheading">Tables are the backbone of almost all web applications.
+                                    <div>Carousels &amp; Slideshows
+                                        <div class="page-title-subheading">Create easy and beautiful slideshows with these React components.
                                         </div>
                                     </div>
                                 </div>
@@ -729,305 +729,71 @@
                                     </div>
                                 </div>    </div>
                         </div>            <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-md-6">
                                 <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Simple table</h5>
-                                        <table class="mb-0 table">
-                                            <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>Username</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>Larry</td>
-                                                <td>the Bird</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Table bordered</h5>
-                                        <table class="mb-0 table table-bordered">
-                                            <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>Username</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>Larry</td>
-                                                <td>the Bird</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Table without border</h5>
-                                        <table class="mb-0 table table-borderless">
-                                            <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>Username</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>Larry</td>
-                                                <td>the Bird</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Table dark</h5>
-                                        <table class="mb-0 table table-dark">
-                                            <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>Username</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>Larry</td>
-                                                <td>the Bird</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Table with hover</h5>
-                                        <table class="mb-0 table table-hover">
-                                            <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>Username</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>Larry</td>
-                                                <td>the Bird</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Table responsive</h5>
-                                        <div class="table-responsive">
-                                            <table class="mb-0 table">
-                                                <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>Table heading</th>
-                                                    <th>Table heading</th>
-                                                    <th>Table heading</th>
-                                                    <th>Table heading</th>
-                                                    <th>Table heading</th>
-                                                    <th>Table heading</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr>
-                                                    <th scope="row">1</th>
-                                                    <td>Table cell</td>
-                                                    <td>Table cell</td>
-                                                    <td>Table cell</td>
-                                                    <td>Table cell</td>
-                                                    <td>Table cell</td>
-                                                    <td>Table cell</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">2</th>
-                                                    <td>Table cell</td>
-                                                    <td>Table cell</td>
-                                                    <td>Table cell</td>
-                                                    <td>Table cell</td>
-                                                    <td>Table cell</td>
-                                                    <td>Table cell</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">3</th>
-                                                    <td>Table cell</td>
-                                                    <td>Table cell</td>
-                                                    <td>Table cell</td>
-                                                    <td>Table cell</td>
-                                                    <td>Table cell</td>
-                                                    <td>Table cell</td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Basic Bootstrap 4 Carousel</h5>
+                                        <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="First slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Second slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Third slide">
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-md-6">
                                 <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Table sizing</h5>
-                                        <table class="mb-0 table table-sm">
-                                            <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>Username</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>Larry</td>
-                                                <td>the Bird</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Table striped</h5>
-                                        <table class="mb-0 table table-striped">
-                                            <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>Username</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>Larry</td>
-                                                <td>the Bird</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Carousel with Captions</h5>
+                                        <div id="carouselExampleControls2" class="carousel slide carousel-fade" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="First slide">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>First Slide</h5>
+                                                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Second slide">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Second Slide</h5>
+                                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Third slide">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Third Slide</h5>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

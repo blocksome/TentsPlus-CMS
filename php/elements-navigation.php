@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>List Groups - These can be used with other components and elements to create stunning and unique new elements for your UIs.</title>
+    <title>Navigation Menus - Navigation menus are one of the basic building blocks for any web or mobile app.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="These can be used with other components and elements to create stunning and unique new elements for your UIs.">
+    <meta name="description" content="Navigation menus are one of the basic building blocks for any web or mobile app.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.php">
+                                    <a href="../index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -445,8 +445,8 @@
                                     
                                     
                                     
-                                     class="mm-active"
                                     
+                                     class="mm-active"
                                     
                                 >
                                     <a href="#">
@@ -460,8 +460,8 @@
                                         
                                         
                                         
-                                         class="mm-show"
                                         
+                                         class="mm-show"
                                         
                                     >
                                         <li>
@@ -495,13 +495,13 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-list-group.php" class="mm-active">
+                                            <a href="elements-list-group.php">
                                                 <i class="metismenu-icon">
                                                 </i>List Groups
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-navigation.php">
+                                            <a href="elements-navigation.php" class="mm-active">
                                                 <i class="metismenu-icon">
                                                 </i>Navigation Menus
                                             </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-paint icon-gradient bg-sunny-morning">
+                                        <i class="pe-7s-photo-gallery icon-gradient bg-mean-fruit">
                                         </i>
                                     </div>
-                                    <div>List Groups
-                                        <div class="page-title-subheading">These can be used with other components and elements to create stunning and unique new elements for your UIs.
+                                    <div>Navigation Menus
+                                        <div class="page-title-subheading">Navigation menus are one of the basic building blocks for any web or mobile app.
                                         </div>
                                     </div>
                                 </div>
@@ -729,90 +729,185 @@
                                     </div>
                                 </div>    </div>
                         </div>            <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">List group</h5>
-                                                <ul class="list-group">
-                                                    <li class="list-group-item">Cras justo odio</li>
-                                                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                                                    <li class="list-group-item">Morbi leo risus</li>
-                                                    <li class="list-group-item">Porta ac consectetur ac</li>
-                                                    <li class="list-group-item">Vestibulum at eros</li>
+                            <div class="col-md-12">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Vertical Menu</h5>
+                                        <div class="row">
+                                            <div class="col">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Link</a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Link
+                                                        <div class="ml-auto badge badge-success">New</div>
+                                                    </a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Another Link
+                                                        <div class="ml-auto badge badge-warning">512</div>
+                                                    </a></li>
+                                                    <li class="nav-item"><a disabled="" href="javascript:void(0);" class="nav-link disabled">Disabled Link</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link"><i class="nav-link-icon lnr-inbox"> </i><span>Inbox</span>
+                                                        <div class="ml-auto badge badge-pill badge-secondary">86</div>
+                                                    </a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link"><i class="nav-link-icon lnr-book"> </i><span>Book</span>
+                                                        <div class="ml-auto badge badge-pill badge-danger">5</div>
+                                                    </a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link"><i class="nav-link-icon lnr-picture"> </i><span>Picture</span></a></li>
+                                                    <li class="nav-item"><a disabled="" href="javascript:void(0);" class="nav-link disabled"><i class="nav-link-icon lnr-file-empty"> </i><span>File Disabled</span></a></li>
                                                 </ul>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">List group buttons</h5>
-                                                <div>
-                                                    <ul class="list-group">
-                                                        <button class="active list-group-item-action list-group-item">Cras justo odio</button>
-                                                        <button class="list-group-item-action list-group-item">Dapibus ac facilisis in</button>
-                                                        <button class="list-group-item-action list-group-item">Morbi leo risus</button>
-                                                        <button class="list-group-item-action list-group-item">Porta ac consectetur ac</button>
-                                                        <button class="disabled list-group-item-action list-group-item">Vestibulum at eros</button>
+                                        <div class="divider"></div>
+                                        <div class="text-center">
+                                            <div class="btn-group dropdown">
+                                                <button type="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="mb-2 mr-2 dropdown-toggle btn btn-primary">Dropdown Basic</button>
+                                                <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu">
+                                                    <ul class="nav flex-column">
+                                                        <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Link</a></li>
+                                                        <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Link
+                                                            <div class="ml-auto badge badge-success">New</div>
+                                                        </a></li>
+                                                        <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Another Link
+                                                            <div class="ml-auto badge badge-warning">512</div>
+                                                        </a></li>
+                                                        <li class="nav-item"><a disabled="" href="javascript:void(0);" class="nav-link disabled">Disabled Link</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">List group badges</h5>
-                                                <ul class="list-group">
-                                                    <li class="justify-content-between list-group-item">Cras justo odio <span class="badge badge-secondary badge-pill">14</span></li>
-                                                    <li class="justify-content-between list-group-item">Dapibus ac facilisis in <span class="badge badge-secondary badge-pill">2</span></li>
-                                                    <li class="justify-content-between list-group-item">Morbi leo risus <span class="badge badge-secondary badge-pill">1</span></li>
+                                </div>
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Separators &amp; Headers</h5>
+                                        <div class="row">
+                                            <div class="col">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item-header nav-item">Activity</li>
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Chat
+                                                        <div class="ml-auto badge badge-pill badge-info">8</div>
+                                                    </a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Recover Password</a></li>
+                                                    <li class="nav-item-header nav-item">My Account</li>
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Settings
+                                                        <div class="ml-auto badge badge-success">New</div>
+                                                    </a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Messages
+                                                        <div class="ml-auto badge badge-warning">512</div>
+                                                    </a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Logs</a></li>
+                                                    <li class="nav-item-divider nav-item"></li>
+                                                    <li class="nav-item-btn nav-item">
+                                                        <button class="btn-wide btn-shadow btn btn-danger btn-sm">Cancel</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item-header nav-item">Activity</li>
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link"><i class="nav-link-icon pe-7s-chat"> </i><span>Chat</span>
+                                                        <div class="ml-auto badge badge-pill badge-info">8</div>
+                                                    </a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link"><i class="nav-link-icon pe-7s-wallet"> </i><span>Recover Password</span></a></li>
+                                                    <li class="nav-item-header nav-item">My Account</li>
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link"><i class="nav-link-icon pe-7s-config"> </i><span>Settings</span>
+                                                        <div class="ml-auto badge badge-success">New</div>
+                                                    </a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link"><i class="nav-link-icon pe-7s-coffee"> </i><span>Messages</span>
+                                                        <div class="ml-auto badge badge-warning">512</div>
+                                                    </a></li>
+                                                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link"><i class="nav-link-icon pe-7s-box2"> </i><span>Logs</span></a></li>
+                                                    <li class="nav-item-divider nav-item"></li>
+                                                    <li class="nav-item-btn nav-item">
+                                                        <button class="btn-pill btn btn-success btn-sm">Save</button>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">List group contextual classes</h5>
-                                                <ul class="list-group">
-                                                    <li class="list-group-item-success list-group-item">Cras justo odio</li>
-                                                    <li class="list-group-item-info list-group-item">Dapibus ac facilisis in</li>
-                                                    <li class="list-group-item-warning list-group-item">Morbi leo risus</li>
-                                                    <li class="list-group-item-danger list-group-item">Porta ac consectetur ac</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">List group custom content</h5>
-                                                <ul class="list-group">
-                                                    <li class="active list-group-item"><h5 class="list-group-item-heading">List group item heading</h5>
-                                                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p></li>
-                                                    <li class="list-group-item"><h5 class="list-group-item-heading">List group item heading</h5>
-                                                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p></li>
-                                                    <li class="list-group-item"><h5 class="list-group-item-heading">List group item heading</h5>
-                                                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">List group disabled items</h5>
-                                                <ul class="list-group"><a href="javascript:void(0);" class="disabled list-group-item">Cras justo odio</a><a href="javascript:void(0);" class="list-group-item">Dapibus ac facilisis in</a><a
-                                                        href="javascript:void(0);" class="list-group-item">Morbi leo risus</a><a href="javascript:void(0);" class="list-group-item">Porta ac consectetur ac</a><a href="javascript:void(0);" class="list-group-item">Vestibulum
-                                                    at eros</a></ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">List group without border</h5>
-                                                <ul class="list-group list-group-flush"><a href="javascript:void(0);" class="disabled list-group-item">Cras justo odio</a><a href="javascript:void(0);" class="list-group-item">Dapibus ac facilisis in</a><a
-                                                        href="javascript:void(0);" class="list-group-item">Morbi leo risus</a><a href="javascript:void(0);" class="list-group-item">Porta ac consectetur ac</a><a href="javascript:void(0);" class="list-group-item">Vestibulum
-                                                    at eros</a></ul>
+                                        <div class="divider"></div>
+                                        <div class="text-center">
+                                            <div class="dropdown btn-group">
+                                                <button type="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="mb-2 mr-2 dropdown-toggle btn btn-primary">Dropdown Basic</button>
+                                                <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu">
+                                                    <ul class="nav flex-column">
+                                                        <li class="nav-item-header nav-item">Activity</li>
+                                                        <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Chat
+                                                            <div class="ml-auto badge badge-pill badge-info">8</div>
+                                                        </a></li>
+                                                        <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Recover Password</a></li>
+                                                        <li class="nav-item-header nav-item">My Account</li>
+                                                        <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Settings
+                                                            <div class="ml-auto badge badge-success">New</div>
+                                                        </a></li>
+                                                        <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Messages
+                                                            <div class="ml-auto badge badge-warning">512</div>
+                                                        </a></li>
+                                                        <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Logs</a></li>
+                                                        <li class="nav-item-divider nav-item"></li>
+                                                        <li class="nav-item-btn nav-item">
+                                                            <button class="btn-wide btn-shadow btn btn-danger btn-sm">Cancel</button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Horizontal Menu</h5>
+                                        <ul class="nav"><a href="javascript:void(0);" class="nav-link active">Link</a><a href="javascript:void(0);" class="nav-link">Link</a><a href="javascript:void(0);" class="nav-link">Another Link</a><a disabled=""
+                                                                                                                                                                                                                                               href="javascript:void(0);"
+                                                                                                                                                                                                                                               class="nav-link disabled">Disabled
+                                            Link</a></ul>
+                                        <div class="divider"></div>
+                                        <div class="nav">
+                                            <a href="javascript:void(0);" class="nav-link active"><i class="nav-link-icon pe-7s-settings"> </i><span>Link</span></a>
+                                            <a href="javascript:void(0);" class="nav-link"><i
+                                                    class="nav-link-icon pe-7s-wallet"> </i><span>Link</span>
+                                                <div class="badge badge-pill badge-danger">12</div>
+                                            </a>
+                                            <a href="javascript:void(0);" class="nav-link"><span>Another Link</span></a>
+                                            <a disabled="" href="javascript:void(0);" class="nav-link disabled"><i
+                                                    class="nav-link-icon pe-7s-box1"> </i><span>Disabled Link</span></a>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <ul class="nav nav-justified">
+                                            <li class="nav-item"><a href="javascript:void(0);" class="nav-link active"><i class="nav-link-icon pe-7s-settings"> </i><span>Justified</span></a></li>
+                                            <li class="nav-item"><a href="javascript:void(0);" class="nav-link"><i class="nav-link-icon pe-7s-chat"> </i><span>Link</span>
+                                                <div class="badge badge-success">NEW</div>
+                                            </a></li>
+                                            <li class="nav-item"><a href="javascript:void(0);" class="nav-link"><span>Another Link</span></a></li>
+                                            <li class="nav-item"><a disabled="" href="javascript:void(0);" class="nav-link disabled"><i class="nav-link-icon pe-7s-box1"> </i><span>Disabled Link</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Active Links</h5>
+                                        <div class="nav nav-pills"><a href="javascript:void(0);" class="nav-link active">Link</a><a href="javascript:void(0);" class="nav-link">Link</a><a href="javascript:void(0);" class="nav-link">Another Link</a><a
+                                                disabled="" href="javascript:void(0);" class="nav-link disabled">Disabled Link</a></div>
+                                        <div class="divider"></div>
+                                        <div class="nav nav-pills"><a href="javascript:void(0);" class="nav-link active"><i class="nav-link-icon pe-7s-settings"> </i><span>Link</span></a><a href="javascript:void(0);" class="nav-link"><i
+                                                class="nav-link-icon pe-7s-wallet"> </i><span>Link</span>
+                                            <div class="badge badge-pill badge-danger">12</div>
+                                        </a><a href="javascript:void(0);" class="nav-link"><span>Another Link</span></a><a disabled="" href="javascript:void(0);" class="nav-link disabled"><i
+                                                class="nav-link-icon pe-7s-box1"> </i><span>Disabled Link</span></a></div>
+                                        <div class="divider"></div>
+                                        <ul class="nav nav-pills nav-justified">
+                                            <li class="nav-item"><a href="javascript:void(0);" class="nav-link active"><i class="nav-link-icon pe-7s-settings"> </i>Justified</a></li>
+                                            <li class="nav-item"><a href="javascript:void(0);" class="nav-link"><i class="nav-link-icon pe-7s-chat"> </i>Link
+                                                <div class="badge badge-success">NEW</div>
+                                            </a></li>
+                                            <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Another Link</a></li>
+                                            <li class="nav-item"><a disabled="" href="javascript:void(0);" class="nav-link disabled"><i class="nav-link-icon pe-7s-box1"> </i>Disabled Link</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="app-wrapper-footer">
                         <div class="app-footer">

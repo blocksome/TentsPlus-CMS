@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Tabs - Tabs are used to split content between multiple sections. Wide variety available.</title>
+    <title>Accordions - Accordions represent collapsable component with extended functionality.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Tabs are used to split content between multiple sections. Wide variety available.">
+    <meta name="description" content="Accordions represent collapsable component with extended functionality.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.php">
+                                    <a href="../index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -515,8 +515,8 @@
                                     </ul>
                                 </li>
                                 <li
-                                     class="mm-active"
                                     
+                                     class="mm-active"
                                     
                                     
                                     
@@ -533,8 +533,8 @@
                                         <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
                                     </a>
                                     <ul
-                                         class="mm-show"
                                         
+                                         class="mm-show"
                                         
                                         
                                         
@@ -546,13 +546,13 @@
                                         
                                     >
                                         <li>
-                                            <a href="components-tabs.php" class="mm-active">
+                                            <a href="components-tabs.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tabs
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-accordions.php">
+                                            <a href="components-accordions.php" class="mm-active">
                                                 <i class="metismenu-icon">
                                                 </i>Accordions
                                             </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-drawer icon-gradient bg-happy-itmeo">
+                                        <i class="pe-7s-diamond icon-gradient bg-warm-flame">
                                         </i>
                                     </div>
-                                    <div>Tabs
-                                        <div class="page-title-subheading">Tabs are used to split content between multiple sections. Wide variety available.
+                                    <div>Accordions
+                                        <div class="page-title-subheading">Accordions represent collapsable component with extended functionality.
                                         </div>
                                     </div>
                                 </div>
@@ -728,465 +728,85 @@
                                         </div>
                                     </div>
                                 </div>    </div>
-                        </div>            <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
-                            <li class="nav-item">
-                                <a role="tab" class="nav-link active" id="tab-0" data-toggle="tab" href="#tab-content-0">
-                                    <span>Card Tabs</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a role="tab" class="nav-link" id="tab-1" data-toggle="tab" href="#tab-content-1">
-                                    <span>Animated Lines</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a role="tab" class="nav-link" id="tab-2" data-toggle="tab" href="#tab-content-2">
-                                    <span>Basic</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="tab-content">
-                            <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-header"><i class="header-icon lnr-license icon-gradient bg-plum-plate"> </i>Header with Tabs
-                                                <div class="btn-actions-pane-right">
-                                                    <div role="group" class="btn-group-sm nav btn-group">
-                                                        <a data-toggle="tab" href="#tab-eg1-0" class="btn-shadow active btn btn-primary">Tab 1</a>
-                                                        <a data-toggle="tab" href="#tab-eg1-1" class="btn-shadow  btn btn-primary">Tab 2</a>
-                                                        <a data-toggle="tab" href="#tab-eg1-2" class="btn-shadow  btn btn-primary">Tab 3</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-eg1-0" role="tabpanel"><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                                                        software like Aldus PageMaker
-                                                        including versions of Lorem Ipsum.</p></div>
-                                                    <div class="tab-pane" id="tab-eg1-1" role="tabpanel"><p>Like Aldus PageMaker including versions of Lorem. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                                                        essentially unchanged. </p></div>
-                                                    <div class="tab-pane" id="tab-eg1-2" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                </div>
-                                            </div>
-                                            <div class="d-block text-right card-footer">
-                                                <a href="javascript:void(0);" class="btn-wide btn btn-success">Save</a>
-                                            </div>
+                        </div>            <div class="">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="main-card mb-3 card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Collapse</h5>
+                                            <div class="collapse" id="collapseExample123"><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                                                nesciunt sapiente ea
+                                                proident.</p>
+                                                <p>Donec molestie odio id nisi malesuada, mattis tincidunt velit egestas. Sed non pulvinar risus. Aenean elementum eleifend nunc, pellentesque dapibus arcu hendrerit fringilla. Aliquam in nibh massa. Cras ultricies
+                                                    lorem non enim volutpat, a eleifend urna placerat. Fusce id luctus urna. In sed leo tellus. Mauris tristique leo a nisl feugiat, eget vehicula leo venenatis. Quisque magna metus, luctus quis sollicitudin vel,
+                                                    vehicula nec ipsum. Donec rutrum commodo lacus ut condimentum. Integer vel turpis purus. Etiam vehicula, nulla non fringilla blandit, massa purus faucibus tellus, a luctus enim orci non augue. Aenean
+                                                    ullamcorper nisl urna, non feugiat tortor volutpat in. Vivamus lobortis massa dolor, eget faucibus ipsum varius eget. Pellentesque imperdiet, turpis sed sagittis lobortis, leo elit laoreet arcu, vehicula
+                                                    sagittis elit leo id nisi.</p></div>
                                         </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-header"><i class="header-icon lnr-license icon-gradient bg-plum-plate"> </i>Header Tabs Buttons
-                                                <div class="btn-actions-pane-right">
-                                                    <div class="nav">
-                                                        <a data-toggle="tab" href="#tab-eg2-0" class="btn-pill btn-wide active btn btn-outline-alternate btn-sm">Tab 1</a>
-                                                        <a data-toggle="tab" href="#tab-eg2-1" class="btn-pill btn-wide mr-1 ml-1  btn btn-outline-alternate btn-sm">Tab 2</a>
-                                                        <a data-toggle="tab" href="#tab-eg2-2" class="btn-pill btn-wide  btn btn-outline-alternate btn-sm">Tab 3</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-eg2-0" role="tabpanel"><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                                                        software like Aldus PageMaker
-                                                        including versions of Lorem Ipsum.</p></div>
-                                                    <div class="tab-pane" id="tab-eg2-1" role="tabpanel"><p>Like Aldus PageMaker including versions of Lorem. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                                                        essentially unchanged. </p></div>
-                                                    <div class="tab-pane" id="tab-eg2-2" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                </div>
-                                            </div>
-                                            <div class="d-block text-right card-footer">
-                                                <a href="javascript:void(0);" class="btn-wide btn btn-success">Save</a>
-                                            </div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-header"><i class="header-icon lnr-gift icon-gradient bg-mixed-hopes"> </i>Alternate Tabs
-                                                <div class="btn-actions-pane-right">
-                                                    <div role="group" class="btn-group-sm nav btn-group">
-                                                        <a data-toggle="tab" href="#tab-eg3-0" class="btn-pill pl-3 active btn btn-focus">Tab 1</a>
-                                                        <a data-toggle="tab" href="#tab-eg3-1" class="btn btn-focus">Tab 2</a>
-                                                        <a data-toggle="tab" href="#tab-eg3-2" class="btn-pill pr-3  btn btn-focus">Tab 3</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-eg3-0" role="tabpanel"><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                                                        software like Aldus PageMaker
-                                                        including versions of Lorem Ipsum.</p></div>
-                                                    <div class="tab-pane" id="tab-eg3-1" role="tabpanel"><p>Like Aldus PageMaker including versions of Lorem. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                                                        essentially unchanged. </p></div>
-                                                    <div class="tab-pane" id="tab-eg3-2" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-header"><i class="header-icon lnr-gift icon-gradient bg-grow-early"> </i>Header Tabs Standard Buttons
-                                                <div class="btn-actions-pane-right">
-                                                    <div class="nav">
-                                                        <a data-toggle="tab" href="#tab-eg4-0" class="border-0 btn-pill btn-wide btn-transition active btn btn-outline-danger">Tab 1</a>
-                                                        <a data-toggle="tab" href="#tab-eg4-1" class="mr-1 ml-1 btn-pill btn-wide border-0 btn-transition  btn btn-outline-danger">Tab 2</a>
-                                                        <a data-toggle="tab" href="#tab-eg4-2" class="border-0 btn-pill btn-wide btn-transition  btn btn-outline-danger">Tab 3</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-eg4-0" role="tabpanel"><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                                                        software like Aldus PageMaker
-                                                        including versions of Lorem Ipsum.</p></div>
-                                                    <div class="tab-pane" id="tab-eg4-1" role="tabpanel"><p>Like Aldus PageMaker including versions of Lorem. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                                                        essentially unchanged. </p></div>
-                                                    <div class="tab-pane" id="tab-eg4-2" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                </div>
-                                            </div>
-                                            <div class="d-block text-right card-footer">
-                                                <a href="javascript:void(0);" class="btn-wide btn btn-success">Save</a>
-                                            </div>
+                                        <div class="card-footer">
+                                            <button type="button" data-toggle="collapse" href="#collapseExample123" class="btn btn-primary">Toggle</button>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="mb-3 card">
-                                            <div class="card-header-tab card-header">
-                                                <div class="card-header-title">
-                                                    <i class="header-icon lnr-bicycle icon-gradient bg-love-kiss"> </i>
-                                                    Header Alternate Tabs
+                                    <div class="main-card mb-3 card">
+                                        <div class="card-body"><h5 class="card-title">Simple</h5>
+                                            <div id="exampleAccordion" data-children=".item">
+                                                <div class="item">
+                                                    <button type="button" aria-expanded="true" aria-controls="exampleAccordion1" data-toggle="collapse" href="#collapseExample" class="m-0 p-0 btn btn-link">Toggle item</button>
+                                                    <div data-parent="#exampleAccordion" id="collapseExample" class="collapse show"><p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a
+                                                        vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p></div>
                                                 </div>
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg5-0" class="active nav-link">Tab 1</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg5-1" class="nav-link">Tab 2</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg5-2" class="nav-link">Tab 3</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-eg5-0" role="tabpanel"><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                                                        software like Aldus PageMaker
-                                                        including versions of Lorem Ipsum.</p></div>
-                                                    <div class="tab-pane" id="tab-eg5-1" role="tabpanel"><p>Like Aldus PageMaker including versions of Lorem. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                                                        essentially unchanged. </p></div>
-                                                    <div class="tab-pane" id="tab-eg5-2" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                </div>
-                                            </div>
-                                            <div class="d-block text-right card-footer">
-                                                <a href="javascript:void(0);" class="btn-wide btn-shadow btn btn-danger">Delete</a>
-                                            </div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-header"><i class="header-icon lnr-gift icon-gradient bg-grow-early"> </i>Header Tabs Standard Buttons
-                                                <div class="btn-actions-pane-right">
-                                                    <div class="nav">
-                                                        <a data-toggle="tab" href="#tab-eg6-0" class="border-0 btn-transition active btn btn-outline-primary">Tab 1</a>
-                                                        <a data-toggle="tab" href="#tab-eg6-1" class="mr-1 ml-1 border-0 btn-transition  btn btn-outline-primary">Tab 2</a>
-                                                        <a data-toggle="tab" href="#tab-eg6-2" class="border-0 btn-transition  btn btn-outline-primary">Tab 3</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-eg6-0" role="tabpanel"><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                                                        software like Aldus PageMaker
-                                                        including versions of Lorem Ipsum.</p></div>
-                                                    <div class="tab-pane" id="tab-eg6-1" role="tabpanel"><p>Like Aldus PageMaker including versions of Lorem. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                                                        essentially unchanged. </p></div>
-                                                    <div class="tab-pane" id="tab-eg6-2" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                </div>
-                                            </div>
-                                            <div class="d-block text-right card-footer">
-                                                <a href="javascript:void(0);" class="btn-wide btn btn-success">Save</a>
-                                            </div>
-                                        </div>
-                                        <div class="mb-3 card">
-                                            <div class="card-header">
-                                                <ul class="nav nav-justified">
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg7-0" class="active nav-link">Tab 1</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg7-1" class="nav-link">Tab 2</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg7-2" class="nav-link">Tab 3</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-eg7-0" role="tabpanel"><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                                                        software like Aldus PageMaker
-                                                        including versions of Lorem Ipsum.</p></div>
-                                                    <div class="tab-pane" id="tab-eg7-1" role="tabpanel"><p>Like Aldus PageMaker including versions of Lorem. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                                                        essentially unchanged. </p></div>
-                                                    <div class="tab-pane" id="tab-eg7-2" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
+                                                <div class="item">
+                                                    <button type="button" aria-expanded="false" aria-controls="exampleAccordion2" data-toggle="collapse" href="#collapseExample2" class="m-0 p-0 btn btn-link">Toggle item 2</button>
+                                                    <div data-parent="#exampleAccordion" id="collapseExample2" class="collapse"><p class="mb-3">Donec at ipsum dignissim, rutrum turpis scelerisque, tristique lectus. Pellentesque habitant morbi tristique
+                                                        senectus
+                                                        et netus et malesuada fames ac turpis egestas. Vivamus nec dui turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="tab-pane tabs-animation fade" id="tab-content-1" role="tabpanel">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="mb-3 card">
-                                            <div class="card-body">
-                                                <ul class="tabs-animated-shadow tabs-animated nav">
-                                                    <li class="nav-item">
-                                                        <a role="tab" class="nav-link active" id="tab-c-0" data-toggle="tab" href="#tab-animated-0">
-                                                            <span>Tab 1</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a role="tab" class="nav-link" id="tab-c-1" data-toggle="tab" href="#tab-animated-1">
-                                                            <span>Tab 2</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a role="tab" class="nav-link" id="tab-c-2" data-toggle="tab" href="#tab-animated-2">
-                                                            <span>Tab 3</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-animated-0" role="tabpanel">
-                                                        <p class="mb-0">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                                            book.
-                                                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                                                    </div>
-                                                    <div class="tab-pane" id="tab-animated-1" role="tabpanel">
-                                                        <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                                            unknown
-                                                            printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                                                    </div>
-                                                    <div class="tab-pane" id="tab-animated-2" role="tabpanel">
-                                                        <p class="mb-0">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                                                            PageMaker including versions of Lorem Ipsum.</p>
-                                                    </div>
+                                <div class="col-md-6">
+                                    <div id="accordion" class="accordion-wrapper mb-3">
+                                        <div class="card">
+                                            <div id="headingOne" class="card-header">
+                                                <button type="button" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne" class="text-left m-0 p-0 btn btn-link btn-block">
+                                                    <h5 class="m-0 p-0">Collapsible Group Item #1</h5>
+                                                </button>
+                                            </div>
+                                            <div data-parent="#accordion" id="collapseOne1" aria-labelledby="headingOne" class="collapse show">
+                                                <div class="card-body">1. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                                                    nesciunt
+                                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable
+                                                    VHS.
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="mb-3 card">
-                                            <div class="card-header card-header-tab-animation">
-                                                <ul class="nav nav-justified">
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg115-0" class="active nav-link">Tab 1</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg115-1" class="nav-link">Tab 2</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg115-2" class="nav-link">Tab 3</a></li>
-                                                </ul>
+                                        <div class="card">
+                                            <div id="headingTwo" class="b-radius-0 card-header">
+                                                <button type="button" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="false" aria-controls="collapseTwo" class="text-left m-0 p-0 btn btn-link btn-block"><h5 class="m-0 p-0">Collapsible Group Item
+                                                    #2</h5></button>
                                             </div>
-                                            <div class="card-body">
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-eg115-0" role="tabpanel"><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                                                        software like Aldus PageMaker
-                                                        including versions of Lorem Ipsum.</p></div>
-                                                    <div class="tab-pane" id="tab-eg115-1" role="tabpanel"><p>Like Aldus PageMaker including versions of Lorem. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                                                        essentially unchanged. </p></div>
-                                                    <div class="tab-pane" id="tab-eg115-2" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
+                                            <div data-parent="#accordion" id="collapseOne2" class="collapse">
+                                                <div class="card-body">2. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                                                    nesciunt
+                                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable
+                                                    VHS.
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="mb-3 card">
-                                            <div class="card-body">
-                                                <ul class="tabs-animated-shadow nav-justified tabs-animated nav">
-                                                    <li class="nav-item">
-                                                        <a role="tab" class="nav-link active" id="tab-c1-0" data-toggle="tab" href="#tab-animated1-0">
-                                                            <span class="nav-text">Tab 1</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a role="tab" class="nav-link" id="tab-c1-1" data-toggle="tab" href="#tab-animated1-1">
-                                                            <span class="nav-text">Tab 2</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a role="tab" class="nav-link" id="tab-c1-2" data-toggle="tab" href="#tab-animated1-2">
-                                                            <span class="nav-text">Tab 3</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-animated1-0" role="tabpanel">
-                                                        <p class="mb-0">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                                            book.
-                                                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                                                    </div>
-                                                    <div class="tab-pane" id="tab-animated1-1" role="tabpanel">
-                                                        <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                                            unknown
-                                                            printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                                                    </div>
-                                                    <div class="tab-pane" id="tab-animated1-2" role="tabpanel">
-                                                        <p class="mb-0">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                                                            PageMaker including versions of Lorem Ipsum.</p>
-                                                    </div>
-                                                </div>
+                                        <div class="card">
+                                            <div id="headingThree" class="card-header">
+                                                <button type="button" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="false" aria-controls="collapseThree" class="text-left m-0 p-0 btn btn-link btn-block"><h5 class="m-0 p-0">Collapsible Group
+                                                    Item #3</h5></button>
                                             </div>
-                                        </div>
-                                        <div class="mb-3 card">
-                                            <div class="card-header-tab card-header-tab-animation card-header">
-                                                <div class="card-header-title font-size-lg text-capitalize font-weight-normal"><i class="header-icon lnr-gift icon-gradient bg-love-kiss"> </i>Tabs Alternate Animation</div>
-                                                <ul class="nav">
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg8-0" class="active nav-link">Tab 1</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg8-1" class="nav-link">Tab 2</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg8-2" class="nav-link">Tab 3</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-eg8-0" role="tabpanel"><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                                                        software like Aldus PageMaker
-                                                        including versions of Lorem Ipsum.</p></div>
-                                                    <div class="tab-pane" id="tab-eg8-1" role="tabpanel"><p>Like Aldus PageMaker including versions of Lorem. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                                                        essentially unchanged. </p></div>
-                                                    <div class="tab-pane" id="tab-eg8-2" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                </div>
-                                            </div>
-                                            <div class="d-block text-center card-footer">
-                                                <a href="javascript:void(0);" class="btn-wide btn btn-link">Link Button</a>
-                                                <a href="javascript:void(0);" class="btn-wide btn-shadow btn btn-danger">Delete</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-            
-                            </div>
-                            <div class="tab-pane tabs-animation fade" id="tab-content-2" role="tabpanel">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Basic</h5>
-                                                <ul class="nav nav-tabs">
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg10-0" class="active nav-link">Tab 1</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg10-1" class="nav-link">Tab 2</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg10-2" class="nav-link">Tab 3</a></li>
-                                                </ul>
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-eg10-0" role="tabpanel"><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                                                        software like Aldus PageMaker
-                                                        including versions of Lorem Ipsum.</p></div>
-                                                    <div class="tab-pane" id="tab-eg10-1" role="tabpanel"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                                        when an unknown printer took a
-                                                        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                    <div class="tab-pane" id="tab-eg10-2" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Justified Alignment</h5>
-                                                <ul class="nav nav-tabs nav-justified">
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg11-0" class="active nav-link">Tab 1</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg11-1" class="nav-link">Tab 2</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg11-2" class="nav-link">Tab 3</a></li>
-                                                </ul>
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-eg11-0" role="tabpanel"><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                                                        software like Aldus PageMaker
-                                                        including versions of Lorem Ipsum.</p></div>
-                                                    <div class="tab-pane" id="tab-eg11-1" role="tabpanel"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                                        when an unknown printer took a
-                                                        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                    <div class="tab-pane" id="tab-eg11-2" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Tabs Variations</h5>
-                                                <div class="mb-3">
-                                                    <div role="group" class="btn-group-sm nav btn-group">
-                                                        <a data-toggle="tab" href="#tab-eg12-0" class="btn-pill pl-3 active btn btn-warning">Tab 1</a>
-                                                        <a data-toggle="tab" href="#tab-eg12-1" class="btn btn-warning">Tab 2</a>
-                                                        <a data-toggle="tab" href="#tab-eg12-2" class="btn-pill pr-3  btn btn-warning">Tab 3</a>
-                                                    </div>
-                                                </div>
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-eg12-0" role="tabpanel"><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                                                        software like Aldus PageMaker
-                                                        including versions of Lorem Ipsum.</p></div>
-                                                    <div class="tab-pane" id="tab-eg12-1" role="tabpanel"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                                        when an unknown printer took a
-                                                        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                    <div class="tab-pane" id="tab-eg12-2" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Pills</h5>
-                                                <ul class="nav nav-pills">
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg13-0" class="active nav-link">Pill 1</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg13-1" class="nav-link">Pill 2</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg13-2" class="nav-link">Pill 3</a></li>
-                                                </ul>
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-eg13-0" role="tabpanel"><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                                                        software like Aldus PageMaker
-                                                        including versions of Lorem Ipsum.</p></div>
-                                                    <div class="tab-pane" id="tab-eg13-1" role="tabpanel"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                                        when an unknown printer took a
-                                                        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                    <div class="tab-pane" id="tab-eg13-2" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Pills</h5>
-                                                <ul class="nav nav-pills nav-fill">
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg14-0" class="active nav-link">Pill 1</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg14-1" class="nav-link">Pill 2</a></li>
-                                                    <li class="nav-item"><a data-toggle="tab" href="#tab-eg14-2" class="nav-link">Pill 3</a></li>
-                                                </ul>
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-eg14-0" role="tabpanel"><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                                                        software like Aldus PageMaker
-                                                        including versions of Lorem Ipsum.</p></div>
-                                                    <div class="tab-pane" id="tab-eg14-1" role="tabpanel"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                                        when an unknown printer took a
-                                                        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                    <div class="tab-pane" id="tab-eg14-2" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Button Group Tabs</h5>
-                                                <div class="mb-3 text-center">
-                                                    <div role="group" class="btn-group-sm nav btn-group">
-                                                        <a data-toggle="tab" href="#tab-eg15-0" class="btn-shadow active btn btn-primary">Tab 1</a>
-                                                        <a data-toggle="tab" href="#tab-eg15-1" class="btn-shadow  btn btn-primary">Tab 2</a>
-                                                        <a data-toggle="tab" href="#tab-eg15-2" class="btn-shadow  btn btn-primary">Tab 3</a>
-                                                    </div>
-                                                </div>
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active" id="tab-eg15-0" role="tabpanel"><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                                                        software like Aldus PageMaker
-                                                        including versions of Lorem Ipsum.</p></div>
-                                                    <div class="tab-pane" id="tab-eg15-1" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-                                                    <div class="tab-pane" id="tab-eg15-2" role="tabpanel"><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                                                        type specimen book. It has not only five centuries, but also the leap into not only five centuries, but also the leap into
-                                                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
+                                            <div data-parent="#accordion" id="collapseOne3" class="collapse">
+                                                <div class="card-body">3. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                                                    nesciunt
+                                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable
+                                                    VHS.
                                                 </div>
                                             </div>
                                         </div>

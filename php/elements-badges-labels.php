@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Form Validation - Inline validation is very easy to implement using the Architect Framework.</title>
+    <title>Badges &amp; Labels - Badges and labels are used to offer extra small pieces of info for your content.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Inline validation is very easy to implement using the Architect Framework.">
+    <meta name="description" content="Badges and labels are used to offer extra small pieces of info for your content.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.php">
+                                    <a href="../index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -443,7 +443,7 @@
                                     
                                     
                                     
-                                    
+                                     class="mm-active"
                                     
                                     
                                     
@@ -458,7 +458,7 @@
                                         
                                         
                                         
-                                        
+                                         class="mm-show"
                                         
                                         
                                         
@@ -483,7 +483,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-badges-labels.php">
+                                            <a href="elements-badges-labels.php" class="mm-active">
                                                 <i class="metismenu-icon">
                                                 </i>Badges
                                             </a>
@@ -640,7 +640,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-validation.php" class="mm-active">
+                                    <a href="forms-validation.php">
                                         <i class="metismenu-icon pe-7s-pendrive">
                                         </i>Forms Validation
                                     </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="lnr-picture text-danger">
+                                        <i class="pe-7s-voicemail icon-gradient bg-arielle-smile">
                                         </i>
                                     </div>
-                                    <div>Form Validation
-                                        <div class="page-title-subheading">Inline validation is very easy to implement using the Architect Framework.
+                                    <div>Badges &amp; Labels
+                                        <div class="page-title-subheading">Badges and labels are used to offer extra small pieces of info for your content.
                                         </div>
                                     </div>
                                 </div>
@@ -728,155 +728,79 @@
                                         </div>
                                     </div>
                                 </div>    </div>
-                        </div>            <div class="main-card mb-3 card">
-                            <div class="card-body">
-                                <h5 class="card-title">Bootstrap 4 Form Validation</h5>
-                                <form class="needs-validation" novalidate>
-                                    <div class="form-row">
-                                        <div class="col-md-4 mb-3">
-                                            <label for="validationCustom01">First name</label>
-                                            <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
-                                            <div class="valid-feedback">
-                                                Looks good!
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <label for="validationCustom02">Last name</label>
-                                            <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
-                                            <div class="valid-feedback">
-                                                Looks good!
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <label for="validationCustomUsername">Username</label>
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                                </div>
-                                                <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
-                                                <div class="invalid-feedback">
-                                                    Please choose a username.
-                                                </div>
-                                            </div>
-                                        </div>
+                        </div>            <div class="row">
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Buttons Badges</h5>
+                                        <button class="mb-2 mr-2 btn btn-primary">Primary<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-secondary">Secondary<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-success">Success<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-info">Info<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-warning">Warning<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-danger">Danger<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-focus">Focus<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-alternate">Alt<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-light">Light<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-dark">Dark<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 1<span class="badge badge-pill badge-primary">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 2<span class="badge badge-pill badge-success">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 3<span class="badge badge-pill badge-danger">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 4<span class="badge badge-pill badge-warning">6</span></button>
                                     </div>
-                                    <div class="form-row">
-                                        <div class="col-md-6 mb-3">
-                                            <label for="validationCustom03">City</label>
-                                            <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
-                                            <div class="invalid-feedback">
-                                                Please provide a valid city.
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 mb-3">
-                                            <label for="validationCustom04">State</label>
-                                            <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
-                                            <div class="invalid-feedback">
-                                                Please provide a valid state.
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 mb-3">
-                                            <label for="validationCustom05">Zip</label>
-                                            <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
-                                            <div class="invalid-feedback">
-                                                Please provide a valid zip.
-                                            </div>
-                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">With Buttons</h5>
+                                        <button class="mb-2 mr-2 btn btn-primary">Primary<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-secondary">Secondary<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-success">Success<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-info">Info<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-warning">Warning<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-danger">Danger<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-focus">Focus<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-alternate">Alt<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-light">Light<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-dark">Dark<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 1<span class="badge badge-primary">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 2<span class="badge badge-success">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 3<span class="badge badge-danger">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 4<span class="badge badge-warning">NEW</span></button>
                                     </div>
-                                    <div class="form-group">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                                            <label class="form-check-label" for="invalidCheck">
-                                                Agree to terms and conditions
-                                            </label>
-                                            <div class="invalid-feedback">
-                                                You must agree before submitting.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="btn btn-primary" type="submit">Submit form</button>
-                                </form>
-            
-                                <script>
-                                    // Example starter JavaScript for disabling form submissions if there are invalid fields
-                                    (function() {
-                                        'use strict';
-                                        window.addEventListener('load', function() {
-                                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                                            var forms = document.getElementsByClassName('needs-validation');
-                                            // Loop over them and prevent submission
-                                            var validation = Array.prototype.filter.call(forms, function(form) {
-                                                form.addEventListener('submit', function(event) {
-                                                    if (form.checkValidity() === false) {
-                                                        event.preventDefault();
-                                                        event.stopPropagation();
-                                                    }
-                                                    form.classList.add('was-validated');
-                                                }, false);
-                                            });
-                                        }, false);
-                                    })();
-                                </script>
+                                </div>
                             </div>
                         </div>
                         <div class="main-card mb-3 card">
-                            <div class="card-body">
-                                <h5 class="card-title">Tooltips Validation</h5>
-                                <form class="needs-validation" novalidate>
-                                    <div class="form-row">
-                                        <div class="col-md-4 mb-3">
-                                            <label for="validationTooltip01">First name</label>
-                                            <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Mark" required>
-                                            <div class="valid-tooltip">
-                                                Looks good!
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <label for="validationTooltip02">Last name</label>
-                                            <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Otto" required>
-                                            <div class="valid-tooltip">
-                                                Looks good!
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <label for="validationTooltipUsername">Username</label>
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-                                                </div>
-                                                <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
-                                                <div class="invalid-tooltip">
-                                                    Please choose a unique and valid username.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="col-md-6 mb-3">
-                                            <label for="validationTooltip03">City</label>
-                                            <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
-                                            <div class="invalid-tooltip">
-                                                Please provide a valid city.
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 mb-3">
-                                            <label for="validationTooltip04">State</label>
-                                            <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
-                                            <div class="invalid-tooltip">
-                                                Please provide a valid state.
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 mb-3">
-                                            <label for="validationTooltip05">Zip</label>
-                                            <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
-                                            <div class="invalid-tooltip">
-                                                Please provide a valid zip.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="btn btn-primary" type="submit">Submit form</button>
-                                </form>
-                            </div>
+                            <div class="card-body"><h5 class="card-title">Colors</h5>
+                                <div class="mb-2 mr-2 badge badge-primary">Primary</div>
+                                <div class="mb-2 mr-2 badge badge-secondary">Secondary</div>
+                                <div class="mb-2 mr-2 badge badge-success">Success</div>
+                                <div class="mb-2 mr-2 badge badge-info">Info</div>
+                                <div class="mb-2 mr-2 badge badge-warning">Warning</div>
+                                <div class="mb-2 mr-2 badge badge-danger">Danger</div>
+                                <div class="mb-2 mr-2 badge badge-focus">Focus</div>
+                                <div class="mb-2 mr-2 badge badge-alternate">Alt</div>
+                                <div class="mb-2 mr-2 badge badge-light">Light</div>
+                                <div class="mb-2 mr-2 badge badge-dark">Dark</div>
+                                <div class="divider"></div>
+                                <h5 class="card-title">Pills</h5>
+                                <div class="mb-2 mr-2 badge badge-pill badge-primary">Primary</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-secondary">Secondary</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-success">Success</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-info">Info</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-warning">Warning</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-danger">Danger</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-focus">Focus</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-alternate">Alt</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-light">Light</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-dark">Dark</div>
+                                <div class="divider"></div>
+                                <h5 class="card-title">Links</h5><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-primary">Primary</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-secondary">Secondary</a><a
+                                        href="javascript:void(0);" class="mb-2 mr-2 badge badge-success">Success</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-info">Info</a><a href="javascript:void(0);"
+                                                                                                                                                                                                class="mb-2 mr-2 badge badge-warning">Warning</a><a
+                                        href="javascript:void(0);" class="mb-2 mr-2 badge badge-danger">Danger</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-focus">Focus</a><a href="javascript:void(0);"
+                                                                                                                                                                                                class="mb-2 mr-2 badge badge-alternate">Alt</a><a
+                                        href="javascript:void(0);" class="mb-2 mr-2 badge badge-light">Light</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-dark">Dark</a></div>
                         </div>
                     </div>
                     <div class="app-wrapper-footer">

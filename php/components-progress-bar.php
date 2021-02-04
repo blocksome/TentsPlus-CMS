@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Pagination - Basic and dynamic pagination for use in your next awesome application.</title>
+    <title>Progress Bar - You can use the progress bars on their own or in combination with other widgets.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Basic and dynamic pagination for use in your next awesome application.">
+    <meta name="description" content="You can use the progress bars on their own or in combination with other widgets.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.php">
+                                    <a href="../index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -519,11 +519,11 @@
                                     
                                     
                                     
-                                    
-                                    
-                                    
-                                    
                                      class="mm-active"
+                                    
+                                    
+                                    
+                                    
                                     
                                     
                                 >
@@ -537,11 +537,11 @@
                                         
                                         
                                         
-                                        
-                                        
-                                        
-                                        
                                          class="mm-show"
+                                        
+                                        
+                                        
+                                        
                                         
                                         
                                     >
@@ -570,7 +570,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-progress-bar.php">
+                                            <a href="components-progress-bar.php" class="mm-active">
                                                 <i class="metismenu-icon">
                                                 </i>Progress Bar
                                             </a>
@@ -594,7 +594,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-pagination.php" class="mm-active">
+                                            <a href="components-pagination.php">
                                                 <i class="metismenu-icon">
                                                 </i>Pagination
                                             </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-notebook icon-gradient bg-mixed-hopes">
+                                        <i class="pe-7s-filter icon-gradient bg-grow-early">
                                         </i>
                                     </div>
-                                    <div>Pagination
-                                        <div class="page-title-subheading">Basic and dynamic pagination for use in your next awesome application.
+                                    <div>Progress Bar
+                                        <div class="page-title-subheading">You can use the progress bars on their own or in combination with other widgets.
                                         </div>
                                     </div>
                                 </div>
@@ -729,57 +729,183 @@
                                     </div>
                                 </div>    </div>
                         </div>            <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-md-6">
                                 <div class="main-card mb-3 card">
                                     <div class="card-body"><h5 class="card-title">Basic</h5>
-                                        <nav class="" aria-label="Page navigation example">
-                                            <ul class="pagination">
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link" aria-label="Previous"><span aria-hidden="true">«</span><span class="sr-only">Previous</span></a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link">1</a></li>
-                                                <li class="page-item active"><a href="javascript:void(0);" class="page-link">2</a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link">3</a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link">4</a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link">5</a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link" aria-label="Next"><span aria-hidden="true">»</span><span class="sr-only">Next</span></a></li>
-                                            </ul>
-                                        </nav>
+                                        <div class="text-center">0%</div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
+                                        </div>
+                                        <div class="text-center">25%</div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
+                                        </div>
+                                        <div class="text-center">50%</div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+                                        </div>
+                                        <div class="text-center">75%</div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                                        </div>
+                                        <div class="text-center">100%</div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                                        </div>
+                                        <div class="text-center">Multiple bars</div>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"></div>
+                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
+                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
+                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Progress bar labels</h5>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">25%</div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">1/2</div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">You're almost there!</div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">You did it!</div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">Meh</div>
+                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">Wow!</div>
+                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">Cool</div>
+                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">20%</div>
+                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">!!</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Progress bar max</h5>
+                                        <div class="text-center">1 of 5</div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style="width: 20%;"></div>
+                                        </div>
+                                        <div class="text-center">50 of 135</div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="135" style="width: 37.037%;"></div>
+                                        </div>
+                                        <div class="text-center">75 of 111</div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="111" style="width: 67.5676%;"></div>
+                                        </div>
+                                        <div class="text-center">463 of 500</div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="463" aria-valuemin="0" aria-valuemax="500" style="width: 92.6%;"></div>
+                                        </div>
+                                        <div class="text-center">Various (40) of 55</div>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="55" style="width: 9.09091%;">5</div>
+                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="55" style="width: 27.2727%;">15</div>
+                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="55" style="width: 18.1818%;">10</div>
+                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="55" style="width: 18.1818%;">10</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Progress bar striped</h5>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar bg-success progress-bar-striped" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar bg-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar bg-danger progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+                                            <div class="progress-bar bg-success progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
+                                            <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+                                            <div class="progress-bar bg-danger progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-md-6">
                                 <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Sizing</h5>
-                                        <nav class="" aria-label="Page navigation example">
-                                            <ul class="pagination pagination-sm">
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link" aria-label="Previous"><span aria-hidden="true">«</span><span class="sr-only">Previous</span></a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link">1</a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link">2</a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link">3</a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link">4</a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link">5</a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link" aria-label="Next"><span aria-hidden="true">»</span><span class="sr-only">Next</span></a></li>
-                                            </ul>
-                                        </nav>
-                                        <div class="divider"></div>
-                                        <nav class="" aria-label="Page navigation example">
-                                            <ul class="pagination">
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link" aria-label="Previous"><span aria-hidden="true">«</span><span class="sr-only">Previous</span></a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link">1</a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link">2</a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link">3</a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link" aria-label="Next"><span aria-hidden="true">»</span><span class="sr-only">Next</span></a></li>
-                                            </ul>
-                                        </nav>
-                                        <div class="divider"></div>
-                                        <nav class="" aria-label="Page navigation example">
-                                            <ul class="pagination pagination-lg">
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link" aria-label="Previous"><span aria-hidden="true">«</span><span class="sr-only">Previous</span></a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link">1</a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link">2</a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link">3</a></li>
-                                                <li class="page-item"><a href="javascript:void(0);" class="page-link" aria-label="Next"><span aria-hidden="true">»</span><span class="sr-only">Next</span></a></li>
-                                            </ul>
-                                        </nav>
+                                    <div class="card-body"><h5 class="card-title">Progress color</h5>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Progress bar multi</h5>
+                                        <div class="text-center">Plain</div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"></div>
+                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
+                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"></div>
+                                        </div>
+                                        <div class="text-center">With Labels</div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">Meh</div>
+                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%;">Wow!</div>
+                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">25%</div>
+                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">LOOK OUT!!</div>
+                                        </div>
+                                        <div class="text-center">Stripes and Animations</div>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">Stripes</div>
+                                            <div class="progress-bar progress-bar-animated bg-success progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">Animated Stripes</div>
+                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">Plain</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Progress animated</h5>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar progress-bar-animated bg-success progress-bar-striped" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar progress-bar-animated bg-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar progress-bar-animated bg-warning progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar progress-bar-animated bg-danger progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+                                            <div class="progress-bar progress-bar-animated bg-success progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
+                                            <div class="progress-bar progress-bar-animated bg-warning progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+                                            <div class="progress-bar progress-bar-animated bg-danger progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

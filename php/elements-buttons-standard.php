@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Form Layouts - Build whatever layout you need with our Architect framework.</title>
+    <title>Standard Buttons - Wide selection of buttons that feature different styles for backgrounds, borders and hover options!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Build whatever layout you need with our Architect framework.">
+    <meta name="description" content="Wide selection of buttons that feature different styles for backgrounds, borders and hover options!">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,14 +433,14 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.php">
+                                    <a href="../index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">UI Components</li>
                                 <li
-                                    
+                                     class="mm-active"
                                     
                                     
                                     
@@ -455,7 +455,7 @@
                                         <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
                                     </a>
                                     <ul
-                                        
+                                         class="mm-show"
                                         
                                         
                                         
@@ -465,7 +465,7 @@
                                         
                                     >
                                         <li>
-                                            <a href="elements-buttons-standard.php">
+                                            <a href="elements-buttons-standard.php" class="mm-active">
                                                 <i class="metismenu-icon"></i>
                                                 Buttons
                                             </a>
@@ -634,7 +634,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-layouts.php" class="mm-active">
+                                    <a href="forms-layouts.php">
                                         <i class="metismenu-icon pe-7s-eyedropper">
                                         </i>Forms Layouts
                                     </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-graph text-success">
+                                        <i class="pe-7s-plane icon-gradient bg-tempting-azure">
                                         </i>
                                     </div>
-                                    <div>Form Layouts
-                                        <div class="page-title-subheading">Build whatever layout you need with our Architect framework.
+                                    <div>Standard Buttons
+                                        <div class="page-title-subheading">Wide selection of buttons that feature different styles for backgrounds, borders and hover options!
                                         </div>
                                     </div>
                                 </div>
@@ -728,121 +728,264 @@
                                         </div>
                                     </div>
                                 </div>    </div>
-                        </div>            <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
-                            <li class="nav-item">
-                                <a role="tab" class="nav-link active" id="tab-0" data-toggle="tab" href="#tab-content-0">
-                                    <span>Layout</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a role="tab" class="nav-link" id="tab-1" data-toggle="tab" href="#tab-content-1">
-                                    <span>Grid</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="tab-content">
-                            <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
+                        </div>            <div class="row">
+                            <div class="col-lg-6">
                                 <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Grid Rows</h5>
-                                        <form class="">
-                                            <div class="form-row">
-                                                <div class="col-md-6">
-                                                    <div class="position-relative form-group"><label for="exampleEmail11" class="">Email</label><input name="email" id="exampleEmail11" placeholder="with a placeholder" type="email" class="form-control"></div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="position-relative form-group"><label for="examplePassword11" class="">Password</label><input name="password" id="examplePassword11" placeholder="password placeholder" type="password"
-                                                                                                                                                             class="form-control"></div>
-                                                </div>
-                                            </div>
-                                            <div class="position-relative form-group"><label for="exampleAddress" class="">Address</label><input name="address" id="exampleAddress" placeholder="1234 Main St" type="text" class="form-control"></div>
-                                            <div class="position-relative form-group"><label for="exampleAddress2" class="">Address 2</label><input name="address2" id="exampleAddress2" placeholder="Apartment, studio, or floor" type="text" class="form-control">
-                                            </div>
-                                            <div class="form-row">
-                                                <div class="col-md-6">
-                                                    <div class="position-relative form-group"><label for="exampleCity" class="">City</label><input name="city" id="exampleCity" type="text" class="form-control"></div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="position-relative form-group"><label for="exampleState" class="">State</label><input name="state" id="exampleState" type="text" class="form-control"></div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div class="position-relative form-group"><label for="exampleZip" class="">Zip</label><input name="zip" id="exampleZip" type="text" class="form-control"></div>
-                                                </div>
-                                            </div>
-                                            <div class="position-relative form-check"><input name="check" id="exampleCheck" type="checkbox" class="form-check-input"><label for="exampleCheck" class="form-check-label">Check me out</label></div>
-                                            <button class="mt-2 btn btn-primary">Sign in</button>
-                                        </form>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Solid
+                                        </h5>
+                                        <button class="mb-2 mr-2 btn btn-primary">Primary
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-secondary">Secondary
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-success">Success
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-info">Info
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-warning">Warning
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-danger">Danger
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-focus">Focus
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-alternate">Alt
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-light">Light
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-dark">Dark
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-link">link
+                                        </button>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="col-lg-6">
                                 <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Inline</h5>
-                                        <div>
-                                            <form class="form-inline">
-                                                <div class="mb-2 mr-sm-2 mb-sm-0 position-relative form-group"><label for="exampleEmail22" class="mr-sm-2">Email</label><input name="email" id="exampleEmail22" placeholder="something@idk.cool" type="email"
-                                                                                                                                                                               class="form-control"></div>
-                                                <div class="mb-2 mr-sm-2 mb-sm-0 position-relative form-group"><label for="examplePassword22" class="mr-sm-2">Password</label><input name="password" id="examplePassword22" placeholder="don't tell!" type="password"
-                                                                                                                                                                                     class="form-control"></div>
-                                                <button class="btn btn-primary">Submit</button>
-                                            </form>
-                                            <div class="divider"></div>
-                                            <form class="">
-                                                <div class="position-relative form-check form-check-inline"><label class="form-check-label"><input type="checkbox" class="form-check-input"> Some input</label></div>
-                                                <div class="position-relative form-check form-check-inline"><label class="form-check-label"><input type="checkbox" class="form-check-input"> Some other input</label></div>
-                                            </form>
-                                            <div class="divider"></div>
-                                            <form class="form-inline">
-                                                <div class="position-relative form-group"><label for="exampleEmail33" class="sr-only">Email</label><input name="email" id="exampleEmail33" placeholder="Email" type="email" class="mr-2 form-control"></div>
-                                                <div class="position-relative form-group"><label for="examplePassword44" class="sr-only">Password</label><input name="password" id="examplePassword44" placeholder="Password" type="password"
-                                                                                                                                                                class="mr-2 form-control"></div>
-                                                <button class="btn btn-primary">Submit</button>
-                                            </form>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Color Transition
+                                        </h5>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-primary">Primary
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-secondary">Secondary
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-success">Success
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-info">Info
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-warning">Warning
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-danger">Danger
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-focus">Focus
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-alternate">Alt
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-light">Light
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-dark">Dark
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-link">link
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Color Transition No Borders
+                                        </h5>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-primary">Primary
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-secondary">Secondary
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-success">Success
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-info">Info
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-warning">Warning
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-danger">Danger
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-focus">Focus
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-alternate">Alt
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-light">Light
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-dark">Dark
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-link">link
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Active State
+                                        </h5>
+                                        <button class="mb-2 mr-2 btn btn-primary active">Primary
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-secondary active">Secondary
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-success active">Success
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-info active">Info
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-warning active">Warning
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-danger active">Danger
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-focus active">Focus
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-alternate active">Alt
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-light active">Light
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-dark active">Dark
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-link active">link
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Disabled State
+                                        </h5>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-primary disabled">Primary
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-secondary disabled">Secondary
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-success disabled">Success
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-info disabled">Info
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-warning disabled">Warning
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-danger disabled">Danger
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-focus disabled">Focus
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-alternate disabled">Alt
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-light disabled">Light
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-dark disabled">Dark
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-link disabled">link
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Block Level
+                                        </h5>
+                                        <button class="mb-2 mr-2 btn btn-primary btn-lg btn-block">Block Large
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-primary btn-block">Block Normal
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-primary btn-sm btn-block">Block Small
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Checkbox Buttons
+                                        </h5>
+                                        <div class="text-center">
+                                            <div role="group" class="btn-group-sm btn-group btn-group-toggle" data-toggle="buttons">
+                                                <button type="button" class="btn btn-primary">One
+                                                </button>
+                                                <button type="button" class="btn btn-primary">Two
+                                                </button>
+                                                <button type="button" class="btn btn-primary">Three
+                                                </button>
+                                            </div>
+                                            <div class="divider">
+                                            </div>
+                                            <div role="group" class="btn-group" data-toggle="buttons">
+                                                <button type="button" class="btn btn-danger">One
+                                                </button>
+                                                <button type="button" class="btn btn-danger">Two
+                                                </button>
+                                                <button type="button" class="btn btn-danger">Three
+                                                </button>
+                                            </div>
+                                            <div class="divider">
+                                            </div>
+                                            <div role="group" class="btn-group-lg btn-group btn-group-toggle" data-toggle="buttons">
+                                                <button type="button" class="btn btn-alternate">One
+                                                </button>
+                                                <button type="button" class="btn btn-alternate">Two
+                                                </button>
+                                                <button type="button" class="btn btn-alternate">Three
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane tabs-animation fade" id="tab-content-1" role="tabpanel">
+                            <div class="col-lg-6">
                                 <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Grid</h5>
-                                        <form class="">
-                                            <div class="position-relative row form-group"><label for="exampleEmail" class="col-sm-2 col-form-label">Email</label>
-                                                <div class="col-sm-10"><input name="email" id="exampleEmail" placeholder="with a placeholder" type="email" class="form-control"></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Radio Buttons
+                                        </h5>
+                                        <div class="text-center">
+                                            <div role="group" class="btn-group-sm btn-group btn-group-toggle" data-toggle="buttons">
+                                                <label class="btn btn-primary">
+                                                    <input type="radio" name="options" id="option1" autocomplete="off" checked>
+                                                    One
+                                                </label>
+                                                <label class="btn btn-primary">
+                                                    <input type="radio" name="options" id="option2" autocomplete="off">
+                                                    Two
+                                                </label>
+                                                <label class="btn btn-primary">
+                                                    <input type="radio" name="options" id="option3" autocomplete="off">
+                                                    Three
+                                                </label>
                                             </div>
-                                            <div class="position-relative row form-group"><label for="examplePassword" class="col-sm-2 col-form-label">Password</label>
-                                                <div class="col-sm-10"><input name="password" id="examplePassword" placeholder="password placeholder" type="password" class="form-control"></div>
+                                            <div class="divider">
                                             </div>
-                                            <div class="position-relative row form-group"><label for="exampleSelect" class="col-sm-2 col-form-label">Select</label>
-                                                <div class="col-sm-10"><select name="select" id="exampleSelect" class="form-control"></select></div>
+                                            <div role="group" class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                <label class="btn btn-warning">
+                                                    <input type="radio" name="options" id="option4" autocomplete="off">
+                                                    One
+                                                </label>
+                                                <label class="btn btn-warning">
+                                                    <input type="radio" name="options" id="option5" autocomplete="off">
+                                                    Two
+                                                </label>
+                                                <label class="btn btn-warning">
+                                                    <input type="radio" name="options" id="option6" autocomplete="off">
+                                                    Three
+                                                </label>
                                             </div>
-                                            <div class="position-relative row form-group"><label for="exampleSelectMulti" class="col-sm-2 col-form-label">Select Multiple</label>
-                                                <div class="col-sm-10"><select multiple="" name="selectMulti" id="exampleSelectMulti" class="form-control"></select></div>
+                                            <div class="divider">
                                             </div>
-                                            <div class="position-relative row form-group"><label for="exampleText" class="col-sm-2 col-form-label">Text Area</label>
-                                                <div class="col-sm-10"><textarea name="text" id="exampleText" class="form-control"></textarea></div>
+                                            <div role="group" class="btn-group-lg btn-group btn-group-toggle" data-toggle="buttons">
+                                                <label class="btn btn-focus">
+                                                    <input type="radio" name="options" id="option7" autocomplete="off">
+                                                    One
+                                                </label>
+                                                <label class="btn btn-focus">
+                                                    <input type="radio" name="options" id="option8" autocomplete="off">
+                                                    Two
+                                                </label>
+                                                <label class="btn btn-focus">
+                                                    <input type="radio" name="options" id="option9" autocomplete="off">
+                                                    Three
+                                                </label>
                                             </div>
-                                            <div class="position-relative row form-group"><label for="exampleFile" class="col-sm-2 col-form-label">File</label>
-                                                <div class="col-sm-10"><input name="file" id="exampleFile" type="file" class="form-control-file">
-                                                    <small class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
-                                                </div>
-                                            </div>
-                                            <fieldset class="position-relative row form-group">
-                                                <legend class="col-form-label col-sm-2">Radio Buttons</legend>
-                                                <div class="col-sm-10">
-                                                    <div class="position-relative form-check"><label class="form-check-label"><input name="radio2" type="radio" class="form-check-input"> Option one is this and that—be sure to include why it's great</label></div>
-                                                    <div class="position-relative form-check"><label class="form-check-label"><input name="radio2" type="radio" class="form-check-input"> Option two can be something else and selecting it will deselect option
-                                                        one</label></div>
-                                                    <div class="position-relative form-check disabled"><label class="form-check-label"><input name="radio2" disabled="" type="radio" class="form-check-input"> Option three is disabled</label></div>
-                                                </div>
-                                            </fieldset>
-                                            <div class="position-relative row form-group"><label for="checkbox2" class="col-sm-2 col-form-label">Checkbox</label>
-                                                <div class="col-sm-10">
-                                                    <div class="position-relative form-check"><label class="form-check-label"><input id="checkbox2" type="checkbox" class="form-check-input"> Check me out</label></div>
-                                                </div>
-                                            </div>
-                                            <div class="position-relative row form-check">
-                                                <div class="col-sm-10 offset-sm-2">
-                                                    <button class="btn btn-secondary">Submit</button>
-                                                </div>
-                                            </div>
-                                        </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Standard Buttons - Wide selection of buttons that feature different styles for backgrounds, borders and hover options!</title>
+    <title>Maps - Implement in your applications Google or vector maps.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Wide selection of buttons that feature different styles for backgrounds, borders and hover options!">
+    <meta name="description" content="Implement in your applications Google or vector maps.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,14 +433,14 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.php">
+                                    <a href="../index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">UI Components</li>
                                 <li
-                                     class="mm-active"
+                                    
                                     
                                     
                                     
@@ -455,7 +455,7 @@
                                         <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
                                     </a>
                                     <ul
-                                         class="mm-show"
+                                        
                                         
                                         
                                         
@@ -465,7 +465,7 @@
                                         
                                     >
                                         <li>
-                                            <a href="elements-buttons-standard.php" class="mm-active">
+                                            <a href="elements-buttons-standard.php">
                                                 <i class="metismenu-icon"></i>
                                                 Buttons
                                             </a>
@@ -525,7 +525,7 @@
                                     
                                     
                                     
-                                    
+                                     class="mm-active"
                                 >
                                     <a href="#">
                                         <i class="metismenu-icon pe-7s-car"></i>
@@ -543,7 +543,7 @@
                                         
                                         
                                         
-                                        
+                                         class="mm-show"
                                     >
                                         <li>
                                             <a href="components-tabs.php">
@@ -606,7 +606,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-maps.php">
+                                            <a href="components-maps.php" class="mm-active">
                                                 <i class="metismenu-icon">
                                                 </i>Maps
                                             </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-plane icon-gradient bg-tempting-azure">
+                                        <i class="pe-7s-map icon-gradient bg-premium-dark">
                                         </i>
                                     </div>
-                                    <div>Standard Buttons
-                                        <div class="page-title-subheading">Wide selection of buttons that feature different styles for backgrounds, borders and hover options!
+                                    <div>Maps
+                                        <div class="page-title-subheading">Implement in your applications Google or vector maps.
                                         </div>
                                     </div>
                                 </div>
@@ -729,263 +729,19 @@
                                     </div>
                                 </div>    </div>
                         </div>            <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-md-6">
                                 <div class="main-card mb-3 card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Solid
-                                        </h5>
-                                        <button class="mb-2 mr-2 btn btn-primary">Primary
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-secondary">Secondary
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-success">Success
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-info">Info
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-warning">Warning
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-danger">Danger
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-focus">Focus
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-alternate">Alt
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-light">Light
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-dark">Dark
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-link">link
-                                        </button>
+                                        <div class="card-title">World Map</div>
+                                        <div id="world-map-gdp" style="width: 100%; height: 300px;"></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-md-6">
                                 <div class="main-card mb-3 card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Color Transition
-                                        </h5>
-                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-primary">Primary
-                                        </button>
-                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-secondary">Secondary
-                                        </button>
-                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-success">Success
-                                        </button>
-                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-info">Info
-                                        </button>
-                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-warning">Warning
-                                        </button>
-                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-danger">Danger
-                                        </button>
-                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-focus">Focus
-                                        </button>
-                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-alternate">Alt
-                                        </button>
-                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-light">Light
-                                        </button>
-                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-dark">Dark
-                                        </button>
-                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-link">link
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Color Transition No Borders
-                                        </h5>
-                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-primary">Primary
-                                        </button>
-                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-secondary">Secondary
-                                        </button>
-                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-success">Success
-                                        </button>
-                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-info">Info
-                                        </button>
-                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-warning">Warning
-                                        </button>
-                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-danger">Danger
-                                        </button>
-                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-focus">Focus
-                                        </button>
-                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-alternate">Alt
-                                        </button>
-                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-light">Light
-                                        </button>
-                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-dark">Dark
-                                        </button>
-                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-link">link
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Active State
-                                        </h5>
-                                        <button class="mb-2 mr-2 btn btn-primary active">Primary
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-secondary active">Secondary
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-success active">Success
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-info active">Info
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-warning active">Warning
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-danger active">Danger
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-focus active">Focus
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-alternate active">Alt
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-light active">Light
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-dark active">Dark
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-link active">link
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Disabled State
-                                        </h5>
-                                        <button disabled="" class="mb-2 mr-2 btn btn-primary disabled">Primary
-                                        </button>
-                                        <button disabled="" class="mb-2 mr-2 btn btn-secondary disabled">Secondary
-                                        </button>
-                                        <button disabled="" class="mb-2 mr-2 btn btn-success disabled">Success
-                                        </button>
-                                        <button disabled="" class="mb-2 mr-2 btn btn-info disabled">Info
-                                        </button>
-                                        <button disabled="" class="mb-2 mr-2 btn btn-warning disabled">Warning
-                                        </button>
-                                        <button disabled="" class="mb-2 mr-2 btn btn-danger disabled">Danger
-                                        </button>
-                                        <button disabled="" class="mb-2 mr-2 btn btn-focus disabled">Focus
-                                        </button>
-                                        <button disabled="" class="mb-2 mr-2 btn btn-alternate disabled">Alt
-                                        </button>
-                                        <button disabled="" class="mb-2 mr-2 btn btn-light disabled">Light
-                                        </button>
-                                        <button disabled="" class="mb-2 mr-2 btn btn-dark disabled">Dark
-                                        </button>
-                                        <button disabled="" class="mb-2 mr-2 btn btn-link disabled">link
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Block Level
-                                        </h5>
-                                        <button class="mb-2 mr-2 btn btn-primary btn-lg btn-block">Block Large
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-primary btn-block">Block Normal
-                                        </button>
-                                        <button class="mb-2 mr-2 btn btn-primary btn-sm btn-block">Block Small
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Checkbox Buttons
-                                        </h5>
-                                        <div class="text-center">
-                                            <div role="group" class="btn-group-sm btn-group btn-group-toggle" data-toggle="buttons">
-                                                <button type="button" class="btn btn-primary">One
-                                                </button>
-                                                <button type="button" class="btn btn-primary">Two
-                                                </button>
-                                                <button type="button" class="btn btn-primary">Three
-                                                </button>
-                                            </div>
-                                            <div class="divider">
-                                            </div>
-                                            <div role="group" class="btn-group" data-toggle="buttons">
-                                                <button type="button" class="btn btn-danger">One
-                                                </button>
-                                                <button type="button" class="btn btn-danger">Two
-                                                </button>
-                                                <button type="button" class="btn btn-danger">Three
-                                                </button>
-                                            </div>
-                                            <div class="divider">
-                                            </div>
-                                            <div role="group" class="btn-group-lg btn-group btn-group-toggle" data-toggle="buttons">
-                                                <button type="button" class="btn btn-alternate">One
-                                                </button>
-                                                <button type="button" class="btn btn-alternate">Two
-                                                </button>
-                                                <button type="button" class="btn btn-alternate">Three
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Radio Buttons
-                                        </h5>
-                                        <div class="text-center">
-                                            <div role="group" class="btn-group-sm btn-group btn-group-toggle" data-toggle="buttons">
-                                                <label class="btn btn-primary">
-                                                    <input type="radio" name="options" id="option1" autocomplete="off" checked>
-                                                    One
-                                                </label>
-                                                <label class="btn btn-primary">
-                                                    <input type="radio" name="options" id="option2" autocomplete="off">
-                                                    Two
-                                                </label>
-                                                <label class="btn btn-primary">
-                                                    <input type="radio" name="options" id="option3" autocomplete="off">
-                                                    Three
-                                                </label>
-                                            </div>
-                                            <div class="divider">
-                                            </div>
-                                            <div role="group" class="btn-group btn-group-toggle" data-toggle="buttons">
-                                                <label class="btn btn-warning">
-                                                    <input type="radio" name="options" id="option4" autocomplete="off">
-                                                    One
-                                                </label>
-                                                <label class="btn btn-warning">
-                                                    <input type="radio" name="options" id="option5" autocomplete="off">
-                                                    Two
-                                                </label>
-                                                <label class="btn btn-warning">
-                                                    <input type="radio" name="options" id="option6" autocomplete="off">
-                                                    Three
-                                                </label>
-                                            </div>
-                                            <div class="divider">
-                                            </div>
-                                            <div role="group" class="btn-group-lg btn-group btn-group-toggle" data-toggle="buttons">
-                                                <label class="btn btn-focus">
-                                                    <input type="radio" name="options" id="option7" autocomplete="off">
-                                                    One
-                                                </label>
-                                                <label class="btn btn-focus">
-                                                    <input type="radio" name="options" id="option8" autocomplete="off">
-                                                    Two
-                                                </label>
-                                                <label class="btn btn-focus">
-                                                    <input type="radio" name="options" id="option9" autocomplete="off">
-                                                    Three
-                                                </label>
-                                            </div>
-                                        </div>
+                                        <div class="card-title">Google Maps</div>
+                                        <div id="gmap-example"></div>
                                     </div>
                                 </div>
                             </div>
@@ -1028,6 +784,7 @@
                             </div>
                         </div>
                     </div>    </div>
+                <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
         </div>
     </div>
 <script type="text/javascript" src="./assets/scripts/main.js"></script></body>

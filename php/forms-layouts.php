@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Cards - Wide selection of cards with multiple styles, borders, actions and hover effects.</title>
+    <title>Form Layouts - Build whatever layout you need with our Architect framework.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Wide selection of cards with multiple styles, borders, actions and hover effects.">
+    <meta name="description" content="Build whatever layout you need with our Architect framework.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.php">
+                                    <a href="../index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -444,7 +444,7 @@
                                     
                                     
                                     
-                                     class="mm-active"
+                                    
                                     
                                     
                                     
@@ -459,7 +459,7 @@
                                         
                                         
                                         
-                                         class="mm-show"
+                                        
                                         
                                         
                                         
@@ -489,7 +489,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-cards.php" class="mm-active">
+                                            <a href="elements-cards.php">
                                                 <i class="metismenu-icon">
                                                 </i>Cards
                                             </a>
@@ -634,7 +634,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-layouts.php">
+                                    <a href="forms-layouts.php" class="mm-active">
                                         <i class="metismenu-icon pe-7s-eyedropper">
                                         </i>Forms Layouts
                                     </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-stopwatch icon-gradient bg-amy-crisp">
+                                        <i class="pe-7s-graph text-success">
                                         </i>
                                     </div>
-                                    <div>Cards
-                                        <div class="page-title-subheading">Wide selection of cards with multiple styles, borders, actions and hover effects.
+                                    <div>Form Layouts
+                                        <div class="page-title-subheading">Build whatever layout you need with our Architect framework.
                                         </div>
                                     </div>
                                 </div>
@@ -730,114 +730,119 @@
                                 </div>    </div>
                         </div>            <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
                             <li class="nav-item">
-                                <a role="tab" class="nav-link" id="tab-1" data-toggle="tab" href="#tab-content-1">
-                                    <span>Basic</span>
+                                <a role="tab" class="nav-link active" id="tab-0" data-toggle="tab" href="#tab-content-0">
+                                    <span>Layout</span>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a role="tab" class="nav-link" id="tab-2" data-toggle="tab" href="#tab-content-2">
-                                    <span>Color States</span>
+                                <a role="tab" class="nav-link" id="tab-1" data-toggle="tab" href="#tab-content-1">
+                                    <span>Grid</span>
                                 </a>
                             </li>
                         </ul>
                         <div class="tab-content">
-                            <div class="tab-pane tabs-animation fade show active" id="tab-content-1" role="tabpanel">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Basic Example</h5>
-                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p></div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Card with Subtitle</h5><h6 class="card-subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h6>
-                                                <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis eni</p></div>
-                                        </div>
-                                        <div class="mb-3 card card-body"><h5 class="card-title">Special Title Treatment</h5>With supporting text below as a natural lead-in to additional content.
-                                            <button class="btn btn-primary">Go somewhere</button>
-                                        </div>
-                                        <div class="mb-3 text-center card card-body"><h5 class="card-title">Special Title Treatment</h5>With supporting text below as a natural lead-in to additional content.
-                                            <button class="btn btn-danger">Go somewhere</button>
-                                        </div>
-                                        <div class="mb-3 text-right card card-body"><h5 class="card-title">Special Title Treatment</h5>With supporting text below as a natural lead-in to additional content.
-                                            <button class="btn btn-outline-focus">Go somewhere</button>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-header">Header</div>
-                                            <div class="card-body"><h5 class="card-title">Special Title Treatment</h5>With supporting text below as a natural lead-in to additional content.
-                                                <button class="btn btn-warning">Go somewhere</button>
+                            <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Grid Rows</h5>
+                                        <form class="">
+                                            <div class="form-row">
+                                                <div class="col-md-6">
+                                                    <div class="position-relative form-group"><label for="exampleEmail11" class="">Email</label><input name="email" id="exampleEmail11" placeholder="with a placeholder" type="email" class="form-control"></div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="position-relative form-group"><label for="examplePassword11" class="">Password</label><input name="password" id="examplePassword11" placeholder="password placeholder" type="password"
+                                                                                                                                                             class="form-control"></div>
+                                                </div>
                                             </div>
-                                            <div class="card-footer">Footer</div>
-                                        </div>
+                                            <div class="position-relative form-group"><label for="exampleAddress" class="">Address</label><input name="address" id="exampleAddress" placeholder="1234 Main St" type="text" class="form-control"></div>
+                                            <div class="position-relative form-group"><label for="exampleAddress2" class="">Address 2</label><input name="address2" id="exampleAddress2" placeholder="Apartment, studio, or floor" type="text" class="form-control">
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="col-md-6">
+                                                    <div class="position-relative form-group"><label for="exampleCity" class="">City</label><input name="city" id="exampleCity" type="text" class="form-control"></div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="position-relative form-group"><label for="exampleState" class="">State</label><input name="state" id="exampleState" type="text" class="form-control"></div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="position-relative form-group"><label for="exampleZip" class="">Zip</label><input name="zip" id="exampleZip" type="text" class="form-control"></div>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative form-check"><input name="check" id="exampleCheck" type="checkbox" class="form-check-input"><label for="exampleCheck" class="form-check-label">Check me out</label></div>
+                                            <button class="mt-2 btn btn-primary">Sign in</button>
+                                        </form>
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="main-card mb-3 card"><img width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&amp;txt=318%C3%97180&amp;w=318&amp;h=180" alt="Card image cap" class="card-img-top">
-                                            <div class="card-body"><h5 class="card-title">Card title</h5><h6 class="card-subtitle">Card subtitle</h6>Some quick example text to build on the card title and make up the bulk of the card's content.
-                                                <button class="btn btn-secondary">Button</button>
-                                            </div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Card Title</h5>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                                <small class="text-muted">Last updated 3 mins ago</small>
-                                            </div>
-                                            <img width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&amp;txt=318%C3%97180&amp;w=318&amp;h=180" alt="Card image cap" class="card-img-bottom"></div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Card title</h5><h6 class="mb-0 card-subtitle">Card subtitle</h6></div>
-                                            <img width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&amp;txt=318%C3%97180&amp;w=318&amp;h=180" alt="Card image cap">
-                                            <div class="card-body">Some quick example text to build on the card title and make up the bulk of the card's content.<a href="javascript:void(0);" class="card-link">Card Link</a><a href="javascript:void(0);"
-                                                                                                                                                                                                                                 class="card-link">Another
-                                                Link</a></div>
-                                        </div>
-                                        <div class="main-card mb-3 card"><img width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&amp;txt=318%C3%97180&amp;w=318&amp;h=180" alt="Card image cap" class="card-img-top">
-                                            <div class="card-body"><h5 class="card-title">Card Title</h5>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                                <small class="text-muted">Last updated 3 mins ago</small>
-                                            </div>
+                                </div>
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Inline</h5>
+                                        <div>
+                                            <form class="form-inline">
+                                                <div class="mb-2 mr-sm-2 mb-sm-0 position-relative form-group"><label for="exampleEmail22" class="mr-sm-2">Email</label><input name="email" id="exampleEmail22" placeholder="something@idk.cool" type="email"
+                                                                                                                                                                               class="form-control"></div>
+                                                <div class="mb-2 mr-sm-2 mb-sm-0 position-relative form-group"><label for="examplePassword22" class="mr-sm-2">Password</label><input name="password" id="examplePassword22" placeholder="don't tell!" type="password"
+                                                                                                                                                                                     class="form-control"></div>
+                                                <button class="btn btn-primary">Submit</button>
+                                            </form>
+                                            <div class="divider"></div>
+                                            <form class="">
+                                                <div class="position-relative form-check form-check-inline"><label class="form-check-label"><input type="checkbox" class="form-check-input"> Some input</label></div>
+                                                <div class="position-relative form-check form-check-inline"><label class="form-check-label"><input type="checkbox" class="form-check-input"> Some other input</label></div>
+                                            </form>
+                                            <div class="divider"></div>
+                                            <form class="form-inline">
+                                                <div class="position-relative form-group"><label for="exampleEmail33" class="sr-only">Email</label><input name="email" id="exampleEmail33" placeholder="Email" type="email" class="mr-2 form-control"></div>
+                                                <div class="position-relative form-group"><label for="examplePassword44" class="sr-only">Password</label><input name="password" id="examplePassword44" placeholder="Password" type="password"
+                                                                                                                                                                class="mr-2 form-control"></div>
+                                                <button class="btn btn-primary">Submit</button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane tabs-animation fade" id="tab-content-2" role="tabpanel">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="card-shadow-primary border mb-3 card card-body border-primary"><h5 class="card-title">Primary Card Shadow</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="card-shadow-secondary border mb-3 card card-body border-secondary"><h5 class="card-title">Secondary Card Shadow</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="card-shadow-warning border mb-3 card card-body border-warning"><h5 class="card-title">Warning Card Shadow</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="card-shadow-danger border mb-3 card card-body border-danger"><h5 class="card-title">Danger Card Shadow</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="card-shadow-success border mb-3 card card-body border-success"><h5 class="card-title">Success Card Shadow</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="card-shadow-info border mb-3 card card-body border-info"><h5 class="card-title">Info Card Shadow</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="card-shadow-focus border mb-3 card card-body border-focus"><h5 class="card-title">Focus Card Shadow</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="card-shadow-alternate border mb-3 card card-body border-alternate"><h5 class="card-title">Alternate Card Shadow</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="mb-3 card text-white"><img width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&amp;txt=318%C3%97270&amp;w=318&amp;h=270&amp;bg=333333&amp;txtclr=666666" alt="Card image cap" class="card-img">
-                                            <div class="card-img-overlay"><h5 class="text-white card-title">Card Title</h5>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                                <small class="text-white">Last updated 3 mins ago</small>
+                            <div class="tab-pane tabs-animation fade" id="tab-content-1" role="tabpanel">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Grid</h5>
+                                        <form class="">
+                                            <div class="position-relative row form-group"><label for="exampleEmail" class="col-sm-2 col-form-label">Email</label>
+                                                <div class="col-sm-10"><input name="email" id="exampleEmail" placeholder="with a placeholder" type="email" class="form-control"></div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card-border mb-3 card card-body border-primary"><h5 class="card-title">Primary Card Border</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="card-border mb-3 card card-body border-secondary"><h5 class="card-title">Secondary Card Border</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="card-border mb-3 card card-body border-warning"><h5 class="card-title">Warning Card Border</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="card-border mb-3 card card-body border-danger"><h5 class="card-title">Danger Card Border</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="card-border mb-3 card card-body border-success"><h5 class="card-title">Success Card Border</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="card-border mb-3 card card-body border-info"><h5 class="card-title">Info Card Border</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="card-border mb-3 card card-body border-focus"><h5 class="card-title">Focus Card Border</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="card-border mb-3 card card-body border-alternate"><h5 class="card-title">Alternate Card Border</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="mb-3 card text-white bg-primary">
-                                            <div class="card-header">Header</div>
-                                            <div class="card-body">With supporting text below as a natural lead-in to additional content.</div>
-                                            <div class="card-footer">Footer</div>
-                                        </div>
-                                        <div class="mb-3 card text-white card-body" style="background-color: rgb(51, 51, 51); border-color: rgb(51, 51, 51);"><h5 class="text-white card-title">Special Title Treatment</h5>With supporting text below as a
-                                            natural lead-in to additional content.
-                                        </div>
-                                        <div class="mb-3 card text-white card-body bg-primary"><h5 class="text-white card-title">Special Title Treatment</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="mb-3 card text-white card-body bg-success"><h5 class="text-white card-title">Special Title Treatment</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="mb-3 card text-white card-body bg-danger"><h5 class="text-white card-title">Special Title Treatment</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="mb-3 card text-white card-body bg-info"><h5 class="text-white card-title">Special Title Treatment</h5>With supporting text below as a natural lead-in to additional content.</div>
-                                        <div class="mb-3 card text-white card-body bg-warning"><h5 class="text-white card-title">Special Title Treatment</h5>With supporting text below as a natural lead-in to additional content.</div>
+                                            <div class="position-relative row form-group"><label for="examplePassword" class="col-sm-2 col-form-label">Password</label>
+                                                <div class="col-sm-10"><input name="password" id="examplePassword" placeholder="password placeholder" type="password" class="form-control"></div>
+                                            </div>
+                                            <div class="position-relative row form-group"><label for="exampleSelect" class="col-sm-2 col-form-label">Select</label>
+                                                <div class="col-sm-10"><select name="select" id="exampleSelect" class="form-control"></select></div>
+                                            </div>
+                                            <div class="position-relative row form-group"><label for="exampleSelectMulti" class="col-sm-2 col-form-label">Select Multiple</label>
+                                                <div class="col-sm-10"><select multiple="" name="selectMulti" id="exampleSelectMulti" class="form-control"></select></div>
+                                            </div>
+                                            <div class="position-relative row form-group"><label for="exampleText" class="col-sm-2 col-form-label">Text Area</label>
+                                                <div class="col-sm-10"><textarea name="text" id="exampleText" class="form-control"></textarea></div>
+                                            </div>
+                                            <div class="position-relative row form-group"><label for="exampleFile" class="col-sm-2 col-form-label">File</label>
+                                                <div class="col-sm-10"><input name="file" id="exampleFile" type="file" class="form-control-file">
+                                                    <small class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+                                                </div>
+                                            </div>
+                                            <fieldset class="position-relative row form-group">
+                                                <legend class="col-form-label col-sm-2">Radio Buttons</legend>
+                                                <div class="col-sm-10">
+                                                    <div class="position-relative form-check"><label class="form-check-label"><input name="radio2" type="radio" class="form-check-input"> Option one is this and that—be sure to include why it's great</label></div>
+                                                    <div class="position-relative form-check"><label class="form-check-label"><input name="radio2" type="radio" class="form-check-input"> Option two can be something else and selecting it will deselect option
+                                                        one</label></div>
+                                                    <div class="position-relative form-check disabled"><label class="form-check-label"><input name="radio2" disabled="" type="radio" class="form-check-input"> Option three is disabled</label></div>
+                                                </div>
+                                            </fieldset>
+                                            <div class="position-relative row form-group"><label for="checkbox2" class="col-sm-2 col-form-label">Checkbox</label>
+                                                <div class="col-sm-10">
+                                                    <div class="position-relative form-check"><label class="form-check-label"><input id="checkbox2" type="checkbox" class="form-check-input"> Check me out</label></div>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative row form-check">
+                                                <div class="col-sm-10 offset-sm-2">
+                                                    <button class="btn btn-secondary">Submit</button>
+                                                </div>
+                                            </div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>

@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Badges &amp; Labels - Badges and labels are used to offer extra small pieces of info for your content.</title>
+    <title>Scrollable Elements - Add scrolling areas to any elements with custom scrollbars or default browser ones.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Badges and labels are used to offer extra small pieces of info for your content.">
+    <meta name="description" content="Add scrolling areas to any elements with custom scrollbars or default browser ones.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.php">
+                                    <a href="../index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -443,7 +443,7 @@
                                     
                                     
                                     
-                                     class="mm-active"
+                                    
                                     
                                     
                                     
@@ -458,7 +458,7 @@
                                         
                                         
                                         
-                                         class="mm-show"
+                                        
                                         
                                         
                                         
@@ -483,7 +483,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-badges-labels.php" class="mm-active">
+                                            <a href="elements-badges-labels.php">
                                                 <i class="metismenu-icon">
                                                 </i>Badges
                                             </a>
@@ -524,7 +524,7 @@
                                     
                                     
                                     
-                                    
+                                     class="mm-active"
                                     
                                 >
                                     <a href="#">
@@ -542,7 +542,7 @@
                                         
                                         
                                         
-                                        
+                                         class="mm-show"
                                         
                                     >
                                         <li>
@@ -600,7 +600,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-scrollable-elements.php">
+                                            <a href="components-scrollable-elements.php" class="mm-active">
                                                 <i class="metismenu-icon">
                                                 </i>Scrollable
                                             </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-voicemail icon-gradient bg-arielle-smile">
+                                        <i class="pe-7s-radio icon-gradient bg-strong-bliss">
                                         </i>
                                     </div>
-                                    <div>Badges &amp; Labels
-                                        <div class="page-title-subheading">Badges and labels are used to offer extra small pieces of info for your content.
+                                    <div>Scrollable Elements
+                                        <div class="page-title-subheading">Add scrolling areas to any elements with custom scrollbars or default browser ones.
                                         </div>
                                     </div>
                                 </div>
@@ -731,76 +731,121 @@
                         </div>            <div class="row">
                             <div class="col-lg-6">
                                 <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Buttons Badges</h5>
-                                        <button class="mb-2 mr-2 btn btn-primary">Primary<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-secondary">Secondary<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-success">Success<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-info">Info<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-warning">Warning<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-danger">Danger<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-focus">Focus<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-alternate">Alt<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-light">Light<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-dark">Dark<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 1<span class="badge badge-pill badge-primary">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 2<span class="badge badge-pill badge-success">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 3<span class="badge badge-pill badge-danger">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 4<span class="badge badge-pill badge-warning">6</span></button>
+                                    <div class="card-body"><h5 class="card-title">Medium Scrollable Area</h5>
+                                        <div class="scroll-area-md">
+                                            <div class="scrollbar-container ps--active-y"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales ullamcorper vehicula. Duis placerat quam porta lorem lobortis, sit amet sodales mauris
+                                                finibus. Donec posuere diam at volutpat viverra. Cras fringilla auctor augue sed congue. Maecenas mollis quis enim quis egestas. In sollicitudin mi a pretium varius. Integer eleifend sodales pharetra. Nullam vitae
+                                                libero sem. Nulla et eros congue, tincidunt ante eu, tincidunt eros. Donec nisl purus, convallis a hendrerit ut, eleifend in lectus. Proin luctus dignissim lacus, in laoreet arcu eleifend non. Quisque viverra ipsum
+                                                a massa porta convallis. Donec tincidunt imperdiet purus, interdum elementum ante commodo a. Quisque pharetra arcu sapien, vel ornare magna sollicitudin quis.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Large Scrollable Area</h5>
+                                        <div class="scroll-area-lg">
+                                            <div class="scrollbar-container ps--active-y"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales ullamcorper vehicula. Duis placerat quam porta lorem lobortis, sit amet sodales mauris
+                                                finibus. Donec posuere diam at volutpat viverra. Cras fringilla auctor augue sed congue. Maecenas mollis quis enim quis egestas. In sollicitudin mi a pretium varius. Integer eleifend sodales pharetra. Nullam vitae
+                                                libero sem. Nulla et eros congue, tincidunt ante eu, tincidunt eros. Donec nisl purus, convallis a hendrerit ut, eleifend in lectus. Proin luctus dignissim lacus, in laoreet arcu eleifend non. Quisque viverra ipsum
+                                                a massa porta convallis. Donec tincidunt imperdiet purus, interdum elementum ante commodo a. Quisque pharetra arcu sapien, vel ornare magna sollicitudin quis.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">With Buttons</h5>
-                                        <button class="mb-2 mr-2 btn btn-primary">Primary<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-secondary">Secondary<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-success">Success<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-info">Info<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-warning">Warning<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-danger">Danger<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-focus">Focus<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-alternate">Alt<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-light">Light<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-dark">Dark<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 1<span class="badge badge-primary">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 2<span class="badge badge-success">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 3<span class="badge badge-danger">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 4<span class="badge badge-warning">NEW</span></button>
+                                    <div class="card-body"><h5 class="card-title">Small Scrollable Area</h5>
+                                        <div class="scroll-area-sm">
+                                            <div class="scrollbar-container ps--active-y"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales ullamcorper vehicula. Duis placerat quam porta lorem lobortis, sit amet sodales mauris
+                                                finibus. Donec posuere diam at volutpat viverra. Cras fringilla auctor augue sed congue. Maecenas mollis quis enim quis egestas. In sollicitudin mi a pretium varius. Integer eleifend sodales pharetra. Nullam vitae
+                                                libero sem. Nulla et eros congue, tincidunt ante eu, tincidunt eros. Donec nisl purus, convallis a hendrerit ut, eleifend in lectus. Proin luctus dignissim lacus, in laoreet arcu eleifend non. Quisque viverra ipsum
+                                                a massa porta convallis. Donec tincidunt imperdiet purus, interdum elementum ante commodo a. Quisque pharetra arcu sapien, vel ornare magna sollicitudin quis.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-card mb-3 card">
+                                    <div class="card-header">
+                                        <i class="header-icon lnr-laptop-phone icon-gradient bg-plum-plate"> </i>
+                                        Header Menu
+                                        <div class="btn-actions-pane-right actions-icon-btn">
+                                            <button class="btn-icon btn-icon-only btn btn-link"><i class="pe-7s-leaf btn-icon-wrapper"></i></button>
+                                            <button class="btn-icon btn-icon-only btn btn-link"><i class="pe-7s-cloud-download btn-icon-wrapper"></i></button>
+                                            <div class="btn-group">
+                                                <button type="button" aria-haspopup="true" aria-expanded="false" class="btn-icon btn-icon-only btn btn-link"><i class="pe-7s-menu btn-icon-wrapper"></i></button>
+                                                <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu-right dropdown-menu-shadow dropdown-menu-hover-link dropdown-menu"><h6 tabindex="-1" class="dropdown-header">Header</h6>
+                                                    <button type="button" tabindex="0" class="dropdown-item"><i class="dropdown-icon lnr-inbox"> </i><span>Menus</span></button>
+                                                    <button type="button" tabindex="0" class="dropdown-item"><i class="dropdown-icon lnr-file-empty"> </i><span>Settings</span></button>
+                                                    <button type="button" tabindex="0" class="dropdown-item"><i class="dropdown-icon lnr-book"> </i><span>Actions</span></button>
+                                                    <div tabindex="-1" class="dropdown-divider"></div>
+                                                    <div class="p-3 text-right">
+                                                        <button class="mr-2 btn-shadow btn-sm btn btn-link">View Details</button>
+                                                        <button class="mr-2 btn-shadow btn-sm btn btn-primary">Action</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="scroll-area-sm">
+                                            <div class="scrollbar-container ps--active-y"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales ullamcorper vehicula. Duis placerat quam porta lorem lobortis, sit amet sodales mauris
+                                                finibus. Donec posuere diam at volutpat viverra. Cras fringilla auctor augue sed congue. Maecenas mollis quis enim quis egestas. In sollicitudin mi a pretium varius. Integer eleifend sodales pharetra. Nullam vitae
+                                                libero sem. Nulla et eros congue, tincidunt ante eu, tincidunt eros. Donec nisl purus, convallis a hendrerit ut, eleifend in lectus. Proin luctus dignissim lacus, in laoreet arcu eleifend non. Quisque viverra ipsum
+                                                a massa porta convallis. Donec tincidunt imperdiet purus, interdum elementum ante commodo a. Quisque pharetra arcu sapien, vel ornare magna sollicitudin quis.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-block text-right card-footer">
+                                        <button class="mr-2 btn btn-link btn-sm">Cancel</button>
+                                        <button class="btn btn-success btn-lg">Save</button>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="main-card mb-3 card">
-                            <div class="card-body"><h5 class="card-title">Colors</h5>
-                                <div class="mb-2 mr-2 badge badge-primary">Primary</div>
-                                <div class="mb-2 mr-2 badge badge-secondary">Secondary</div>
-                                <div class="mb-2 mr-2 badge badge-success">Success</div>
-                                <div class="mb-2 mr-2 badge badge-info">Info</div>
-                                <div class="mb-2 mr-2 badge badge-warning">Warning</div>
-                                <div class="mb-2 mr-2 badge badge-danger">Danger</div>
-                                <div class="mb-2 mr-2 badge badge-focus">Focus</div>
-                                <div class="mb-2 mr-2 badge badge-alternate">Alt</div>
-                                <div class="mb-2 mr-2 badge badge-light">Light</div>
-                                <div class="mb-2 mr-2 badge badge-dark">Dark</div>
-                                <div class="divider"></div>
-                                <h5 class="card-title">Pills</h5>
-                                <div class="mb-2 mr-2 badge badge-pill badge-primary">Primary</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-secondary">Secondary</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-success">Success</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-info">Info</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-warning">Warning</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-danger">Danger</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-focus">Focus</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-alternate">Alt</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-light">Light</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-dark">Dark</div>
-                                <div class="divider"></div>
-                                <h5 class="card-title">Links</h5><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-primary">Primary</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-secondary">Secondary</a><a
-                                        href="javascript:void(0);" class="mb-2 mr-2 badge badge-success">Success</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-info">Info</a><a href="javascript:void(0);"
-                                                                                                                                                                                                class="mb-2 mr-2 badge badge-warning">Warning</a><a
-                                        href="javascript:void(0);" class="mb-2 mr-2 badge badge-danger">Danger</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-focus">Focus</a><a href="javascript:void(0);"
-                                                                                                                                                                                                class="mb-2 mr-2 badge badge-alternate">Alt</a><a
-                                        href="javascript:void(0);" class="mb-2 mr-2 badge badge-light">Light</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-dark">Dark</a></div>
                         </div>
                     </div>
                     <div class="app-wrapper-footer">
