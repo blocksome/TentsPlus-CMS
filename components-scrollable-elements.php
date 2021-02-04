@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Maps - Implement in your applications Google or vector maps.</title>
+    <title>Scrollable Elements - Add scrolling areas to any elements with custom scrollbars or default browser ones.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Implement in your applications Google or vector maps.">
+    <meta name="description" content="Add scrolling areas to any elements with custom scrollbars or default browser ones.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -465,49 +465,49 @@
                                         
                                     >
                                         <li>
-                                            <a href="elements-buttons-standard.html">
+                                            <a href="elements-buttons-standard.php">
                                                 <i class="metismenu-icon"></i>
                                                 Buttons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-dropdowns.html">
+                                            <a href="elements-dropdowns.php">
                                                 <i class="metismenu-icon">
                                                 </i>Dropdowns
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-icons.html">
+                                            <a href="elements-icons.php">
                                                 <i class="metismenu-icon">
                                                 </i>Icons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-badges-labels.html">
+                                            <a href="elements-badges-labels.php">
                                                 <i class="metismenu-icon">
                                                 </i>Badges
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-cards.html">
+                                            <a href="elements-cards.php">
                                                 <i class="metismenu-icon">
                                                 </i>Cards
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-list-group.html">
+                                            <a href="elements-list-group.php">
                                                 <i class="metismenu-icon">
                                                 </i>List Groups
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-navigation.html">
+                                            <a href="elements-navigation.php">
                                                 <i class="metismenu-icon">
                                                 </i>Navigation Menus
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-utilities.html">
+                                            <a href="elements-utilities.php">
                                                 <i class="metismenu-icon">
                                                 </i>Utilities
                                             </a>
@@ -524,8 +524,8 @@
                                     
                                     
                                     
-                                    
                                      class="mm-active"
+                                    
                                 >
                                     <a href="#">
                                         <i class="metismenu-icon pe-7s-car"></i>
@@ -542,71 +542,71 @@
                                         
                                         
                                         
-                                        
                                          class="mm-show"
+                                        
                                     >
                                         <li>
-                                            <a href="components-tabs.html">
+                                            <a href="components-tabs.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tabs
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-accordions.html">
+                                            <a href="components-accordions.php">
                                                 <i class="metismenu-icon">
                                                 </i>Accordions
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-notifications.html">
+                                            <a href="components-notifications.php">
                                                 <i class="metismenu-icon">
                                                 </i>Notifications
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-modals.html">
+                                            <a href="components-modals.php">
                                                 <i class="metismenu-icon">
                                                 </i>Modals
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-progress-bar.html">
+                                            <a href="components-progress-bar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Progress Bar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-tooltips-popovers.html">
+                                            <a href="components-tooltips-popovers.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tooltips &amp; Popovers
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-carousel.html">
+                                            <a href="components-carousel.php">
                                                 <i class="metismenu-icon">
                                                 </i>Carousel
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-calendar.html">
+                                            <a href="components-calendar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Calendar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-pagination.html">
+                                            <a href="components-pagination.php">
                                                 <i class="metismenu-icon">
                                                 </i>Pagination
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-scrollable-elements.html">
+                                            <a href="components-scrollable-elements.php" class="mm-active">
                                                 <i class="metismenu-icon">
                                                 </i>Scrollable
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-maps.html" class="mm-active">
+                                            <a href="components-maps.php">
                                                 <i class="metismenu-icon">
                                                 </i>Maps
                                             </a>
@@ -614,40 +614,40 @@
                                     </ul>
                                 </li>
                                 <li  >
-                                    <a href="tables-regular.html">
+                                    <a href="tables-regular.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Tables
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Widgets</li>
                                 <li>
-                                    <a href="dashboard-boxes.html">
+                                    <a href="dashboard-boxes.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Dashboard Boxes
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Forms</li>
                                 <li>
-                                    <a href="forms-controls.html">
+                                    <a href="forms-controls.php">
                                         <i class="metismenu-icon pe-7s-mouse">
                                         </i>Forms Controls
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-layouts.html">
+                                    <a href="forms-layouts.php">
                                         <i class="metismenu-icon pe-7s-eyedropper">
                                         </i>Forms Layouts
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-validation.html">
+                                    <a href="forms-validation.php">
                                         <i class="metismenu-icon pe-7s-pendrive">
                                         </i>Forms Validation
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Charts</li>
                                 <li>
-                                    <a href="charts-chartjs.html">
+                                    <a href="charts-chartjs.php">
                                         <i class="metismenu-icon pe-7s-graph2">
                                         </i>ChartJS
                                     </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-map icon-gradient bg-premium-dark">
+                                        <i class="pe-7s-radio icon-gradient bg-strong-bliss">
                                         </i>
                                     </div>
-                                    <div>Maps
-                                        <div class="page-title-subheading">Implement in your applications Google or vector maps.
+                                    <div>Scrollable Elements
+                                        <div class="page-title-subheading">Add scrolling areas to any elements with custom scrollbars or default browser ones.
                                         </div>
                                     </div>
                                 </div>
@@ -729,19 +729,120 @@
                                     </div>
                                 </div>    </div>
                         </div>            <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-6">
                                 <div class="main-card mb-3 card">
-                                    <div class="card-body">
-                                        <div class="card-title">World Map</div>
-                                        <div id="world-map-gdp" style="width: 100%; height: 300px;"></div>
+                                    <div class="card-body"><h5 class="card-title">Medium Scrollable Area</h5>
+                                        <div class="scroll-area-md">
+                                            <div class="scrollbar-container ps--active-y"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales ullamcorper vehicula. Duis placerat quam porta lorem lobortis, sit amet sodales mauris
+                                                finibus. Donec posuere diam at volutpat viverra. Cras fringilla auctor augue sed congue. Maecenas mollis quis enim quis egestas. In sollicitudin mi a pretium varius. Integer eleifend sodales pharetra. Nullam vitae
+                                                libero sem. Nulla et eros congue, tincidunt ante eu, tincidunt eros. Donec nisl purus, convallis a hendrerit ut, eleifend in lectus. Proin luctus dignissim lacus, in laoreet arcu eleifend non. Quisque viverra ipsum
+                                                a massa porta convallis. Donec tincidunt imperdiet purus, interdum elementum ante commodo a. Quisque pharetra arcu sapien, vel ornare magna sollicitudin quis.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Large Scrollable Area</h5>
+                                        <div class="scroll-area-lg">
+                                            <div class="scrollbar-container ps--active-y"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales ullamcorper vehicula. Duis placerat quam porta lorem lobortis, sit amet sodales mauris
+                                                finibus. Donec posuere diam at volutpat viverra. Cras fringilla auctor augue sed congue. Maecenas mollis quis enim quis egestas. In sollicitudin mi a pretium varius. Integer eleifend sodales pharetra. Nullam vitae
+                                                libero sem. Nulla et eros congue, tincidunt ante eu, tincidunt eros. Donec nisl purus, convallis a hendrerit ut, eleifend in lectus. Proin luctus dignissim lacus, in laoreet arcu eleifend non. Quisque viverra ipsum
+                                                a massa porta convallis. Donec tincidunt imperdiet purus, interdum elementum ante commodo a. Quisque pharetra arcu sapien, vel ornare magna sollicitudin quis.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-6">
                                 <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Small Scrollable Area</h5>
+                                        <div class="scroll-area-sm">
+                                            <div class="scrollbar-container ps--active-y"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales ullamcorper vehicula. Duis placerat quam porta lorem lobortis, sit amet sodales mauris
+                                                finibus. Donec posuere diam at volutpat viverra. Cras fringilla auctor augue sed congue. Maecenas mollis quis enim quis egestas. In sollicitudin mi a pretium varius. Integer eleifend sodales pharetra. Nullam vitae
+                                                libero sem. Nulla et eros congue, tincidunt ante eu, tincidunt eros. Donec nisl purus, convallis a hendrerit ut, eleifend in lectus. Proin luctus dignissim lacus, in laoreet arcu eleifend non. Quisque viverra ipsum
+                                                a massa porta convallis. Donec tincidunt imperdiet purus, interdum elementum ante commodo a. Quisque pharetra arcu sapien, vel ornare magna sollicitudin quis.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-card mb-3 card">
+                                    <div class="card-header">
+                                        <i class="header-icon lnr-laptop-phone icon-gradient bg-plum-plate"> </i>
+                                        Header Menu
+                                        <div class="btn-actions-pane-right actions-icon-btn">
+                                            <button class="btn-icon btn-icon-only btn btn-link"><i class="pe-7s-leaf btn-icon-wrapper"></i></button>
+                                            <button class="btn-icon btn-icon-only btn btn-link"><i class="pe-7s-cloud-download btn-icon-wrapper"></i></button>
+                                            <div class="btn-group">
+                                                <button type="button" aria-haspopup="true" aria-expanded="false" class="btn-icon btn-icon-only btn btn-link"><i class="pe-7s-menu btn-icon-wrapper"></i></button>
+                                                <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu-right dropdown-menu-shadow dropdown-menu-hover-link dropdown-menu"><h6 tabindex="-1" class="dropdown-header">Header</h6>
+                                                    <button type="button" tabindex="0" class="dropdown-item"><i class="dropdown-icon lnr-inbox"> </i><span>Menus</span></button>
+                                                    <button type="button" tabindex="0" class="dropdown-item"><i class="dropdown-icon lnr-file-empty"> </i><span>Settings</span></button>
+                                                    <button type="button" tabindex="0" class="dropdown-item"><i class="dropdown-icon lnr-book"> </i><span>Actions</span></button>
+                                                    <div tabindex="-1" class="dropdown-divider"></div>
+                                                    <div class="p-3 text-right">
+                                                        <button class="mr-2 btn-shadow btn-sm btn btn-link">View Details</button>
+                                                        <button class="mr-2 btn-shadow btn-sm btn btn-primary">Action</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="card-body">
-                                        <div class="card-title">Google Maps</div>
-                                        <div id="gmap-example"></div>
+                                        <div class="scroll-area-sm">
+                                            <div class="scrollbar-container ps--active-y"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales ullamcorper vehicula. Duis placerat quam porta lorem lobortis, sit amet sodales mauris
+                                                finibus. Donec posuere diam at volutpat viverra. Cras fringilla auctor augue sed congue. Maecenas mollis quis enim quis egestas. In sollicitudin mi a pretium varius. Integer eleifend sodales pharetra. Nullam vitae
+                                                libero sem. Nulla et eros congue, tincidunt ante eu, tincidunt eros. Donec nisl purus, convallis a hendrerit ut, eleifend in lectus. Proin luctus dignissim lacus, in laoreet arcu eleifend non. Quisque viverra ipsum
+                                                a massa porta convallis. Donec tincidunt imperdiet purus, interdum elementum ante commodo a. Quisque pharetra arcu sapien, vel ornare magna sollicitudin quis.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                                <p>Nunc congue magna eget eros blandit, eu viverra magna semper. Nullam in diam a metus dictum consequat. Quisque ultricies, ipsum non euismod semper, velit felis lacinia nibh, et finibus quam leo vitae nisi.
+                                                    Maecenas interdum diam quis risus bibendum, eu fermentum est pharetra. In dictum at enim pretium bibendum. Praesent efficitur iaculis dolor in sodales. Morbi maximus in ipsum in malesuada. Proin semper lacus
+                                                    tempor magna aliquam, sed aliquam dui scelerisque. Donec nisi nulla, rhoncus a tristique eget, ultrices vitae dolor. Ut id urna vitae ante tincidunt pharetra at non metus. Nunc in suscipit nulla. Sed vitae leo
+                                                    vulputate, euismod tortor vel, aliquet velit. Curabitur eget tincidunt elit. Nam et ligula finibus, eleifend velit et, commodo quam. Praesent non libero velit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-block text-right card-footer">
+                                        <button class="mr-2 btn btn-link btn-sm">Cancel</button>
+                                        <button class="btn btn-success btn-lg">Save</button>
                                     </div>
                                 </div>
                             </div>
@@ -784,7 +885,6 @@
                             </div>
                         </div>
                     </div>    </div>
-                <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
         </div>
     </div>
 <script type="text/javascript" src="./assets/scripts/main.js"></script></body>

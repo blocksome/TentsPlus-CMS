@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Progress Bar - You can use the progress bars on their own or in combination with other widgets.</title>
+    <title>Form Controls - Wide selection of forms controls, using the Bootstrap 4 code base, but built with React.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="You can use the progress bars on their own or in combination with other widgets.">
+    <meta name="description" content="Wide selection of forms controls, using the Bootstrap 4 code base, but built with React.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -465,49 +465,49 @@
                                         
                                     >
                                         <li>
-                                            <a href="elements-buttons-standard.html">
+                                            <a href="elements-buttons-standard.php">
                                                 <i class="metismenu-icon"></i>
                                                 Buttons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-dropdowns.html">
+                                            <a href="elements-dropdowns.php">
                                                 <i class="metismenu-icon">
                                                 </i>Dropdowns
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-icons.html">
+                                            <a href="elements-icons.php">
                                                 <i class="metismenu-icon">
                                                 </i>Icons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-badges-labels.html">
+                                            <a href="elements-badges-labels.php">
                                                 <i class="metismenu-icon">
                                                 </i>Badges
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-cards.html">
+                                            <a href="elements-cards.php">
                                                 <i class="metismenu-icon">
                                                 </i>Cards
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-list-group.html">
+                                            <a href="elements-list-group.php">
                                                 <i class="metismenu-icon">
                                                 </i>List Groups
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-navigation.html">
+                                            <a href="elements-navigation.php">
                                                 <i class="metismenu-icon">
                                                 </i>Navigation Menus
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-utilities.html">
+                                            <a href="elements-utilities.php">
                                                 <i class="metismenu-icon">
                                                 </i>Utilities
                                             </a>
@@ -519,7 +519,7 @@
                                     
                                     
                                     
-                                     class="mm-active"
+                                    
                                     
                                     
                                     
@@ -537,7 +537,7 @@
                                         
                                         
                                         
-                                         class="mm-show"
+                                        
                                         
                                         
                                         
@@ -546,67 +546,67 @@
                                         
                                     >
                                         <li>
-                                            <a href="components-tabs.html">
+                                            <a href="components-tabs.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tabs
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-accordions.html">
+                                            <a href="components-accordions.php">
                                                 <i class="metismenu-icon">
                                                 </i>Accordions
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-notifications.html">
+                                            <a href="components-notifications.php">
                                                 <i class="metismenu-icon">
                                                 </i>Notifications
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-modals.html">
+                                            <a href="components-modals.php">
                                                 <i class="metismenu-icon">
                                                 </i>Modals
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-progress-bar.html" class="mm-active">
+                                            <a href="components-progress-bar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Progress Bar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-tooltips-popovers.html">
+                                            <a href="components-tooltips-popovers.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tooltips &amp; Popovers
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-carousel.html">
+                                            <a href="components-carousel.php">
                                                 <i class="metismenu-icon">
                                                 </i>Carousel
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-calendar.html">
+                                            <a href="components-calendar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Calendar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-pagination.html">
+                                            <a href="components-pagination.php">
                                                 <i class="metismenu-icon">
                                                 </i>Pagination
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-scrollable-elements.html">
+                                            <a href="components-scrollable-elements.php">
                                                 <i class="metismenu-icon">
                                                 </i>Scrollable
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-maps.html">
+                                            <a href="components-maps.php">
                                                 <i class="metismenu-icon">
                                                 </i>Maps
                                             </a>
@@ -614,40 +614,40 @@
                                     </ul>
                                 </li>
                                 <li  >
-                                    <a href="tables-regular.html">
+                                    <a href="tables-regular.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Tables
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Widgets</li>
                                 <li>
-                                    <a href="dashboard-boxes.html">
+                                    <a href="dashboard-boxes.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Dashboard Boxes
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Forms</li>
                                 <li>
-                                    <a href="forms-controls.html">
+                                    <a href="forms-controls.php" class="mm-active">
                                         <i class="metismenu-icon pe-7s-mouse">
                                         </i>Forms Controls
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-layouts.html">
+                                    <a href="forms-layouts.php">
                                         <i class="metismenu-icon pe-7s-eyedropper">
                                         </i>Forms Layouts
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-validation.html">
+                                    <a href="forms-validation.php">
                                         <i class="metismenu-icon pe-7s-pendrive">
                                         </i>Forms Validation
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Charts</li>
                                 <li>
-                                    <a href="charts-chartjs.html">
+                                    <a href="charts-chartjs.php">
                                         <i class="metismenu-icon pe-7s-graph2">
                                         </i>ChartJS
                                     </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-filter icon-gradient bg-grow-early">
+                                        <i class="pe-7s-display1 icon-gradient bg-premium-dark">
                                         </i>
                                     </div>
-                                    <div>Progress Bar
-                                        <div class="page-title-subheading">You can use the progress bars on their own or in combination with other widgets.
+                                    <div>Form Controls
+                                        <div class="page-title-subheading">Wide selection of forms controls, using the Bootstrap 4 code base, but built with React.
                                         </div>
                                     </div>
                                 </div>
@@ -728,186 +728,341 @@
                                         </div>
                                     </div>
                                 </div>    </div>
-                        </div>            <div class="row">
-                            <div class="col-md-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Basic</h5>
-                                        <div class="text-center">0%</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
-                                        </div>
-                                        <div class="text-center">25%</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
-                                        </div>
-                                        <div class="text-center">50%</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-                                        </div>
-                                        <div class="text-center">75%</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-                                        </div>
-                                        <div class="text-center">100%</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-                                        </div>
-                                        <div class="text-center">Multiple bars</div>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"></div>
-                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
-                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
-                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
-                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Progress bar labels</h5>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">25%</div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">1/2</div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">You're almost there!</div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">You did it!</div>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">Meh</div>
-                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">Wow!</div>
-                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">Cool</div>
-                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">20%</div>
-                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">!!</div>
+                        </div>            <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
+                            <li class="nav-item">
+                                <a role="tab" class="nav-link active" id="tab-0" data-toggle="tab" href="#tab-content-0">
+                                    <span>Basic</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a role="tab" class="nav-link" id="tab-1" data-toggle="tab" href="#tab-content-1">
+                                    <span>Input Groups</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a role="tab" class="nav-link" id="tab-2" data-toggle="tab" href="#tab-content-2">
+                                    <span>Custom Controls</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Controls Types</h5>
+                                                <form class="">
+                                                    <div class="position-relative form-group"><label for="exampleEmail" class="">Email</label><input name="email" id="exampleEmail" placeholder="with a placeholder" type="email" class="form-control"></div>
+                                                    <div class="position-relative form-group"><label for="examplePassword" class="">Password</label><input name="password" id="examplePassword" placeholder="password placeholder" type="password"
+                                                                                                                                                           class="form-control"></div>
+                                                    <div class="position-relative form-group"><label for="exampleSelect" class="">Select</label><select name="select" id="exampleSelect" class="form-control">
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select></div>
+                                                    <div class="position-relative form-group"><label for="exampleSelectMulti" class="">Select Multiple</label><select multiple="" name="selectMulti" id="exampleSelectMulti" class="form-control">
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select></div>
+                                                    <div class="position-relative form-group"><label for="exampleText" class="">Text Area</label><textarea name="text" id="exampleText" class="form-control"></textarea></div>
+                                                    <div class="position-relative form-group"><label for="exampleFile" class="">File</label><input name="file" id="exampleFile" type="file" class="form-control-file">
+                                                        <small class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+                                                    </div>
+                                                    <button class="mt-1 btn btn-primary">Submit</button>
+                                                </form>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Progress bar max</h5>
-                                        <div class="text-center">1 of 5</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style="width: 20%;"></div>
+                                    <div class="col-md-6">
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Sizing</h5>
+                                                <form class=""><input placeholder="lg" type="text" class="mb-2 form-control-lg form-control"><input placeholder="default" type="text" class="mb-2 form-control"><input placeholder="sm" type="text"
+                                                                                                                                                                                                                       class="mb-2 form-control-sm form-control">
+                                                    <div class="divider"></div>
+                                                    <select class="mb-2 form-control-lg form-control">
+                                                        <option>Large Select</option>
+                                                    </select><select class="mb-2 form-control">
+                                                        <option>Default Select</option>
+                                                    </select><select class="form-control-sm form-control">
+                                                        <option>Small Select</option>
+                                                    </select></form>
+                                            </div>
                                         </div>
-                                        <div class="text-center">50 of 135</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="135" style="width: 37.037%;"></div>
-                                        </div>
-                                        <div class="text-center">75 of 111</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="111" style="width: 67.5676%;"></div>
-                                        </div>
-                                        <div class="text-center">463 of 500</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="463" aria-valuemin="0" aria-valuemax="500" style="width: 92.6%;"></div>
-                                        </div>
-                                        <div class="text-center">Various (40) of 55</div>
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="55" style="width: 9.09091%;">5</div>
-                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="55" style="width: 27.2727%;">15</div>
-                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="55" style="width: 18.1818%;">10</div>
-                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="55" style="width: 18.1818%;">10</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Progress bar striped</h5>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-success progress-bar-striped" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-danger progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
-                                            <div class="progress-bar bg-success progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
-                                            <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
-                                            <div class="progress-bar bg-danger progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Checkboxes &amp; Radios</h5>
+                                                <form class="">
+                                                    <fieldset class="position-relative form-group">
+                                                        <div class="position-relative form-check"><label class="form-check-label"><input name="radio1" type="radio" class="form-check-input"> Option one is this and that—be sure to include why it's great</label>
+                                                        </div>
+                                                        <div class="position-relative form-check"><label class="form-check-label"><input name="radio1" type="radio" class="form-check-input"> Option two can be something else and selecting it will deselect option
+                                                            one</label></div>
+                                                        <div class="position-relative form-check disabled"><label class="form-check-label"><input name="radio1" disabled="" type="radio" class="form-check-input"> Option three is disabled</label></div>
+                                                    </fieldset>
+                                                    <div class="position-relative form-check"><label class="form-check-label"><input type="checkbox" class="form-check-input"> Check me out</label></div>
+                                                </form>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Progress color</h5>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+                            <div class="tab-pane tabs-animation fade" id="tab-content-1" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Input Groups</h5>
+                                                <div>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend"><span class="input-group-text">@</span></div>
+                                                        <input placeholder="username" type="text" class="form-control"></div>
+                                                    <br>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend"><span class="input-group-text"><input aria-label="Checkbox for following text input" type="checkbox" class=""></span></div>
+                                                        <input placeholder="Check it out" type="text" class="form-control"></div>
+                                                    <br>
+                                                    <div class="input-group"><input placeholder="username" type="text" class="form-control">
+                                                        <div class="input-group-append"><span class="input-group-text">@example.com</span></div>
+                                                    </div>
+                                                    <br>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend"><span class="input-group-text">$</span><span class="input-group-text">$</span></div>
+                                                        <input placeholder="Dolla dolla billz yo!" type="text" class="form-control">
+                                                        <div class="input-group-append"><span class="input-group-text">$</span><span class="input-group-text">$</span></div>
+                                                    </div>
+                                                    <br>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend"><span class="input-group-text">$</span></div>
+                                                        <input placeholder="Amount" step="1" type="number" class="form-control">
+                                                        <div class="input-group-append"><span class="input-group-text">.00</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Input Group Button Dropdown</h5>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-secondary">Button Dropdown</button>
+                                                        <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu"><h6 tabindex="-1" class="dropdown-header">Header</h6>
+                                                            <button type="button" disabled="" tabindex="-1" class="disabled dropdown-item">Action</button>
+                                                            <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
+                                                            <div tabindex="-1" class="dropdown-divider"></div>
+                                                            <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
+                                                        </div>
+                                                    </div>
+                                                    <input type="text" class="form-control"></div>
+                                            </div>
                                         </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Input Group Button Shorthand</h5>
+                                                <div>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <button class="btn btn-secondary">To the Left!</button>
+                                                        </div>
+                                                        <input type="text" class="form-control"></div>
+                                                    <br>
+                                                    <div class="input-group"><input type="text" class="form-control">
+                                                        <div class="input-group-append">
+                                                            <button class="btn btn-secondary">To the Right!</button>
+                                                        </div>
+                                                    </div>
+                                                    <br>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <button class="btn btn-danger">To the Left!</button>
+                                                        </div>
+                                                        <input placeholder="and..." type="text" class="form-control">
+                                                        <div class="input-group-append">
+                                                            <button class="btn btn-success">To the Right!</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Input Group Sizing</h5>
+                                                <div>
+                                                    <div class="input-group input-group-lg">
+                                                        <div class="input-group-prepend"><span class="input-group-text">@lg</span></div>
+                                                        <input type="text" class="form-control"></div>
+                                                    <br>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend"><span class="input-group-text">@normal</span></div>
+                                                        <input type="text" class="form-control"></div>
+                                                    <br>
+                                                    <div class="input-group input-group-sm">
+                                                        <div class="input-group-prepend"><span class="input-group-text">@sm</span></div>
+                                                        <input type="text" class="form-control"></div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="progress">
-                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Input Group Addon</h5>
+                                                <div>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend"><span class="input-group-text">To the Left!</span></div>
+                                                        <input type="text" class="form-control"></div>
+                                                    <br>
+                                                    <div class="input-group"><input type="text" class="form-control">
+                                                        <div class="input-group-append"><span class="input-group-text">To the Right!</span></div>
+                                                    </div>
+                                                    <br>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend"><span class="input-group-text">To the Left!</span></div>
+                                                        <input placeholder="and..." type="text" class="form-control">
+                                                        <div class="input-group-append"><span class="input-group-text">To the Right!</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Input Group Button</h5>
+                                                <div>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <button class="btn btn-secondary">I'm a button</button>
+                                                        </div>
+                                                        <input type="text" class="form-control"></div>
+                                                    <br>
+                                                    <div class="input-group"><input type="text" class="form-control">
+                                                        <div class="input-group-append">
+                                                            <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-secondary">Button Dropdown</button>
+                                                            <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu"><h6 tabindex="-1" class="dropdown-header">Header</h6>
+                                                                <button type="button" disabled="" tabindex="-1" class="disabled dropdown-item">Action</button>
+                                                                <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
+                                                                <div tabindex="-1" class="dropdown-divider"></div>
+                                                                <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <br>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <button class="btn btn-outline-secondary">Split Button</button>
+                                                            <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle dropdown-toggle-split btn btn-outline-secondary"><span
+                                                                    class="sr-only">Toggle Dropdown</span></button>
+                                                            <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu"><h6 tabindex="-1" class="dropdown-header">Header</h6>
+                                                                <button type="button" disabled="" tabindex="-1" class="disabled dropdown-item">Action</button>
+                                                                <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
+                                                                <div tabindex="-1" class="dropdown-divider"></div>
+                                                                <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
+                                                            </div>
+                                                        </div>
+                                                        <input placeholder="and..." type="text" class="form-control">
+                                                        <div class="input-group-append">
+                                                            <button class="btn btn-secondary">I'm a button</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Progress bar multi</h5>
-                                        <div class="text-center">Plain</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"></div>
-                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
-                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
-                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
-                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"></div>
+                            </div>
+                            <div class="tab-pane tabs-animation fade" id="tab-content-2" role="tabpanel">
+                                <form class="">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="main-card mb-3 card">
+                                                <div class="card-body"><h5 class="card-title">Checkboxes</h5>
+                                                    <div class="position-relative form-group">
+                                                        <div>
+                                                            <div class="custom-checkbox custom-control"><input type="checkbox" id="exampleCustomCheckbox" class="custom-control-input"><label class="custom-control-label" for="exampleCustomCheckbox">Check this
+                                                                custom checkbox</label></div>
+                                                            <div class="custom-checkbox custom-control"><input type="checkbox" id="exampleCustomCheckbox2" class="custom-control-input"><label class="custom-control-label" for="exampleCustomCheckbox2">Or this
+                                                                one</label></div>
+                                                            <div class="custom-checkbox custom-control"><input type="checkbox" id="exampleCustomCheckbox3" disabled="" class="custom-control-input"><label class="custom-control-label" for="exampleCustomCheckbox3">But
+                                                                not this disabled one</label></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-card mb-3 card">
+                                                <div class="card-body"><h5 class="card-title">Inline</h5>
+                                                    <div class="position-relative form-group">
+                                                        <div>
+                                                            <div class="custom-checkbox custom-control custom-control-inline"><input type="checkbox" id="exampleCustomInline" class="custom-control-input"><label class="custom-control-label"
+                                                                                                                                                                                                                  for="exampleCustomInline">An inline custom
+                                                                input</label></div>
+                                                            <div class="custom-checkbox custom-control custom-control-inline"><input type="checkbox" id="exampleCustomInline2" class="custom-control-input"><label class="custom-control-label"
+                                                                                                                                                                                                                   for="exampleCustomInline2">and another one</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="text-center">With Labels</div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">Meh</div>
-                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%;">Wow!</div>
-                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">25%</div>
-                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">LOOK OUT!!</div>
-                                        </div>
-                                        <div class="text-center">Stripes and Animations</div>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">Stripes</div>
-                                            <div class="progress-bar progress-bar-animated bg-success progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">Animated Stripes</div>
-                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">Plain</div>
+                                        <div class="col-md-6">
+                                            <div class="main-card mb-3 card">
+                                                <div class="card-body"><h5 class="card-title">Radios</h5>
+                                                    <div class="position-relative form-group">
+                                                        <div>
+                                                            <div class="custom-radio custom-control"><input type="radio" id="exampleCustomRadio" name="customRadio" class="custom-control-input"><label class="custom-control-label" for="exampleCustomRadio">Select
+                                                                this custom radio</label></div>
+                                                            <div class="custom-radio custom-control"><input type="radio" id="exampleCustomRadio2" name="customRadio" class="custom-control-input"><label class="custom-control-label" for="exampleCustomRadio2">Or
+                                                                this one</label></div>
+                                                            <div class="custom-radio custom-control"><input type="radio" id="exampleCustomRadio3" disabled="" class="custom-control-input"><label class="custom-control-label" for="exampleCustomRadio3">But not this
+                                                                disabled one</label></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="main-card mb-3 card">
+                                                <div class="card-body"><h5 class="card-title">Form Select</h5>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="position-relative form-group"><label for="exampleCustomSelect" class="">Custom Select</label><select type="select" id="exampleCustomSelect" name="customSelect" class="custom-select">
+                                                                <option value="">Select</option>
+                                                                <option>Value 1</option>
+                                                                <option>Value 2</option>
+                                                                <option>Value 3</option>
+                                                                <option>Value 4</option>
+                                                                <option>Value 5</option>
+                                                            </select></div>
+                                                            <div class="position-relative form-group"><label for="exampleCustomMutlipleSelect" class="">Custom Multiple Select</label><select multiple="" type="select" id="exampleCustomMutlipleSelect"
+                                                                                                                                                                                              name="customSelect" class="custom-select">
+                                                                <option value="">Select</option>
+                                                                <option>Value 1</option>
+                                                                <option>Value 2</option>
+                                                                <option>Value 3</option>
+                                                                <option>Value 4</option>
+                                                                <option>Value 5</option>
+                                                            </select></div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="position-relative form-group"><label for="exampleCustomSelectDisabled" class="">Custom Select Disabled</label><select type="select" id="exampleCustomSelectDisabled" name="customSelect"
+                                                                                                                                                                                              disabled="" class="custom-select">
+                                                                <option value="">Select</option>
+                                                                <option>Value 1</option>
+                                                                <option>Value 2</option>
+                                                                <option>Value 3</option>
+                                                                <option>Value 4</option>
+                                                                <option>Value 5</option>
+                                                            </select></div>
+                                                            <div class="position-relative form-group"><label for="exampleCustomMutlipleSelectDisabled" class="">Custom Multiple Select Disabled</label><select multiple="" type="select"
+                                                                                                                                                                                                               id="exampleCustomMutlipleSelectDisabled"
+                                                                                                                                                                                                               name="customSelect" disabled="" class="custom-select">
+                                                                <option value="">Select</option>
+                                                                <option>Value 1</option>
+                                                                <option>Value 2</option>
+                                                                <option>Value 3</option>
+                                                                <option>Value 4</option>
+                                                                <option>Value 5</option>
+                                                            </select></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Progress animated</h5>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar progress-bar-animated bg-success progress-bar-striped" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar progress-bar-animated bg-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar progress-bar-animated bg-warning progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-                                        </div>
-                                        <div class="mb-3 progress">
-                                            <div class="progress-bar progress-bar-animated bg-danger progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
-                                            <div class="progress-bar progress-bar-animated bg-success progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
-                                            <div class="progress-bar progress-bar-animated bg-warning progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
-                                            <div class="progress-bar progress-bar-animated bg-danger progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>

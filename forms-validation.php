@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>List Groups - These can be used with other components and elements to create stunning and unique new elements for your UIs.</title>
+    <title>Form Validation - Inline validation is very easy to implement using the Architect Framework.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="These can be used with other components and elements to create stunning and unique new elements for your UIs.">
+    <meta name="description" content="Inline validation is very easy to implement using the Architect Framework.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -445,7 +445,7 @@
                                     
                                     
                                     
-                                     class="mm-active"
+                                    
                                     
                                     
                                 >
@@ -460,54 +460,54 @@
                                         
                                         
                                         
-                                         class="mm-show"
+                                        
                                         
                                         
                                     >
                                         <li>
-                                            <a href="elements-buttons-standard.html">
+                                            <a href="elements-buttons-standard.php">
                                                 <i class="metismenu-icon"></i>
                                                 Buttons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-dropdowns.html">
+                                            <a href="elements-dropdowns.php">
                                                 <i class="metismenu-icon">
                                                 </i>Dropdowns
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-icons.html">
+                                            <a href="elements-icons.php">
                                                 <i class="metismenu-icon">
                                                 </i>Icons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-badges-labels.html">
+                                            <a href="elements-badges-labels.php">
                                                 <i class="metismenu-icon">
                                                 </i>Badges
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-cards.html">
+                                            <a href="elements-cards.php">
                                                 <i class="metismenu-icon">
                                                 </i>Cards
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-list-group.html" class="mm-active">
+                                            <a href="elements-list-group.php">
                                                 <i class="metismenu-icon">
                                                 </i>List Groups
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-navigation.html">
+                                            <a href="elements-navigation.php">
                                                 <i class="metismenu-icon">
                                                 </i>Navigation Menus
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-utilities.html">
+                                            <a href="elements-utilities.php">
                                                 <i class="metismenu-icon">
                                                 </i>Utilities
                                             </a>
@@ -546,67 +546,67 @@
                                         
                                     >
                                         <li>
-                                            <a href="components-tabs.html">
+                                            <a href="components-tabs.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tabs
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-accordions.html">
+                                            <a href="components-accordions.php">
                                                 <i class="metismenu-icon">
                                                 </i>Accordions
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-notifications.html">
+                                            <a href="components-notifications.php">
                                                 <i class="metismenu-icon">
                                                 </i>Notifications
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-modals.html">
+                                            <a href="components-modals.php">
                                                 <i class="metismenu-icon">
                                                 </i>Modals
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-progress-bar.html">
+                                            <a href="components-progress-bar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Progress Bar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-tooltips-popovers.html">
+                                            <a href="components-tooltips-popovers.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tooltips &amp; Popovers
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-carousel.html">
+                                            <a href="components-carousel.php">
                                                 <i class="metismenu-icon">
                                                 </i>Carousel
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-calendar.html">
+                                            <a href="components-calendar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Calendar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-pagination.html">
+                                            <a href="components-pagination.php">
                                                 <i class="metismenu-icon">
                                                 </i>Pagination
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-scrollable-elements.html">
+                                            <a href="components-scrollable-elements.php">
                                                 <i class="metismenu-icon">
                                                 </i>Scrollable
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-maps.html">
+                                            <a href="components-maps.php">
                                                 <i class="metismenu-icon">
                                                 </i>Maps
                                             </a>
@@ -614,40 +614,40 @@
                                     </ul>
                                 </li>
                                 <li  >
-                                    <a href="tables-regular.html">
+                                    <a href="tables-regular.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Tables
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Widgets</li>
                                 <li>
-                                    <a href="dashboard-boxes.html">
+                                    <a href="dashboard-boxes.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Dashboard Boxes
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Forms</li>
                                 <li>
-                                    <a href="forms-controls.html">
+                                    <a href="forms-controls.php">
                                         <i class="metismenu-icon pe-7s-mouse">
                                         </i>Forms Controls
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-layouts.html">
+                                    <a href="forms-layouts.php">
                                         <i class="metismenu-icon pe-7s-eyedropper">
                                         </i>Forms Layouts
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-validation.html">
+                                    <a href="forms-validation.php" class="mm-active">
                                         <i class="metismenu-icon pe-7s-pendrive">
                                         </i>Forms Validation
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Charts</li>
                                 <li>
-                                    <a href="charts-chartjs.html">
+                                    <a href="charts-chartjs.php">
                                         <i class="metismenu-icon pe-7s-graph2">
                                         </i>ChartJS
                                     </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-paint icon-gradient bg-sunny-morning">
+                                        <i class="lnr-picture text-danger">
                                         </i>
                                     </div>
-                                    <div>List Groups
-                                        <div class="page-title-subheading">These can be used with other components and elements to create stunning and unique new elements for your UIs.
+                                    <div>Form Validation
+                                        <div class="page-title-subheading">Inline validation is very easy to implement using the Architect Framework.
                                         </div>
                                     </div>
                                 </div>
@@ -728,91 +728,156 @@
                                         </div>
                                     </div>
                                 </div>    </div>
-                        </div>            <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">List group</h5>
-                                                <ul class="list-group">
-                                                    <li class="list-group-item">Cras justo odio</li>
-                                                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                                                    <li class="list-group-item">Morbi leo risus</li>
-                                                    <li class="list-group-item">Porta ac consectetur ac</li>
-                                                    <li class="list-group-item">Vestibulum at eros</li>
-                                                </ul>
+                        </div>            <div class="main-card mb-3 card">
+                            <div class="card-body">
+                                <h5 class="card-title">Bootstrap 4 Form Validation</h5>
+                                <form class="needs-validation" novalidate>
+                                    <div class="form-row">
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationCustom01">First name</label>
+                                            <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">List group buttons</h5>
-                                                <div>
-                                                    <ul class="list-group">
-                                                        <button class="active list-group-item-action list-group-item">Cras justo odio</button>
-                                                        <button class="list-group-item-action list-group-item">Dapibus ac facilisis in</button>
-                                                        <button class="list-group-item-action list-group-item">Morbi leo risus</button>
-                                                        <button class="list-group-item-action list-group-item">Porta ac consectetur ac</button>
-                                                        <button class="disabled list-group-item-action list-group-item">Vestibulum at eros</button>
-                                                    </ul>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationCustom02">Last name</label>
+                                            <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationCustomUsername">Username</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                                </div>
+                                                <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
+                                                <div class="invalid-feedback">
+                                                    Please choose a username.
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">List group badges</h5>
-                                                <ul class="list-group">
-                                                    <li class="justify-content-between list-group-item">Cras justo odio <span class="badge badge-secondary badge-pill">14</span></li>
-                                                    <li class="justify-content-between list-group-item">Dapibus ac facilisis in <span class="badge badge-secondary badge-pill">2</span></li>
-                                                    <li class="justify-content-between list-group-item">Morbi leo risus <span class="badge badge-secondary badge-pill">1</span></li>
-                                                </ul>
+                                    <div class="form-row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="validationCustom03">City</label>
+                                            <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+                                            <div class="invalid-feedback">
+                                                Please provide a valid city.
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <label for="validationCustom04">State</label>
+                                            <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+                                            <div class="invalid-feedback">
+                                                Please provide a valid state.
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <label for="validationCustom05">Zip</label>
+                                            <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+                                            <div class="invalid-feedback">
+                                                Please provide a valid zip.
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">List group contextual classes</h5>
-                                                <ul class="list-group">
-                                                    <li class="list-group-item-success list-group-item">Cras justo odio</li>
-                                                    <li class="list-group-item-info list-group-item">Dapibus ac facilisis in</li>
-                                                    <li class="list-group-item-warning list-group-item">Morbi leo risus</li>
-                                                    <li class="list-group-item-danger list-group-item">Porta ac consectetur ac</li>
-                                                </ul>
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                            <label class="form-check-label" for="invalidCheck">
+                                                Agree to terms and conditions
+                                            </label>
+                                            <div class="invalid-feedback">
+                                                You must agree before submitting.
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">List group custom content</h5>
-                                                <ul class="list-group">
-                                                    <li class="active list-group-item"><h5 class="list-group-item-heading">List group item heading</h5>
-                                                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p></li>
-                                                    <li class="list-group-item"><h5 class="list-group-item-heading">List group item heading</h5>
-                                                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p></li>
-                                                    <li class="list-group-item"><h5 class="list-group-item-heading">List group item heading</h5>
-                                                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p></li>
-                                                </ul>
+                                    <button class="btn btn-primary" type="submit">Submit form</button>
+                                </form>
+            
+                                <script>
+                                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                                    (function() {
+                                        'use strict';
+                                        window.addEventListener('load', function() {
+                                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                            var forms = document.getElementsByClassName('needs-validation');
+                                            // Loop over them and prevent submission
+                                            var validation = Array.prototype.filter.call(forms, function(form) {
+                                                form.addEventListener('submit', function(event) {
+                                                    if (form.checkValidity() === false) {
+                                                        event.preventDefault();
+                                                        event.stopPropagation();
+                                                    }
+                                                    form.classList.add('was-validated');
+                                                }, false);
+                                            });
+                                        }, false);
+                                    })();
+                                </script>
+                            </div>
+                        </div>
+                        <div class="main-card mb-3 card">
+                            <div class="card-body">
+                                <h5 class="card-title">Tooltips Validation</h5>
+                                <form class="needs-validation" novalidate>
+                                    <div class="form-row">
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationTooltip01">First name</label>
+                                            <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Mark" required>
+                                            <div class="valid-tooltip">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationTooltip02">Last name</label>
+                                            <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Otto" required>
+                                            <div class="valid-tooltip">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="validationTooltipUsername">Username</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                                                </div>
+                                                <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+                                                <div class="invalid-tooltip">
+                                                    Please choose a unique and valid username.
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">List group disabled items</h5>
-                                                <ul class="list-group"><a href="javascript:void(0);" class="disabled list-group-item">Cras justo odio</a><a href="javascript:void(0);" class="list-group-item">Dapibus ac facilisis in</a><a
-                                                        href="javascript:void(0);" class="list-group-item">Morbi leo risus</a><a href="javascript:void(0);" class="list-group-item">Porta ac consectetur ac</a><a href="javascript:void(0);" class="list-group-item">Vestibulum
-                                                    at eros</a></ul>
+                                    <div class="form-row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="validationTooltip03">City</label>
+                                            <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
+                                            <div class="invalid-tooltip">
+                                                Please provide a valid city.
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <label for="validationTooltip04">State</label>
+                                            <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
+                                            <div class="invalid-tooltip">
+                                                Please provide a valid state.
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <label for="validationTooltip05">Zip</label>
+                                            <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
+                                            <div class="invalid-tooltip">
+                                                Please provide a valid zip.
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">List group without border</h5>
-                                                <ul class="list-group list-group-flush"><a href="javascript:void(0);" class="disabled list-group-item">Cras justo odio</a><a href="javascript:void(0);" class="list-group-item">Dapibus ac facilisis in</a><a
-                                                        href="javascript:void(0);" class="list-group-item">Morbi leo risus</a><a href="javascript:void(0);" class="list-group-item">Porta ac consectetur ac</a><a href="javascript:void(0);" class="list-group-item">Vestibulum
-                                                    at eros</a></ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                    <button class="btn btn-primary" type="submit">Submit form</button>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                     <div class="app-wrapper-footer">
                         <div class="app-footer">

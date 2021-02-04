@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Accordions - Accordions represent collapsable component with extended functionality.</title>
+    <title>Badges &amp; Labels - Badges and labels are used to offer extra small pieces of info for your content.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Accordions represent collapsable component with extended functionality.">
+    <meta name="description" content="Badges and labels are used to offer extra small pieces of info for your content.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -443,7 +443,7 @@
                                     
                                     
                                     
-                                    
+                                     class="mm-active"
                                     
                                     
                                     
@@ -458,56 +458,56 @@
                                         
                                         
                                         
-                                        
+                                         class="mm-show"
                                         
                                         
                                         
                                         
                                     >
                                         <li>
-                                            <a href="elements-buttons-standard.html">
+                                            <a href="elements-buttons-standard.php">
                                                 <i class="metismenu-icon"></i>
                                                 Buttons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-dropdowns.html">
+                                            <a href="elements-dropdowns.php">
                                                 <i class="metismenu-icon">
                                                 </i>Dropdowns
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-icons.html">
+                                            <a href="elements-icons.php">
                                                 <i class="metismenu-icon">
                                                 </i>Icons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-badges-labels.html">
+                                            <a href="elements-badges-labels.php" class="mm-active">
                                                 <i class="metismenu-icon">
                                                 </i>Badges
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-cards.html">
+                                            <a href="elements-cards.php">
                                                 <i class="metismenu-icon">
                                                 </i>Cards
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-list-group.html">
+                                            <a href="elements-list-group.php">
                                                 <i class="metismenu-icon">
                                                 </i>List Groups
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-navigation.html">
+                                            <a href="elements-navigation.php">
                                                 <i class="metismenu-icon">
                                                 </i>Navigation Menus
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-utilities.html">
+                                            <a href="elements-utilities.php">
                                                 <i class="metismenu-icon">
                                                 </i>Utilities
                                             </a>
@@ -516,7 +516,7 @@
                                 </li>
                                 <li
                                     
-                                     class="mm-active"
+                                    
                                     
                                     
                                     
@@ -534,7 +534,7 @@
                                     </a>
                                     <ul
                                         
-                                         class="mm-show"
+                                        
                                         
                                         
                                         
@@ -546,67 +546,67 @@
                                         
                                     >
                                         <li>
-                                            <a href="components-tabs.html">
+                                            <a href="components-tabs.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tabs
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-accordions.html" class="mm-active">
+                                            <a href="components-accordions.php">
                                                 <i class="metismenu-icon">
                                                 </i>Accordions
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-notifications.html">
+                                            <a href="components-notifications.php">
                                                 <i class="metismenu-icon">
                                                 </i>Notifications
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-modals.html">
+                                            <a href="components-modals.php">
                                                 <i class="metismenu-icon">
                                                 </i>Modals
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-progress-bar.html">
+                                            <a href="components-progress-bar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Progress Bar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-tooltips-popovers.html">
+                                            <a href="components-tooltips-popovers.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tooltips &amp; Popovers
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-carousel.html">
+                                            <a href="components-carousel.php">
                                                 <i class="metismenu-icon">
                                                 </i>Carousel
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-calendar.html">
+                                            <a href="components-calendar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Calendar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-pagination.html">
+                                            <a href="components-pagination.php">
                                                 <i class="metismenu-icon">
                                                 </i>Pagination
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-scrollable-elements.html">
+                                            <a href="components-scrollable-elements.php">
                                                 <i class="metismenu-icon">
                                                 </i>Scrollable
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-maps.html">
+                                            <a href="components-maps.php">
                                                 <i class="metismenu-icon">
                                                 </i>Maps
                                             </a>
@@ -614,40 +614,40 @@
                                     </ul>
                                 </li>
                                 <li  >
-                                    <a href="tables-regular.html">
+                                    <a href="tables-regular.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Tables
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Widgets</li>
                                 <li>
-                                    <a href="dashboard-boxes.html">
+                                    <a href="dashboard-boxes.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Dashboard Boxes
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Forms</li>
                                 <li>
-                                    <a href="forms-controls.html">
+                                    <a href="forms-controls.php">
                                         <i class="metismenu-icon pe-7s-mouse">
                                         </i>Forms Controls
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-layouts.html">
+                                    <a href="forms-layouts.php">
                                         <i class="metismenu-icon pe-7s-eyedropper">
                                         </i>Forms Layouts
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-validation.html">
+                                    <a href="forms-validation.php">
                                         <i class="metismenu-icon pe-7s-pendrive">
                                         </i>Forms Validation
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Charts</li>
                                 <li>
-                                    <a href="charts-chartjs.html">
+                                    <a href="charts-chartjs.php">
                                         <i class="metismenu-icon pe-7s-graph2">
                                         </i>ChartJS
                                     </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-diamond icon-gradient bg-warm-flame">
+                                        <i class="pe-7s-voicemail icon-gradient bg-arielle-smile">
                                         </i>
                                     </div>
-                                    <div>Accordions
-                                        <div class="page-title-subheading">Accordions represent collapsable component with extended functionality.
+                                    <div>Badges &amp; Labels
+                                        <div class="page-title-subheading">Badges and labels are used to offer extra small pieces of info for your content.
                                         </div>
                                     </div>
                                 </div>
@@ -728,91 +728,79 @@
                                         </div>
                                     </div>
                                 </div>    </div>
-                        </div>            <div class="">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="main-card mb-3 card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Collapse</h5>
-                                            <div class="collapse" id="collapseExample123"><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-                                                nesciunt sapiente ea
-                                                proident.</p>
-                                                <p>Donec molestie odio id nisi malesuada, mattis tincidunt velit egestas. Sed non pulvinar risus. Aenean elementum eleifend nunc, pellentesque dapibus arcu hendrerit fringilla. Aliquam in nibh massa. Cras ultricies
-                                                    lorem non enim volutpat, a eleifend urna placerat. Fusce id luctus urna. In sed leo tellus. Mauris tristique leo a nisl feugiat, eget vehicula leo venenatis. Quisque magna metus, luctus quis sollicitudin vel,
-                                                    vehicula nec ipsum. Donec rutrum commodo lacus ut condimentum. Integer vel turpis purus. Etiam vehicula, nulla non fringilla blandit, massa purus faucibus tellus, a luctus enim orci non augue. Aenean
-                                                    ullamcorper nisl urna, non feugiat tortor volutpat in. Vivamus lobortis massa dolor, eget faucibus ipsum varius eget. Pellentesque imperdiet, turpis sed sagittis lobortis, leo elit laoreet arcu, vehicula
-                                                    sagittis elit leo id nisi.</p></div>
-                                        </div>
-                                        <div class="card-footer">
-                                            <button type="button" data-toggle="collapse" href="#collapseExample123" class="btn btn-primary">Toggle</button>
-                                        </div>
-                                    </div>
-                                    <div class="main-card mb-3 card">
-                                        <div class="card-body"><h5 class="card-title">Simple</h5>
-                                            <div id="exampleAccordion" data-children=".item">
-                                                <div class="item">
-                                                    <button type="button" aria-expanded="true" aria-controls="exampleAccordion1" data-toggle="collapse" href="#collapseExample" class="m-0 p-0 btn btn-link">Toggle item</button>
-                                                    <div data-parent="#exampleAccordion" id="collapseExample" class="collapse show"><p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a
-                                                        vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p></div>
-                                                </div>
-                                                <div class="item">
-                                                    <button type="button" aria-expanded="false" aria-controls="exampleAccordion2" data-toggle="collapse" href="#collapseExample2" class="m-0 p-0 btn btn-link">Toggle item 2</button>
-                                                    <div data-parent="#exampleAccordion" id="collapseExample2" class="collapse"><p class="mb-3">Donec at ipsum dignissim, rutrum turpis scelerisque, tristique lectus. Pellentesque habitant morbi tristique
-                                                        senectus
-                                                        et netus et malesuada fames ac turpis egestas. Vivamus nec dui turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div id="accordion" class="accordion-wrapper mb-3">
-                                        <div class="card">
-                                            <div id="headingOne" class="card-header">
-                                                <button type="button" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne" class="text-left m-0 p-0 btn btn-link btn-block">
-                                                    <h5 class="m-0 p-0">Collapsible Group Item #1</h5>
-                                                </button>
-                                            </div>
-                                            <div data-parent="#accordion" id="collapseOne1" aria-labelledby="headingOne" class="collapse show">
-                                                <div class="card-body">1. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                                                    nesciunt
-                                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable
-                                                    VHS.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div id="headingTwo" class="b-radius-0 card-header">
-                                                <button type="button" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="false" aria-controls="collapseTwo" class="text-left m-0 p-0 btn btn-link btn-block"><h5 class="m-0 p-0">Collapsible Group Item
-                                                    #2</h5></button>
-                                            </div>
-                                            <div data-parent="#accordion" id="collapseOne2" class="collapse">
-                                                <div class="card-body">2. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                                                    nesciunt
-                                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable
-                                                    VHS.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div id="headingThree" class="card-header">
-                                                <button type="button" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="false" aria-controls="collapseThree" class="text-left m-0 p-0 btn btn-link btn-block"><h5 class="m-0 p-0">Collapsible Group
-                                                    Item #3</h5></button>
-                                            </div>
-                                            <div data-parent="#accordion" id="collapseOne3" class="collapse">
-                                                <div class="card-body">3. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                                                    nesciunt
-                                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable
-                                                    VHS.
-                                                </div>
-                                            </div>
-                                        </div>
+                        </div>            <div class="row">
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Buttons Badges</h5>
+                                        <button class="mb-2 mr-2 btn btn-primary">Primary<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-secondary">Secondary<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-success">Success<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-info">Info<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-warning">Warning<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-danger">Danger<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-focus">Focus<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-alternate">Alt<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-light">Light<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-dark">Dark<span class="badge badge-pill badge-light">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 1<span class="badge badge-pill badge-primary">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 2<span class="badge badge-pill badge-success">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 3<span class="badge badge-pill badge-danger">6</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 4<span class="badge badge-pill badge-warning">6</span></button>
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">With Buttons</h5>
+                                        <button class="mb-2 mr-2 btn btn-primary">Primary<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-secondary">Secondary<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-success">Success<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-info">Info<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-warning">Warning<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-danger">Danger<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-focus">Focus<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-alternate">Alt<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-light">Light<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-dark">Dark<span class="badge badge-light">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 1<span class="badge badge-primary">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 2<span class="badge badge-success">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 3<span class="badge badge-danger">NEW</span></button>
+                                        <button class="mb-2 mr-2 btn btn-link">Link 4<span class="badge badge-warning">NEW</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-card mb-3 card">
+                            <div class="card-body"><h5 class="card-title">Colors</h5>
+                                <div class="mb-2 mr-2 badge badge-primary">Primary</div>
+                                <div class="mb-2 mr-2 badge badge-secondary">Secondary</div>
+                                <div class="mb-2 mr-2 badge badge-success">Success</div>
+                                <div class="mb-2 mr-2 badge badge-info">Info</div>
+                                <div class="mb-2 mr-2 badge badge-warning">Warning</div>
+                                <div class="mb-2 mr-2 badge badge-danger">Danger</div>
+                                <div class="mb-2 mr-2 badge badge-focus">Focus</div>
+                                <div class="mb-2 mr-2 badge badge-alternate">Alt</div>
+                                <div class="mb-2 mr-2 badge badge-light">Light</div>
+                                <div class="mb-2 mr-2 badge badge-dark">Dark</div>
+                                <div class="divider"></div>
+                                <h5 class="card-title">Pills</h5>
+                                <div class="mb-2 mr-2 badge badge-pill badge-primary">Primary</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-secondary">Secondary</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-success">Success</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-info">Info</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-warning">Warning</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-danger">Danger</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-focus">Focus</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-alternate">Alt</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-light">Light</div>
+                                <div class="mb-2 mr-2 badge badge-pill badge-dark">Dark</div>
+                                <div class="divider"></div>
+                                <h5 class="card-title">Links</h5><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-primary">Primary</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-secondary">Secondary</a><a
+                                        href="javascript:void(0);" class="mb-2 mr-2 badge badge-success">Success</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-info">Info</a><a href="javascript:void(0);"
+                                                                                                                                                                                                class="mb-2 mr-2 badge badge-warning">Warning</a><a
+                                        href="javascript:void(0);" class="mb-2 mr-2 badge badge-danger">Danger</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-focus">Focus</a><a href="javascript:void(0);"
+                                                                                                                                                                                                class="mb-2 mr-2 badge badge-alternate">Alt</a><a
+                                        href="javascript:void(0);" class="mb-2 mr-2 badge badge-light">Light</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-dark">Dark</a></div>
                         </div>
                     </div>
                     <div class="app-wrapper-footer">

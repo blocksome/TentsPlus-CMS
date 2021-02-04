@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Utilities - These are helpers that speed up the dev time for various components and effects.</title>
+    <title>Regular Tables - Tables are the backbone of almost all web applications.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="These are helpers that speed up the dev time for various components and effects.">
+    <meta name="description" content="Tables are the backbone of almost all web applications.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -447,7 +447,7 @@
                                     
                                     
                                     
-                                     class="mm-active"
+                                    
                                 >
                                     <a href="#">
                                         <i class="metismenu-icon pe-7s-diamond"></i>
@@ -462,52 +462,52 @@
                                         
                                         
                                         
-                                         class="mm-show"
+                                        
                                     >
                                         <li>
-                                            <a href="elements-buttons-standard.html">
+                                            <a href="elements-buttons-standard.php">
                                                 <i class="metismenu-icon"></i>
                                                 Buttons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-dropdowns.html">
+                                            <a href="elements-dropdowns.php">
                                                 <i class="metismenu-icon">
                                                 </i>Dropdowns
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-icons.html">
+                                            <a href="elements-icons.php">
                                                 <i class="metismenu-icon">
                                                 </i>Icons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-badges-labels.html">
+                                            <a href="elements-badges-labels.php">
                                                 <i class="metismenu-icon">
                                                 </i>Badges
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-cards.html">
+                                            <a href="elements-cards.php">
                                                 <i class="metismenu-icon">
                                                 </i>Cards
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-list-group.html">
+                                            <a href="elements-list-group.php">
                                                 <i class="metismenu-icon">
                                                 </i>List Groups
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-navigation.html">
+                                            <a href="elements-navigation.php">
                                                 <i class="metismenu-icon">
                                                 </i>Navigation Menus
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-utilities.html" class="mm-active">
+                                            <a href="elements-utilities.php">
                                                 <i class="metismenu-icon">
                                                 </i>Utilities
                                             </a>
@@ -546,108 +546,108 @@
                                         
                                     >
                                         <li>
-                                            <a href="components-tabs.html">
+                                            <a href="components-tabs.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tabs
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-accordions.html">
+                                            <a href="components-accordions.php">
                                                 <i class="metismenu-icon">
                                                 </i>Accordions
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-notifications.html">
+                                            <a href="components-notifications.php">
                                                 <i class="metismenu-icon">
                                                 </i>Notifications
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-modals.html">
+                                            <a href="components-modals.php">
                                                 <i class="metismenu-icon">
                                                 </i>Modals
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-progress-bar.html">
+                                            <a href="components-progress-bar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Progress Bar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-tooltips-popovers.html">
+                                            <a href="components-tooltips-popovers.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tooltips &amp; Popovers
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-carousel.html">
+                                            <a href="components-carousel.php">
                                                 <i class="metismenu-icon">
                                                 </i>Carousel
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-calendar.html">
+                                            <a href="components-calendar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Calendar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-pagination.html">
+                                            <a href="components-pagination.php">
                                                 <i class="metismenu-icon">
                                                 </i>Pagination
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-scrollable-elements.html">
+                                            <a href="components-scrollable-elements.php">
                                                 <i class="metismenu-icon">
                                                 </i>Scrollable
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-maps.html">
+                                            <a href="components-maps.php">
                                                 <i class="metismenu-icon">
                                                 </i>Maps
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li  >
-                                    <a href="tables-regular.html">
+                                <li  class="mm-active" >
+                                    <a href="tables-regular.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Tables
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Widgets</li>
                                 <li>
-                                    <a href="dashboard-boxes.html">
+                                    <a href="dashboard-boxes.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Dashboard Boxes
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Forms</li>
                                 <li>
-                                    <a href="forms-controls.html">
+                                    <a href="forms-controls.php">
                                         <i class="metismenu-icon pe-7s-mouse">
                                         </i>Forms Controls
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-layouts.html">
+                                    <a href="forms-layouts.php">
                                         <i class="metismenu-icon pe-7s-eyedropper">
                                         </i>Forms Layouts
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-validation.html">
+                                    <a href="forms-validation.php">
                                         <i class="metismenu-icon pe-7s-pendrive">
                                         </i>Forms Validation
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Charts</li>
                                 <li>
-                                    <a href="charts-chartjs.html">
+                                    <a href="charts-chartjs.php">
                                         <i class="metismenu-icon pe-7s-graph2">
                                         </i>ChartJS
                                     </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-wristwatch icon-gradient bg-deep-blue">
+                                        <i class="pe-7s-drawer icon-gradient bg-happy-itmeo">
                                         </i>
                                     </div>
-                                    <div>Utilities
-                                        <div class="page-title-subheading">These are helpers that speed up the dev time for various components and effects.
+                                    <div>Regular Tables
+                                        <div class="page-title-subheading">Tables are the backbone of almost all web applications.
                                         </div>
                                     </div>
                                 </div>
@@ -728,137 +728,306 @@
                                         </div>
                                     </div>
                                 </div>    </div>
-                        </div>            <div>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="main-card mb-3 card">
-                                        <div class="card-body"><h5 class="card-title">Animate.css</h5>
-                                            <p>All Animate.css animations are available if enabled from the <b>/assets/utils/_animate.css</b> file.</p>
-                                            <div class="text-center">
-                                                <div class="animated lightSpeedIn">
-                                                    <div class="swatch-holder swatch-holder-lg bg-success"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="main-card mb-3 card">
-                                        <div class="card-body"><h5 class="card-title">Solid Colors</h5>
-                                            <div class="swatch-holder swatch-holder-lg bg-primary" id="TooltipC-0"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-secondary" id="TooltipC-1"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-success" id="TooltipC-2"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-info" id="TooltipC-3"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-warning" id="TooltipC-4"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-danger" id="TooltipC-5"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-focus" id="TooltipC-6"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-alternate" id="TooltipC-7"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-light" id="TooltipC-8"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-dark" id="TooltipC-9"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="main-card mb-3 card">
-                                        <div class="card-body"><h5 class="card-title">Gradient Colors</h5>
-                                            <div class="swatch-holder swatch-holder-lg bg-happy-green" id="Tooltip-0"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-premium-dark" id="Tooltip-1"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-love-kiss" id="Tooltip-2"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-grow-early" id="Tooltip-3"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-strong-bliss" id="Tooltip-4"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-warm-flame" id="Tooltip-5"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-tempting-azure" id="Tooltip-6"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-sunny-morning" id="Tooltip-7"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-mean-fruit" id="Tooltip-8"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-night-fade" id="Tooltip-9"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-heavy-rain" id="Tooltip-10"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-amy-crisp" id="Tooltip-11"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-malibu-beach" id="Tooltip-12"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-deep-blue" id="Tooltip-13"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-mixed-hopes" id="Tooltip-14"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-happy-itmeo" id="Tooltip-15"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-happy-fisher" id="Tooltip-16"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-arielle-smile" id="Tooltip-17"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-ripe-malin" id="Tooltip-18"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-vicious-stance" id="Tooltip-19"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-midnight-bloom" id="Tooltip-20"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-night-sky" id="Tooltip-21"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-slick-carbon" id="Tooltip-22"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-royal" id="Tooltip-23"></div>
-                                            <div class="swatch-holder swatch-holder-lg bg-asteroid" id="Tooltip-24"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="main-card mb-3 card">
-                                        <div class="card-body"><h5 class="card-title">Text Colors</h5>
-                                            <p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
-                                            <p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                            <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
-                                            <p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-                                            <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
-                                            <p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
-                                            <p class="bg-dark text-white">Etiam porta sem malesuada ultricies vehicula.</p></div>
+                        </div>            <div class="row">
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Simple table</h5>
+                                        <table class="mb-0 table">
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
+                                                <th>Username</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Larry</td>
+                                                <td>the Bird</td>
+                                                <td>@twitter</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="alert alert-warning fade show" role="alert"><h5>Bootstrap Helpers</h5>
-                                        <p class="mb-0">All Bootstrap 4 helper classes available in the official Bootstrap documentation are also available in ArchitectUI Framework: Spacing, resets, typography utilities, sizing and others.</p></div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Table bordered</h5>
+                                        <table class="mb-0 table table-bordered">
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
+                                                <th>Username</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Larry</td>
+                                                <td>the Bird</td>
+                                                <td>@twitter</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="main-card mb-3 card">
-                                        <div class="card-body"><h5 class="card-title">Opacity</h5>
-                                            <table class="mb-0 table table-bordered">
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Table without border</h5>
+                                        <table class="mb-0 table table-borderless">
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
+                                                <th>Username</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Larry</td>
+                                                <td>the Bird</td>
+                                                <td>@twitter</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Table dark</h5>
+                                        <table class="mb-0 table table-dark">
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
+                                                <th>Username</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Larry</td>
+                                                <td>the Bird</td>
+                                                <td>@twitter</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Table with hover</h5>
+                                        <table class="mb-0 table table-hover">
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
+                                                <th>Username</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Larry</td>
+                                                <td>the Bird</td>
+                                                <td>@twitter</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Table responsive</h5>
+                                        <div class="table-responsive">
+                                            <table class="mb-0 table">
+                                                <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Table heading</th>
+                                                    <th>Table heading</th>
+                                                    <th>Table heading</th>
+                                                    <th>Table heading</th>
+                                                    <th>Table heading</th>
+                                                    <th>Table heading</th>
+                                                </tr>
+                                                </thead>
                                                 <tbody>
                                                 <tr>
-                                                    <th scope="row"><b>.opacity-01 </b> - <b>.opacity-09</b></th>
-                                                    <td>Adding this class to any element sets the opacity to <b>1% ... 9%</b></td>
+                                                    <th scope="row">1</th>
+                                                    <td>Table cell</td>
+                                                    <td>Table cell</td>
+                                                    <td>Table cell</td>
+                                                    <td>Table cell</td>
+                                                    <td>Table cell</td>
+                                                    <td>Table cell</td>
                                                 </tr>
                                                 <tr>
-                                                    <th scope="row"><b>.opacity-2 </b> - <b>.opacity-10</b></th>
-                                                    <td>Adding this class to any element sets the opacity to <b>10% ... 100%</b></td>
+                                                    <th scope="row">2</th>
+                                                    <td>Table cell</td>
+                                                    <td>Table cell</td>
+                                                    <td>Table cell</td>
+                                                    <td>Table cell</td>
+                                                    <td>Table cell</td>
+                                                    <td>Table cell</td>
                                                 </tr>
                                                 <tr>
-                                                    <th scope="row"><b>.opacity-01</b></th>
-                                                    <td>Adding this class to any element sets the opacity to <b>10%</b></td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row"><b>.opacity-15</b></th>
-                                                    <td>Adding this class to any element sets the opacity to <b>15%</b></td>
+                                                    <th scope="row">3</th>
+                                                    <td>Table cell</td>
+                                                    <td>Table cell</td>
+                                                    <td>Table cell</td>
+                                                    <td>Table cell</td>
+                                                    <td>Table cell</td>
+                                                    <td>Table cell</td>
                                                 </tr>
                                                 </tbody>
                                             </table>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="main-card mb-3 card">
-                                        <div class="card-body"><h5 class="card-title">Breadcrumbs</h5>
-                                            <div>
-                                                <nav class="" aria-label="breadcrumb">
-                                                    <ol class="breadcrumb">
-                                                        <li class="active breadcrumb-item" aria-current="page">Home</li>
-                                                    </ol>
-                                                </nav>
-                                                <nav class="" aria-label="breadcrumb">
-                                                    <ol class="breadcrumb">
-                                                        <li class="breadcrumb-item"><a href="javascript:void(0);">Home</a></li>
-                                                        <li class="active breadcrumb-item" aria-current="page">Library</li>
-                                                    </ol>
-                                                </nav>
-                                                <nav class="" aria-label="breadcrumb">
-                                                    <ol class="breadcrumb">
-                                                        <li class="breadcrumb-item"><a href="javascript:void(0);">Home</a></li>
-                                                        <li class="breadcrumb-item"><a href="javascript:void(0);">Library</a></li>
-                                                        <li class="active breadcrumb-item" aria-current="page">Data</li>
-                                                    </ol>
-                                                </nav>
-                                            </div>
-                                        </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Table sizing</h5>
+                                        <table class="mb-0 table table-sm">
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
+                                                <th>Username</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Larry</td>
+                                                <td>the Bird</td>
+                                                <td>@twitter</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Table striped</h5>
+                                        <table class="mb-0 table table-striped">
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
+                                                <th>Username</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Larry</td>
+                                                <td>the Bird</td>
+                                                <td>@twitter</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>

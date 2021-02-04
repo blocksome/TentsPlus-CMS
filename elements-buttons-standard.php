@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Form Controls - Wide selection of forms controls, using the Bootstrap 4 code base, but built with React.</title>
+    <title>Standard Buttons - Wide selection of buttons that feature different styles for backgrounds, borders and hover options!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Wide selection of forms controls, using the Bootstrap 4 code base, but built with React.">
+    <meta name="description" content="Wide selection of buttons that feature different styles for backgrounds, borders and hover options!">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,14 +433,14 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">UI Components</li>
                                 <li
-                                    
+                                     class="mm-active"
                                     
                                     
                                     
@@ -455,7 +455,7 @@
                                         <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
                                     </a>
                                     <ul
-                                        
+                                         class="mm-show"
                                         
                                         
                                         
@@ -465,49 +465,49 @@
                                         
                                     >
                                         <li>
-                                            <a href="elements-buttons-standard.html">
+                                            <a href="elements-buttons-standard.php" class="mm-active">
                                                 <i class="metismenu-icon"></i>
                                                 Buttons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-dropdowns.html">
+                                            <a href="elements-dropdowns.php">
                                                 <i class="metismenu-icon">
                                                 </i>Dropdowns
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-icons.html">
+                                            <a href="elements-icons.php">
                                                 <i class="metismenu-icon">
                                                 </i>Icons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-badges-labels.html">
+                                            <a href="elements-badges-labels.php">
                                                 <i class="metismenu-icon">
                                                 </i>Badges
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-cards.html">
+                                            <a href="elements-cards.php">
                                                 <i class="metismenu-icon">
                                                 </i>Cards
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-list-group.html">
+                                            <a href="elements-list-group.php">
                                                 <i class="metismenu-icon">
                                                 </i>List Groups
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-navigation.html">
+                                            <a href="elements-navigation.php">
                                                 <i class="metismenu-icon">
                                                 </i>Navigation Menus
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-utilities.html">
+                                            <a href="elements-utilities.php">
                                                 <i class="metismenu-icon">
                                                 </i>Utilities
                                             </a>
@@ -546,67 +546,67 @@
                                         
                                     >
                                         <li>
-                                            <a href="components-tabs.html">
+                                            <a href="components-tabs.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tabs
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-accordions.html">
+                                            <a href="components-accordions.php">
                                                 <i class="metismenu-icon">
                                                 </i>Accordions
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-notifications.html">
+                                            <a href="components-notifications.php">
                                                 <i class="metismenu-icon">
                                                 </i>Notifications
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-modals.html">
+                                            <a href="components-modals.php">
                                                 <i class="metismenu-icon">
                                                 </i>Modals
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-progress-bar.html">
+                                            <a href="components-progress-bar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Progress Bar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-tooltips-popovers.html">
+                                            <a href="components-tooltips-popovers.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tooltips &amp; Popovers
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-carousel.html">
+                                            <a href="components-carousel.php">
                                                 <i class="metismenu-icon">
                                                 </i>Carousel
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-calendar.html">
+                                            <a href="components-calendar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Calendar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-pagination.html">
+                                            <a href="components-pagination.php">
                                                 <i class="metismenu-icon">
                                                 </i>Pagination
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-scrollable-elements.html">
+                                            <a href="components-scrollable-elements.php">
                                                 <i class="metismenu-icon">
                                                 </i>Scrollable
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-maps.html">
+                                            <a href="components-maps.php">
                                                 <i class="metismenu-icon">
                                                 </i>Maps
                                             </a>
@@ -614,40 +614,40 @@
                                     </ul>
                                 </li>
                                 <li  >
-                                    <a href="tables-regular.html">
+                                    <a href="tables-regular.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Tables
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Widgets</li>
                                 <li>
-                                    <a href="dashboard-boxes.html">
+                                    <a href="dashboard-boxes.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Dashboard Boxes
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Forms</li>
                                 <li>
-                                    <a href="forms-controls.html" class="mm-active">
+                                    <a href="forms-controls.php">
                                         <i class="metismenu-icon pe-7s-mouse">
                                         </i>Forms Controls
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-layouts.html">
+                                    <a href="forms-layouts.php">
                                         <i class="metismenu-icon pe-7s-eyedropper">
                                         </i>Forms Layouts
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-validation.html">
+                                    <a href="forms-validation.php">
                                         <i class="metismenu-icon pe-7s-pendrive">
                                         </i>Forms Validation
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Charts</li>
                                 <li>
-                                    <a href="charts-chartjs.html">
+                                    <a href="charts-chartjs.php">
                                         <i class="metismenu-icon pe-7s-graph2">
                                         </i>ChartJS
                                     </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-display1 icon-gradient bg-premium-dark">
+                                        <i class="pe-7s-plane icon-gradient bg-tempting-azure">
                                         </i>
                                     </div>
-                                    <div>Form Controls
-                                        <div class="page-title-subheading">Wide selection of forms controls, using the Bootstrap 4 code base, but built with React.
+                                    <div>Standard Buttons
+                                        <div class="page-title-subheading">Wide selection of buttons that feature different styles for backgrounds, borders and hover options!
                                         </div>
                                     </div>
                                 </div>
@@ -728,341 +728,266 @@
                                         </div>
                                     </div>
                                 </div>    </div>
-                        </div>            <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
-                            <li class="nav-item">
-                                <a role="tab" class="nav-link active" id="tab-0" data-toggle="tab" href="#tab-content-0">
-                                    <span>Basic</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a role="tab" class="nav-link" id="tab-1" data-toggle="tab" href="#tab-content-1">
-                                    <span>Input Groups</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a role="tab" class="nav-link" id="tab-2" data-toggle="tab" href="#tab-content-2">
-                                    <span>Custom Controls</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="tab-content">
-                            <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Controls Types</h5>
-                                                <form class="">
-                                                    <div class="position-relative form-group"><label for="exampleEmail" class="">Email</label><input name="email" id="exampleEmail" placeholder="with a placeholder" type="email" class="form-control"></div>
-                                                    <div class="position-relative form-group"><label for="examplePassword" class="">Password</label><input name="password" id="examplePassword" placeholder="password placeholder" type="password"
-                                                                                                                                                           class="form-control"></div>
-                                                    <div class="position-relative form-group"><label for="exampleSelect" class="">Select</label><select name="select" id="exampleSelect" class="form-control">
-                                                        <option>1</option>
-                                                        <option>2</option>
-                                                        <option>3</option>
-                                                        <option>4</option>
-                                                        <option>5</option>
-                                                    </select></div>
-                                                    <div class="position-relative form-group"><label for="exampleSelectMulti" class="">Select Multiple</label><select multiple="" name="selectMulti" id="exampleSelectMulti" class="form-control">
-                                                        <option>1</option>
-                                                        <option>2</option>
-                                                        <option>3</option>
-                                                        <option>4</option>
-                                                        <option>5</option>
-                                                    </select></div>
-                                                    <div class="position-relative form-group"><label for="exampleText" class="">Text Area</label><textarea name="text" id="exampleText" class="form-control"></textarea></div>
-                                                    <div class="position-relative form-group"><label for="exampleFile" class="">File</label><input name="file" id="exampleFile" type="file" class="form-control-file">
-                                                        <small class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
-                                                    </div>
-                                                    <button class="mt-1 btn btn-primary">Submit</button>
-                                                </form>
-                                            </div>
-                                        </div>
+                        </div>            <div class="row">
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Solid
+                                        </h5>
+                                        <button class="mb-2 mr-2 btn btn-primary">Primary
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-secondary">Secondary
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-success">Success
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-info">Info
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-warning">Warning
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-danger">Danger
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-focus">Focus
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-alternate">Alt
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-light">Light
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-dark">Dark
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-link">link
+                                        </button>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Sizing</h5>
-                                                <form class=""><input placeholder="lg" type="text" class="mb-2 form-control-lg form-control"><input placeholder="default" type="text" class="mb-2 form-control"><input placeholder="sm" type="text"
-                                                                                                                                                                                                                       class="mb-2 form-control-sm form-control">
-                                                    <div class="divider"></div>
-                                                    <select class="mb-2 form-control-lg form-control">
-                                                        <option>Large Select</option>
-                                                    </select><select class="mb-2 form-control">
-                                                        <option>Default Select</option>
-                                                    </select><select class="form-control-sm form-control">
-                                                        <option>Small Select</option>
-                                                    </select></form>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Color Transition
+                                        </h5>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-primary">Primary
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-secondary">Secondary
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-success">Success
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-info">Info
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-warning">Warning
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-danger">Danger
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-focus">Focus
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-alternate">Alt
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-light">Light
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-dark">Dark
+                                        </button>
+                                        <button class="mb-2 mr-2 btn-transition btn btn-outline-link">link
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Color Transition No Borders
+                                        </h5>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-primary">Primary
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-secondary">Secondary
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-success">Success
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-info">Info
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-warning">Warning
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-danger">Danger
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-focus">Focus
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-alternate">Alt
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-light">Light
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-dark">Dark
+                                        </button>
+                                        <button class="mb-2 mr-2 border-0 btn-transition btn btn-outline-link">link
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Active State
+                                        </h5>
+                                        <button class="mb-2 mr-2 btn btn-primary active">Primary
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-secondary active">Secondary
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-success active">Success
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-info active">Info
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-warning active">Warning
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-danger active">Danger
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-focus active">Focus
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-alternate active">Alt
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-light active">Light
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-dark active">Dark
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-link active">link
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Disabled State
+                                        </h5>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-primary disabled">Primary
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-secondary disabled">Secondary
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-success disabled">Success
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-info disabled">Info
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-warning disabled">Warning
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-danger disabled">Danger
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-focus disabled">Focus
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-alternate disabled">Alt
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-light disabled">Light
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-dark disabled">Dark
+                                        </button>
+                                        <button disabled="" class="mb-2 mr-2 btn btn-link disabled">link
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Block Level
+                                        </h5>
+                                        <button class="mb-2 mr-2 btn btn-primary btn-lg btn-block">Block Large
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-primary btn-block">Block Normal
+                                        </button>
+                                        <button class="mb-2 mr-2 btn btn-primary btn-sm btn-block">Block Small
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Checkbox Buttons
+                                        </h5>
+                                        <div class="text-center">
+                                            <div role="group" class="btn-group-sm btn-group btn-group-toggle" data-toggle="buttons">
+                                                <button type="button" class="btn btn-primary">One
+                                                </button>
+                                                <button type="button" class="btn btn-primary">Two
+                                                </button>
+                                                <button type="button" class="btn btn-primary">Three
+                                                </button>
                                             </div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Checkboxes &amp; Radios</h5>
-                                                <form class="">
-                                                    <fieldset class="position-relative form-group">
-                                                        <div class="position-relative form-check"><label class="form-check-label"><input name="radio1" type="radio" class="form-check-input"> Option one is this and that—be sure to include why it's great</label>
-                                                        </div>
-                                                        <div class="position-relative form-check"><label class="form-check-label"><input name="radio1" type="radio" class="form-check-input"> Option two can be something else and selecting it will deselect option
-                                                            one</label></div>
-                                                        <div class="position-relative form-check disabled"><label class="form-check-label"><input name="radio1" disabled="" type="radio" class="form-check-input"> Option three is disabled</label></div>
-                                                    </fieldset>
-                                                    <div class="position-relative form-check"><label class="form-check-label"><input type="checkbox" class="form-check-input"> Check me out</label></div>
-                                                </form>
+                                            <div class="divider">
+                                            </div>
+                                            <div role="group" class="btn-group" data-toggle="buttons">
+                                                <button type="button" class="btn btn-danger">One
+                                                </button>
+                                                <button type="button" class="btn btn-danger">Two
+                                                </button>
+                                                <button type="button" class="btn btn-danger">Three
+                                                </button>
+                                            </div>
+                                            <div class="divider">
+                                            </div>
+                                            <div role="group" class="btn-group-lg btn-group btn-group-toggle" data-toggle="buttons">
+                                                <button type="button" class="btn btn-alternate">One
+                                                </button>
+                                                <button type="button" class="btn btn-alternate">Two
+                                                </button>
+                                                <button type="button" class="btn btn-alternate">Three
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane tabs-animation fade" id="tab-content-1" role="tabpanel">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Input Groups</h5>
-                                                <div>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend"><span class="input-group-text">@</span></div>
-                                                        <input placeholder="username" type="text" class="form-control"></div>
-                                                    <br>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend"><span class="input-group-text"><input aria-label="Checkbox for following text input" type="checkbox" class=""></span></div>
-                                                        <input placeholder="Check it out" type="text" class="form-control"></div>
-                                                    <br>
-                                                    <div class="input-group"><input placeholder="username" type="text" class="form-control">
-                                                        <div class="input-group-append"><span class="input-group-text">@example.com</span></div>
-                                                    </div>
-                                                    <br>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend"><span class="input-group-text">$</span><span class="input-group-text">$</span></div>
-                                                        <input placeholder="Dolla dolla billz yo!" type="text" class="form-control">
-                                                        <div class="input-group-append"><span class="input-group-text">$</span><span class="input-group-text">$</span></div>
-                                                    </div>
-                                                    <br>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend"><span class="input-group-text">$</span></div>
-                                                        <input placeholder="Amount" step="1" type="number" class="form-control">
-                                                        <div class="input-group-append"><span class="input-group-text">.00</span></div>
-                                                    </div>
-                                                </div>
+                            <div class="col-lg-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Radio Buttons
+                                        </h5>
+                                        <div class="text-center">
+                                            <div role="group" class="btn-group-sm btn-group btn-group-toggle" data-toggle="buttons">
+                                                <label class="btn btn-primary">
+                                                    <input type="radio" name="options" id="option1" autocomplete="off" checked>
+                                                    One
+                                                </label>
+                                                <label class="btn btn-primary">
+                                                    <input type="radio" name="options" id="option2" autocomplete="off">
+                                                    Two
+                                                </label>
+                                                <label class="btn btn-primary">
+                                                    <input type="radio" name="options" id="option3" autocomplete="off">
+                                                    Three
+                                                </label>
                                             </div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Input Group Button Dropdown</h5>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-secondary">Button Dropdown</button>
-                                                        <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu"><h6 tabindex="-1" class="dropdown-header">Header</h6>
-                                                            <button type="button" disabled="" tabindex="-1" class="disabled dropdown-item">Action</button>
-                                                            <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
-                                                            <div tabindex="-1" class="dropdown-divider"></div>
-                                                            <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
-                                                        </div>
-                                                    </div>
-                                                    <input type="text" class="form-control"></div>
+                                            <div class="divider">
                                             </div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Input Group Button Shorthand</h5>
-                                                <div>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <button class="btn btn-secondary">To the Left!</button>
-                                                        </div>
-                                                        <input type="text" class="form-control"></div>
-                                                    <br>
-                                                    <div class="input-group"><input type="text" class="form-control">
-                                                        <div class="input-group-append">
-                                                            <button class="btn btn-secondary">To the Right!</button>
-                                                        </div>
-                                                    </div>
-                                                    <br>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <button class="btn btn-danger">To the Left!</button>
-                                                        </div>
-                                                        <input placeholder="and..." type="text" class="form-control">
-                                                        <div class="input-group-append">
-                                                            <button class="btn btn-success">To the Right!</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            <div role="group" class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                <label class="btn btn-warning">
+                                                    <input type="radio" name="options" id="option4" autocomplete="off">
+                                                    One
+                                                </label>
+                                                <label class="btn btn-warning">
+                                                    <input type="radio" name="options" id="option5" autocomplete="off">
+                                                    Two
+                                                </label>
+                                                <label class="btn btn-warning">
+                                                    <input type="radio" name="options" id="option6" autocomplete="off">
+                                                    Three
+                                                </label>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Input Group Sizing</h5>
-                                                <div>
-                                                    <div class="input-group input-group-lg">
-                                                        <div class="input-group-prepend"><span class="input-group-text">@lg</span></div>
-                                                        <input type="text" class="form-control"></div>
-                                                    <br>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend"><span class="input-group-text">@normal</span></div>
-                                                        <input type="text" class="form-control"></div>
-                                                    <br>
-                                                    <div class="input-group input-group-sm">
-                                                        <div class="input-group-prepend"><span class="input-group-text">@sm</span></div>
-                                                        <input type="text" class="form-control"></div>
-                                                </div>
+                                            <div class="divider">
                                             </div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Input Group Addon</h5>
-                                                <div>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend"><span class="input-group-text">To the Left!</span></div>
-                                                        <input type="text" class="form-control"></div>
-                                                    <br>
-                                                    <div class="input-group"><input type="text" class="form-control">
-                                                        <div class="input-group-append"><span class="input-group-text">To the Right!</span></div>
-                                                    </div>
-                                                    <br>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend"><span class="input-group-text">To the Left!</span></div>
-                                                        <input placeholder="and..." type="text" class="form-control">
-                                                        <div class="input-group-append"><span class="input-group-text">To the Right!</span></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Input Group Button</h5>
-                                                <div>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <button class="btn btn-secondary">I'm a button</button>
-                                                        </div>
-                                                        <input type="text" class="form-control"></div>
-                                                    <br>
-                                                    <div class="input-group"><input type="text" class="form-control">
-                                                        <div class="input-group-append">
-                                                            <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-secondary">Button Dropdown</button>
-                                                            <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu"><h6 tabindex="-1" class="dropdown-header">Header</h6>
-                                                                <button type="button" disabled="" tabindex="-1" class="disabled dropdown-item">Action</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
-                                                                <div tabindex="-1" class="dropdown-divider"></div>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <br>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <button class="btn btn-outline-secondary">Split Button</button>
-                                                            <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle dropdown-toggle-split btn btn-outline-secondary"><span
-                                                                    class="sr-only">Toggle Dropdown</span></button>
-                                                            <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu"><h6 tabindex="-1" class="dropdown-header">Header</h6>
-                                                                <button type="button" disabled="" tabindex="-1" class="disabled dropdown-item">Action</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
-                                                                <div tabindex="-1" class="dropdown-divider"></div>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
-                                                            </div>
-                                                        </div>
-                                                        <input placeholder="and..." type="text" class="form-control">
-                                                        <div class="input-group-append">
-                                                            <button class="btn btn-secondary">I'm a button</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            <div role="group" class="btn-group-lg btn-group btn-group-toggle" data-toggle="buttons">
+                                                <label class="btn btn-focus">
+                                                    <input type="radio" name="options" id="option7" autocomplete="off">
+                                                    One
+                                                </label>
+                                                <label class="btn btn-focus">
+                                                    <input type="radio" name="options" id="option8" autocomplete="off">
+                                                    Two
+                                                </label>
+                                                <label class="btn btn-focus">
+                                                    <input type="radio" name="options" id="option9" autocomplete="off">
+                                                    Three
+                                                </label>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="tab-pane tabs-animation fade" id="tab-content-2" role="tabpanel">
-                                <form class="">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="main-card mb-3 card">
-                                                <div class="card-body"><h5 class="card-title">Checkboxes</h5>
-                                                    <div class="position-relative form-group">
-                                                        <div>
-                                                            <div class="custom-checkbox custom-control"><input type="checkbox" id="exampleCustomCheckbox" class="custom-control-input"><label class="custom-control-label" for="exampleCustomCheckbox">Check this
-                                                                custom checkbox</label></div>
-                                                            <div class="custom-checkbox custom-control"><input type="checkbox" id="exampleCustomCheckbox2" class="custom-control-input"><label class="custom-control-label" for="exampleCustomCheckbox2">Or this
-                                                                one</label></div>
-                                                            <div class="custom-checkbox custom-control"><input type="checkbox" id="exampleCustomCheckbox3" disabled="" class="custom-control-input"><label class="custom-control-label" for="exampleCustomCheckbox3">But
-                                                                not this disabled one</label></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="main-card mb-3 card">
-                                                <div class="card-body"><h5 class="card-title">Inline</h5>
-                                                    <div class="position-relative form-group">
-                                                        <div>
-                                                            <div class="custom-checkbox custom-control custom-control-inline"><input type="checkbox" id="exampleCustomInline" class="custom-control-input"><label class="custom-control-label"
-                                                                                                                                                                                                                  for="exampleCustomInline">An inline custom
-                                                                input</label></div>
-                                                            <div class="custom-checkbox custom-control custom-control-inline"><input type="checkbox" id="exampleCustomInline2" class="custom-control-input"><label class="custom-control-label"
-                                                                                                                                                                                                                   for="exampleCustomInline2">and another one</label>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="main-card mb-3 card">
-                                                <div class="card-body"><h5 class="card-title">Radios</h5>
-                                                    <div class="position-relative form-group">
-                                                        <div>
-                                                            <div class="custom-radio custom-control"><input type="radio" id="exampleCustomRadio" name="customRadio" class="custom-control-input"><label class="custom-control-label" for="exampleCustomRadio">Select
-                                                                this custom radio</label></div>
-                                                            <div class="custom-radio custom-control"><input type="radio" id="exampleCustomRadio2" name="customRadio" class="custom-control-input"><label class="custom-control-label" for="exampleCustomRadio2">Or
-                                                                this one</label></div>
-                                                            <div class="custom-radio custom-control"><input type="radio" id="exampleCustomRadio3" disabled="" class="custom-control-input"><label class="custom-control-label" for="exampleCustomRadio3">But not this
-                                                                disabled one</label></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="main-card mb-3 card">
-                                                <div class="card-body"><h5 class="card-title">Form Select</h5>
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <div class="position-relative form-group"><label for="exampleCustomSelect" class="">Custom Select</label><select type="select" id="exampleCustomSelect" name="customSelect" class="custom-select">
-                                                                <option value="">Select</option>
-                                                                <option>Value 1</option>
-                                                                <option>Value 2</option>
-                                                                <option>Value 3</option>
-                                                                <option>Value 4</option>
-                                                                <option>Value 5</option>
-                                                            </select></div>
-                                                            <div class="position-relative form-group"><label for="exampleCustomMutlipleSelect" class="">Custom Multiple Select</label><select multiple="" type="select" id="exampleCustomMutlipleSelect"
-                                                                                                                                                                                              name="customSelect" class="custom-select">
-                                                                <option value="">Select</option>
-                                                                <option>Value 1</option>
-                                                                <option>Value 2</option>
-                                                                <option>Value 3</option>
-                                                                <option>Value 4</option>
-                                                                <option>Value 5</option>
-                                                            </select></div>
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <div class="position-relative form-group"><label for="exampleCustomSelectDisabled" class="">Custom Select Disabled</label><select type="select" id="exampleCustomSelectDisabled" name="customSelect"
-                                                                                                                                                                                              disabled="" class="custom-select">
-                                                                <option value="">Select</option>
-                                                                <option>Value 1</option>
-                                                                <option>Value 2</option>
-                                                                <option>Value 3</option>
-                                                                <option>Value 4</option>
-                                                                <option>Value 5</option>
-                                                            </select></div>
-                                                            <div class="position-relative form-group"><label for="exampleCustomMutlipleSelectDisabled" class="">Custom Multiple Select Disabled</label><select multiple="" type="select"
-                                                                                                                                                                                                               id="exampleCustomMutlipleSelectDisabled"
-                                                                                                                                                                                                               name="customSelect" disabled="" class="custom-select">
-                                                                <option value="">Select</option>
-                                                                <option>Value 1</option>
-                                                                <option>Value 2</option>
-                                                                <option>Value 3</option>
-                                                                <option>Value 4</option>
-                                                                <option>Value 5</option>
-                                                            </select></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
                             </div>
                         </div>
                     </div>

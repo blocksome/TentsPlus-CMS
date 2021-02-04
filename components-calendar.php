@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Badges &amp; Labels - Badges and labels are used to offer extra small pieces of info for your content.</title>
+    <title>Calendar - Calendars are used in a lot of apps. We thought to include one for React.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Badges and labels are used to offer extra small pieces of info for your content.">
+    <meta name="description" content="Calendars are used in a lot of apps. We thought to include one for React.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -443,7 +443,7 @@
                                     
                                     
                                     
-                                     class="mm-active"
+                                    
                                     
                                     
                                     
@@ -458,56 +458,56 @@
                                         
                                         
                                         
-                                         class="mm-show"
+                                        
                                         
                                         
                                         
                                         
                                     >
                                         <li>
-                                            <a href="elements-buttons-standard.html">
+                                            <a href="elements-buttons-standard.php">
                                                 <i class="metismenu-icon"></i>
                                                 Buttons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-dropdowns.html">
+                                            <a href="elements-dropdowns.php">
                                                 <i class="metismenu-icon">
                                                 </i>Dropdowns
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-icons.html">
+                                            <a href="elements-icons.php">
                                                 <i class="metismenu-icon">
                                                 </i>Icons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-badges-labels.html" class="mm-active">
+                                            <a href="elements-badges-labels.php">
                                                 <i class="metismenu-icon">
                                                 </i>Badges
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-cards.html">
+                                            <a href="elements-cards.php">
                                                 <i class="metismenu-icon">
                                                 </i>Cards
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-list-group.html">
+                                            <a href="elements-list-group.php">
                                                 <i class="metismenu-icon">
                                                 </i>List Groups
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-navigation.html">
+                                            <a href="elements-navigation.php">
                                                 <i class="metismenu-icon">
                                                 </i>Navigation Menus
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-utilities.html">
+                                            <a href="elements-utilities.php">
                                                 <i class="metismenu-icon">
                                                 </i>Utilities
                                             </a>
@@ -522,7 +522,7 @@
                                     
                                     
                                     
-                                    
+                                     class="mm-active"
                                     
                                     
                                     
@@ -540,73 +540,73 @@
                                         
                                         
                                         
-                                        
+                                         class="mm-show"
                                         
                                         
                                         
                                     >
                                         <li>
-                                            <a href="components-tabs.html">
+                                            <a href="components-tabs.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tabs
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-accordions.html">
+                                            <a href="components-accordions.php">
                                                 <i class="metismenu-icon">
                                                 </i>Accordions
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-notifications.html">
+                                            <a href="components-notifications.php">
                                                 <i class="metismenu-icon">
                                                 </i>Notifications
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-modals.html">
+                                            <a href="components-modals.php">
                                                 <i class="metismenu-icon">
                                                 </i>Modals
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-progress-bar.html">
+                                            <a href="components-progress-bar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Progress Bar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-tooltips-popovers.html">
+                                            <a href="components-tooltips-popovers.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tooltips &amp; Popovers
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-carousel.html">
+                                            <a href="components-carousel.php">
                                                 <i class="metismenu-icon">
                                                 </i>Carousel
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-calendar.html">
+                                            <a href="components-calendar.php" class="mm-active">
                                                 <i class="metismenu-icon">
                                                 </i>Calendar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-pagination.html">
+                                            <a href="components-pagination.php">
                                                 <i class="metismenu-icon">
                                                 </i>Pagination
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-scrollable-elements.html">
+                                            <a href="components-scrollable-elements.php">
                                                 <i class="metismenu-icon">
                                                 </i>Scrollable
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-maps.html">
+                                            <a href="components-maps.php">
                                                 <i class="metismenu-icon">
                                                 </i>Maps
                                             </a>
@@ -614,40 +614,40 @@
                                     </ul>
                                 </li>
                                 <li  >
-                                    <a href="tables-regular.html">
+                                    <a href="tables-regular.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Tables
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Widgets</li>
                                 <li>
-                                    <a href="dashboard-boxes.html">
+                                    <a href="dashboard-boxes.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Dashboard Boxes
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Forms</li>
                                 <li>
-                                    <a href="forms-controls.html">
+                                    <a href="forms-controls.php">
                                         <i class="metismenu-icon pe-7s-mouse">
                                         </i>Forms Controls
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-layouts.html">
+                                    <a href="forms-layouts.php">
                                         <i class="metismenu-icon pe-7s-eyedropper">
                                         </i>Forms Layouts
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-validation.html">
+                                    <a href="forms-validation.php">
                                         <i class="metismenu-icon pe-7s-pendrive">
                                         </i>Forms Validation
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Charts</li>
                                 <li>
-                                    <a href="charts-chartjs.html">
+                                    <a href="charts-chartjs.php">
                                         <i class="metismenu-icon pe-7s-graph2">
                                         </i>ChartJS
                                     </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-voicemail icon-gradient bg-arielle-smile">
+                                        <i class="pe-7s-car icon-gradient bg-warm-flame">
                                         </i>
                                     </div>
-                                    <div>Badges &amp; Labels
-                                        <div class="page-title-subheading">Badges and labels are used to offer extra small pieces of info for your content.
+                                    <div>Calendar
+                                        <div class="page-title-subheading">Calendars are used in a lot of apps. We thought to include one for React.
                                         </div>
                                     </div>
                                 </div>
@@ -728,79 +728,45 @@
                                         </div>
                                     </div>
                                 </div>    </div>
-                        </div>            <div class="row">
-                            <div class="col-lg-6">
+                        </div>            <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
+                            <li class="nav-item">
+                                <a role="tab" class="nav-link active" id="tab-0" data-toggle="tab" href="#tab-content-0">
+                                    <span>Basic Calendar</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a role="tab" class="nav-link" id="tab-1" data-toggle="tab" href="#tab-content-1">
+                                    <span>List View</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a role="tab" class="nav-link" id="tab-2" data-toggle="tab" href="#tab-content-2">
+                                    <span>Background Events</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
                                 <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">Buttons Badges</h5>
-                                        <button class="mb-2 mr-2 btn btn-primary">Primary<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-secondary">Secondary<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-success">Success<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-info">Info<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-warning">Warning<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-danger">Danger<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-focus">Focus<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-alternate">Alt<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-light">Light<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-dark">Dark<span class="badge badge-pill badge-light">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 1<span class="badge badge-pill badge-primary">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 2<span class="badge badge-pill badge-success">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 3<span class="badge badge-pill badge-danger">6</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 4<span class="badge badge-pill badge-warning">6</span></button>
+                                    <div class="card-body">
+                                        <div id='calendar'></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="tab-pane tabs-animation fade" id="tab-content-1" role="tabpanel">
                                 <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">With Buttons</h5>
-                                        <button class="mb-2 mr-2 btn btn-primary">Primary<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-secondary">Secondary<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-success">Success<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-info">Info<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-warning">Warning<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-danger">Danger<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-focus">Focus<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-alternate">Alt<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-light">Light<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-dark">Dark<span class="badge badge-light">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 1<span class="badge badge-primary">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 2<span class="badge badge-success">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 3<span class="badge badge-danger">NEW</span></button>
-                                        <button class="mb-2 mr-2 btn btn-link">Link 4<span class="badge badge-warning">NEW</span></button>
+                                    <div class="card-body">
+                                        <div id='calendar-list'></div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="main-card mb-3 card">
-                            <div class="card-body"><h5 class="card-title">Colors</h5>
-                                <div class="mb-2 mr-2 badge badge-primary">Primary</div>
-                                <div class="mb-2 mr-2 badge badge-secondary">Secondary</div>
-                                <div class="mb-2 mr-2 badge badge-success">Success</div>
-                                <div class="mb-2 mr-2 badge badge-info">Info</div>
-                                <div class="mb-2 mr-2 badge badge-warning">Warning</div>
-                                <div class="mb-2 mr-2 badge badge-danger">Danger</div>
-                                <div class="mb-2 mr-2 badge badge-focus">Focus</div>
-                                <div class="mb-2 mr-2 badge badge-alternate">Alt</div>
-                                <div class="mb-2 mr-2 badge badge-light">Light</div>
-                                <div class="mb-2 mr-2 badge badge-dark">Dark</div>
-                                <div class="divider"></div>
-                                <h5 class="card-title">Pills</h5>
-                                <div class="mb-2 mr-2 badge badge-pill badge-primary">Primary</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-secondary">Secondary</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-success">Success</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-info">Info</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-warning">Warning</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-danger">Danger</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-focus">Focus</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-alternate">Alt</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-light">Light</div>
-                                <div class="mb-2 mr-2 badge badge-pill badge-dark">Dark</div>
-                                <div class="divider"></div>
-                                <h5 class="card-title">Links</h5><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-primary">Primary</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-secondary">Secondary</a><a
-                                        href="javascript:void(0);" class="mb-2 mr-2 badge badge-success">Success</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-info">Info</a><a href="javascript:void(0);"
-                                                                                                                                                                                                class="mb-2 mr-2 badge badge-warning">Warning</a><a
-                                        href="javascript:void(0);" class="mb-2 mr-2 badge badge-danger">Danger</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-focus">Focus</a><a href="javascript:void(0);"
-                                                                                                                                                                                                class="mb-2 mr-2 badge badge-alternate">Alt</a><a
-                                        href="javascript:void(0);" class="mb-2 mr-2 badge badge-light">Light</a><a href="javascript:void(0);" class="mb-2 mr-2 badge badge-dark">Dark</a></div>
+                            <div class="tab-pane tabs-animation fade" id="tab-content-2" role="tabpanel">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body">
+                                        <div id="calendar-bg-events"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="app-wrapper-footer">

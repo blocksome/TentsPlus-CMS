@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Carousels &amp; Slideshows - Create easy and beautiful slideshows with these React components.</title>
+    <title>Notifications - Notifications represent one of the best ways to give feedback for various users actions.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Create easy and beautiful slideshows with these React components.">
+    <meta name="description" content="Notifications represent one of the best ways to give feedback for various users actions.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -465,49 +465,49 @@
                                         
                                     >
                                         <li>
-                                            <a href="elements-buttons-standard.html">
+                                            <a href="elements-buttons-standard.php">
                                                 <i class="metismenu-icon"></i>
                                                 Buttons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-dropdowns.html">
+                                            <a href="elements-dropdowns.php">
                                                 <i class="metismenu-icon">
                                                 </i>Dropdowns
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-icons.html">
+                                            <a href="elements-icons.php">
                                                 <i class="metismenu-icon">
                                                 </i>Icons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-badges-labels.html">
+                                            <a href="elements-badges-labels.php">
                                                 <i class="metismenu-icon">
                                                 </i>Badges
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-cards.html">
+                                            <a href="elements-cards.php">
                                                 <i class="metismenu-icon">
                                                 </i>Cards
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-list-group.html">
+                                            <a href="elements-list-group.php">
                                                 <i class="metismenu-icon">
                                                 </i>List Groups
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-navigation.html">
+                                            <a href="elements-navigation.php">
                                                 <i class="metismenu-icon">
                                                 </i>Navigation Menus
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-utilities.html">
+                                            <a href="elements-utilities.php">
                                                 <i class="metismenu-icon">
                                                 </i>Utilities
                                             </a>
@@ -517,11 +517,11 @@
                                 <li
                                     
                                     
-                                    
-                                    
-                                    
-                                    
                                      class="mm-active"
+                                    
+                                    
+                                    
+                                    
                                     
                                     
                                     
@@ -535,78 +535,78 @@
                                     <ul
                                         
                                         
-                                        
-                                        
-                                        
-                                        
                                          class="mm-show"
+                                        
+                                        
+                                        
+                                        
                                         
                                         
                                         
                                         
                                     >
                                         <li>
-                                            <a href="components-tabs.html">
+                                            <a href="components-tabs.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tabs
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-accordions.html">
+                                            <a href="components-accordions.php">
                                                 <i class="metismenu-icon">
                                                 </i>Accordions
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-notifications.html">
+                                            <a href="components-notifications.php" class="mm-active">
                                                 <i class="metismenu-icon">
                                                 </i>Notifications
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-modals.html">
+                                            <a href="components-modals.php">
                                                 <i class="metismenu-icon">
                                                 </i>Modals
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-progress-bar.html">
+                                            <a href="components-progress-bar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Progress Bar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-tooltips-popovers.html">
+                                            <a href="components-tooltips-popovers.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tooltips &amp; Popovers
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-carousel.html" class="mm-active">
+                                            <a href="components-carousel.php">
                                                 <i class="metismenu-icon">
                                                 </i>Carousel
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-calendar.html">
+                                            <a href="components-calendar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Calendar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-pagination.html">
+                                            <a href="components-pagination.php">
                                                 <i class="metismenu-icon">
                                                 </i>Pagination
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-scrollable-elements.html">
+                                            <a href="components-scrollable-elements.php">
                                                 <i class="metismenu-icon">
                                                 </i>Scrollable
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-maps.html">
+                                            <a href="components-maps.php">
                                                 <i class="metismenu-icon">
                                                 </i>Maps
                                             </a>
@@ -614,40 +614,40 @@
                                     </ul>
                                 </li>
                                 <li  >
-                                    <a href="tables-regular.html">
+                                    <a href="tables-regular.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Tables
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Widgets</li>
                                 <li>
-                                    <a href="dashboard-boxes.html">
+                                    <a href="dashboard-boxes.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Dashboard Boxes
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Forms</li>
                                 <li>
-                                    <a href="forms-controls.html">
+                                    <a href="forms-controls.php">
                                         <i class="metismenu-icon pe-7s-mouse">
                                         </i>Forms Controls
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-layouts.html">
+                                    <a href="forms-layouts.php">
                                         <i class="metismenu-icon pe-7s-eyedropper">
                                         </i>Forms Layouts
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-validation.html">
+                                    <a href="forms-validation.php">
                                         <i class="metismenu-icon pe-7s-pendrive">
                                         </i>Forms Validation
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Charts</li>
                                 <li>
-                                    <a href="charts-chartjs.html">
+                                    <a href="charts-chartjs.php">
                                         <i class="metismenu-icon pe-7s-graph2">
                                         </i>ChartJS
                                     </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-album icon-gradient bg-sunny-morning">
+                                        <i class="pe-7s-glasses icon-gradient bg-love-kiss">
                                         </i>
                                     </div>
-                                    <div>Carousels &amp; Slideshows
-                                        <div class="page-title-subheading">Create easy and beautiful slideshows with these React components.
+                                    <div>Notifications
+                                        <div class="page-title-subheading">Notifications represent one of the best ways to give feedback for various users actions.
                                         </div>
                                     </div>
                                 </div>
@@ -728,71 +728,268 @@
                                         </div>
                                     </div>
                                 </div>    </div>
-                        </div>            <div class="row">
-                            <div class="col-md-6">
+                        </div>            <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
+                            <li class="nav-item">
+                                <a role="tab" class="nav-link active" id="tab-0" data-toggle="tab" href="#tab-content-0">
+                                    <span>Toastr Alerts</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a role="tab" class="nav-link" id="tab-2" data-toggle="tab" href="#tab-content-2">
+                                    <span>Basic Alerts</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
                                 <div class="main-card mb-3 card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Basic Bootstrap 4 Carousel</h5>
-                                        <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
-                                            <div class="carousel-inner">
-                                                <div class="carousel-item active">
-                                                    <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="First slide">
+                                        <div class="card-title">Toastr Configurator</div>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="title">Title</label>
+                                                    <input id="title" type="text" class="form-control" placeholder="Enter a title ..."/>
                                                 </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Second slide">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="message">Message</label>
+                                                    <textarea class="form-control" id="message" rows="3" placeholder="Enter a message ..."></textarea>
                                                 </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Third slide">
+                                                <div class="form-group">
+                                                    <div class="form-check">
+                                                        <input id="closeButton" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="closeButton">
+                                                            Close Button
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input id="addBehaviorOnToastClick" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="addBehaviorOnToastClick">
+                                                            Add behavior on toast click
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input disabled id="addBehaviorOnToastCloseClick" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="addBehaviorOnToastCloseClick">
+                                                            Add behavior on toast close button click
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input id="debugInfo" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="debugInfo">
+                                                            Debug
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input id="progressBar" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="progressBar">
+                                                            Progress Bar
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input id="rtl" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="rtl">
+                                                            Right-To-Left
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input id="preventDuplicates" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="preventDuplicates">
+                                                            Prevent Duplicates
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input id="addClear" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="addClear">
+                                                            Add button to force clearing a toast
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input id="newestOnTop" type="checkbox" value="checked" class="form-check-input"/>
+                                                        <label class="form-check-label" for="newestOnTop">
+                                                            Newest on top
+                                                        </label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Previous</span>
-                                            </a>
-                                            <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Next</span>
-                                            </a>
+                                            <div class="col-md-3">
+                                                <div id="toastTypeGroup">
+                                                    <h5>Toast Type</h5>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="toasts" class="form-check-input" value="success" checked/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Success
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="toasts" class="form-check-input" value="info" checked/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Info
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="toasts" class="form-check-input" value="warning" checked/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Warning
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="toasts" class="form-check-input" value="error" checked/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Error
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div id="positionGroup">
+                                                    <h5>Position</h5>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-right" checked/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Top Right
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-right"/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Bottom Right
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-left"/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Bottom Left
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-left"/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Top Left
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-full-width"/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Top Full Width
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-full-width"/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Bottom Full Width
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-center"/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Top Center
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-center"/>
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                            Bottom Center
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label for="showEasing">Show Easing</label>
+                                                    <input id="showEasing" type="text" placeholder="swing, linear" class="form-control" value="swing"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="hideEasing">Hide Easing</label>
+                                                    <input id="hideEasing" type="text" placeholder="swing, linear" class="form-control" value="linear"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="showMethod">Show Method</label>
+                                                    <input id="showMethod" type="text" placeholder="show, fadeIn, slideDown" class="form-control" value="fadeIn"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="hideMethod">Hide Method</label>
+                                                    <input id="hideMethod" type="text" placeholder="hide, fadeOut, slideUp" class="form-control" value="fadeOut"/>
+                                                </div>
+                                            </div>
+            
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="showDuration">Show Duration</label>
+                                                    <input id="showDuration" type="number" placeholder="ms" class="form-control" value="300"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="hideDuration">Hide Duration</label>
+                                                    <input id="hideDuration" type="number" placeholder="ms" class="form-control" value="1000"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="timeOut">Time out</label>
+                                                    <input id="timeOut" type="number" placeholder="ms" class="form-control" value="5000"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="extendedTimeOut">Extended time out</label>
+                                                    <input id="extendedTimeOut" type="number" placeholder="ms" class="form-control" value="1000"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer d-block clearfix">
+                                        <div class="float-left">
+                                            <button type="button" class="btn btn-link text-danger" id="cleartoasts">Clear Toasts</button>
+                                            <button type="button" class="btn btn-link" id="clearlasttoast">Clear Last Toast</button>
+                                        </div>
+                                        <div class="float-right">
+                                            <button type="button" class="btn btn-success" id="showtoast">Show Toast</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Carousel with Captions</h5>
-                                        <div id="carouselExampleControls2" class="carousel slide carousel-fade" data-ride="carousel">
-                                            <div class="carousel-inner">
-                                                <div class="carousel-item active">
-                                                    <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="First slide">
-                                                    <div class="carousel-caption d-none d-md-block">
-                                                        <h5>First Slide</h5>
-                                                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Second slide">
-                                                    <div class="carousel-caption d-none d-md-block">
-                                                        <h5>Second Slide</h5>
-                                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Third slide">
-                                                    <div class="carousel-caption d-none d-md-block">
-                                                        <h5>Third Slide</h5>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                    </div>
+                            <div class="tab-pane tabs-animation fade" id="tab-content-2" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Alerts</h5>
+                                                <div class="alert alert-primary fade show" role="alert">This is a primary alert — check it out!</div>
+                                                <div class="alert alert-secondary fade show" role="alert">This is a secondary alert — check it out!</div>
+                                                <div class="alert alert-success fade show" role="alert">This is a success alert — check it out!</div>
+                                                <div class="alert alert-danger fade show" role="alert">This is a danger alert — check it out!</div>
+                                                <div class="alert alert-warning fade show" role="alert">This is a warning alert — check it out!</div>
+                                                <div class="alert alert-info fade show" role="alert">This is a info alert — check it out!</div>
+                                                <div class="alert alert-light fade show" role="alert">This is a light alert — check it out!</div>
+                                                <div class="alert alert-dark fade show" role="alert">This is a dark alert — check it out!</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Alerts Link Color</h5>
+                                                <div class="alert alert-primary fade show" role="alert">This is a primary alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                                <div class="alert alert-secondary fade show" role="alert">This is a secondary alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                                <div class="alert alert-success fade show" role="alert">This is a success alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                                <div class="alert alert-danger fade show" role="alert">This is a danger alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                                <div class="alert alert-warning fade show" role="alert">This is a warning alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                                <div class="alert alert-info fade show" role="alert">This is a info alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                                <div class="alert alert-light fade show" role="alert">This is a light alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                                <div class="alert alert-dark fade show" role="alert">This is a dark alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Alerts Content</h5>
+                                                <div class="alert alert-success fade show" role="alert"><h4 class="alert-heading">Well done!</h4>
+                                                    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                                                    <hr>
+                                                    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Dismissable Alerts</h5>
+                                                <div class="alert alert-info alert-dismissible fade show" role="alert">
+                                                    <button type="button" class="close" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                                    I am an alert and I can be dismissed!
                                                 </div>
                                             </div>
-                                            <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Previous</span>
-                                            </a>
-                                            <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Next</span>
-                                            </a>
                                         </div>
                                     </div>
                                 </div>

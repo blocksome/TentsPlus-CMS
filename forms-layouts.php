@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Notifications - Notifications represent one of the best ways to give feedback for various users actions.</title>
+    <title>Form Layouts - Build whatever layout you need with our Architect framework.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description" content="Notifications represent one of the best ways to give feedback for various users actions.">
+    <meta name="description" content="Build whatever layout you need with our Architect framework.">
     <meta name="msapplication-tap-highlight" content="no">
     <!--
     =========================================================
@@ -433,7 +433,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Dashboard Example 1
                                     </a>
@@ -465,49 +465,49 @@
                                         
                                     >
                                         <li>
-                                            <a href="elements-buttons-standard.html">
+                                            <a href="elements-buttons-standard.php">
                                                 <i class="metismenu-icon"></i>
                                                 Buttons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-dropdowns.html">
+                                            <a href="elements-dropdowns.php">
                                                 <i class="metismenu-icon">
                                                 </i>Dropdowns
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-icons.html">
+                                            <a href="elements-icons.php">
                                                 <i class="metismenu-icon">
                                                 </i>Icons
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-badges-labels.html">
+                                            <a href="elements-badges-labels.php">
                                                 <i class="metismenu-icon">
                                                 </i>Badges
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-cards.html">
+                                            <a href="elements-cards.php">
                                                 <i class="metismenu-icon">
                                                 </i>Cards
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-list-group.html">
+                                            <a href="elements-list-group.php">
                                                 <i class="metismenu-icon">
                                                 </i>List Groups
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-navigation.html">
+                                            <a href="elements-navigation.php">
                                                 <i class="metismenu-icon">
                                                 </i>Navigation Menus
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="elements-utilities.html">
+                                            <a href="elements-utilities.php">
                                                 <i class="metismenu-icon">
                                                 </i>Utilities
                                             </a>
@@ -517,7 +517,7 @@
                                 <li
                                     
                                     
-                                     class="mm-active"
+                                    
                                     
                                     
                                     
@@ -535,7 +535,7 @@
                                     <ul
                                         
                                         
-                                         class="mm-show"
+                                        
                                         
                                         
                                         
@@ -546,67 +546,67 @@
                                         
                                     >
                                         <li>
-                                            <a href="components-tabs.html">
+                                            <a href="components-tabs.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tabs
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-accordions.html">
+                                            <a href="components-accordions.php">
                                                 <i class="metismenu-icon">
                                                 </i>Accordions
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-notifications.html" class="mm-active">
+                                            <a href="components-notifications.php">
                                                 <i class="metismenu-icon">
                                                 </i>Notifications
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-modals.html">
+                                            <a href="components-modals.php">
                                                 <i class="metismenu-icon">
                                                 </i>Modals
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-progress-bar.html">
+                                            <a href="components-progress-bar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Progress Bar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-tooltips-popovers.html">
+                                            <a href="components-tooltips-popovers.php">
                                                 <i class="metismenu-icon">
                                                 </i>Tooltips &amp; Popovers
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-carousel.html">
+                                            <a href="components-carousel.php">
                                                 <i class="metismenu-icon">
                                                 </i>Carousel
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-calendar.html">
+                                            <a href="components-calendar.php">
                                                 <i class="metismenu-icon">
                                                 </i>Calendar
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-pagination.html">
+                                            <a href="components-pagination.php">
                                                 <i class="metismenu-icon">
                                                 </i>Pagination
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-scrollable-elements.html">
+                                            <a href="components-scrollable-elements.php">
                                                 <i class="metismenu-icon">
                                                 </i>Scrollable
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="components-maps.html">
+                                            <a href="components-maps.php">
                                                 <i class="metismenu-icon">
                                                 </i>Maps
                                             </a>
@@ -614,40 +614,40 @@
                                     </ul>
                                 </li>
                                 <li  >
-                                    <a href="tables-regular.html">
+                                    <a href="tables-regular.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Tables
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Widgets</li>
                                 <li>
-                                    <a href="dashboard-boxes.html">
+                                    <a href="dashboard-boxes.php">
                                         <i class="metismenu-icon pe-7s-display2"></i>
                                         Dashboard Boxes
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Forms</li>
                                 <li>
-                                    <a href="forms-controls.html">
+                                    <a href="forms-controls.php">
                                         <i class="metismenu-icon pe-7s-mouse">
                                         </i>Forms Controls
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-layouts.html">
+                                    <a href="forms-layouts.php" class="mm-active">
                                         <i class="metismenu-icon pe-7s-eyedropper">
                                         </i>Forms Layouts
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="forms-validation.html">
+                                    <a href="forms-validation.php">
                                         <i class="metismenu-icon pe-7s-pendrive">
                                         </i>Forms Validation
                                     </a>
                                 </li>
                                 <li class="app-sidebar__heading">Charts</li>
                                 <li>
-                                    <a href="charts-chartjs.html">
+                                    <a href="charts-chartjs.php">
                                         <i class="metismenu-icon pe-7s-graph2">
                                         </i>ChartJS
                                     </a>
@@ -669,11 +669,11 @@
                             <div class="page-title-wrapper">
                                 <div class="page-title-heading">
                                     <div class="page-title-icon">
-                                        <i class="pe-7s-glasses icon-gradient bg-love-kiss">
+                                        <i class="pe-7s-graph text-success">
                                         </i>
                                     </div>
-                                    <div>Notifications
-                                        <div class="page-title-subheading">Notifications represent one of the best ways to give feedback for various users actions.
+                                    <div>Form Layouts
+                                        <div class="page-title-subheading">Build whatever layout you need with our Architect framework.
                                         </div>
                                     </div>
                                 </div>
@@ -731,266 +731,118 @@
                         </div>            <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
                             <li class="nav-item">
                                 <a role="tab" class="nav-link active" id="tab-0" data-toggle="tab" href="#tab-content-0">
-                                    <span>Toastr Alerts</span>
+                                    <span>Layout</span>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a role="tab" class="nav-link" id="tab-2" data-toggle="tab" href="#tab-content-2">
-                                    <span>Basic Alerts</span>
+                                <a role="tab" class="nav-link" id="tab-1" data-toggle="tab" href="#tab-content-1">
+                                    <span>Grid</span>
                                 </a>
                             </li>
                         </ul>
                         <div class="tab-content">
                             <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
                                 <div class="main-card mb-3 card">
-                                    <div class="card-body">
-                                        <div class="card-title">Toastr Configurator</div>
-                                        <div class="row">
-                                            <div class="col-md-3">
-                                                <div class="form-group">
-                                                    <label class="form-label" for="title">Title</label>
-                                                    <input id="title" type="text" class="form-control" placeholder="Enter a title ..."/>
+                                    <div class="card-body"><h5 class="card-title">Grid Rows</h5>
+                                        <form class="">
+                                            <div class="form-row">
+                                                <div class="col-md-6">
+                                                    <div class="position-relative form-group"><label for="exampleEmail11" class="">Email</label><input name="email" id="exampleEmail11" placeholder="with a placeholder" type="email" class="form-control"></div>
                                                 </div>
-                                                <div class="form-group">
-                                                    <label class="form-label" for="message">Message</label>
-                                                    <textarea class="form-control" id="message" rows="3" placeholder="Enter a message ..."></textarea>
-                                                </div>
-                                                <div class="form-group">
-                                                    <div class="form-check">
-                                                        <input id="closeButton" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="closeButton">
-                                                            Close Button
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input id="addBehaviorOnToastClick" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="addBehaviorOnToastClick">
-                                                            Add behavior on toast click
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input disabled id="addBehaviorOnToastCloseClick" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="addBehaviorOnToastCloseClick">
-                                                            Add behavior on toast close button click
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input id="debugInfo" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="debugInfo">
-                                                            Debug
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input id="progressBar" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="progressBar">
-                                                            Progress Bar
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input id="rtl" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="rtl">
-                                                            Right-To-Left
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input id="preventDuplicates" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="preventDuplicates">
-                                                            Prevent Duplicates
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input id="addClear" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="addClear">
-                                                            Add button to force clearing a toast
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input id="newestOnTop" type="checkbox" value="checked" class="form-check-input"/>
-                                                        <label class="form-check-label" for="newestOnTop">
-                                                            Newest on top
-                                                        </label>
-                                                    </div>
+                                                <div class="col-md-6">
+                                                    <div class="position-relative form-group"><label for="examplePassword11" class="">Password</label><input name="password" id="examplePassword11" placeholder="password placeholder" type="password"
+                                                                                                                                                             class="form-control"></div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
-                                                <div id="toastTypeGroup">
-                                                    <h5>Toast Type</h5>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="toasts" class="form-check-input" value="success" checked/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Success
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="toasts" class="form-check-input" value="info" checked/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Info
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="toasts" class="form-check-input" value="warning" checked/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Warning
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="toasts" class="form-check-input" value="error" checked/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Error
-                                                        </label>
-                                                    </div>
+                                            <div class="position-relative form-group"><label for="exampleAddress" class="">Address</label><input name="address" id="exampleAddress" placeholder="1234 Main St" type="text" class="form-control"></div>
+                                            <div class="position-relative form-group"><label for="exampleAddress2" class="">Address 2</label><input name="address2" id="exampleAddress2" placeholder="Apartment, studio, or floor" type="text" class="form-control">
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="col-md-6">
+                                                    <div class="position-relative form-group"><label for="exampleCity" class="">City</label><input name="city" id="exampleCity" type="text" class="form-control"></div>
                                                 </div>
-                                                <div id="positionGroup">
-                                                    <h5>Position</h5>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-right" checked/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Top Right
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-right"/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Bottom Right
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-left"/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Bottom Left
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-left"/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Top Left
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-full-width"/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Top Full Width
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-full-width"/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Bottom Full Width
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-top-center"/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Top Center
-                                                        </label>
-                                                    </div>
-                                                    <div class="form-check">
-                                                        <input type="radio" name="positions" class="form-check-input" value="toast-bottom-center"/>
-                                                        <label class="form-check-label" for="exampleRadios1">
-                                                            Bottom Center
-                                                        </label>
-                                                    </div>
+                                                <div class="col-md-4">
+                                                    <div class="position-relative form-group"><label for="exampleState" class="">State</label><input name="state" id="exampleState" type="text" class="form-control"></div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="position-relative form-group"><label for="exampleZip" class="">Zip</label><input name="zip" id="exampleZip" type="text" class="form-control"></div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
-                                                <div class="form-group">
-                                                    <label for="showEasing">Show Easing</label>
-                                                    <input id="showEasing" type="text" placeholder="swing, linear" class="form-control" value="swing"/>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="hideEasing">Hide Easing</label>
-                                                    <input id="hideEasing" type="text" placeholder="swing, linear" class="form-control" value="linear"/>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="showMethod">Show Method</label>
-                                                    <input id="showMethod" type="text" placeholder="show, fadeIn, slideDown" class="form-control" value="fadeIn"/>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="hideMethod">Hide Method</label>
-                                                    <input id="hideMethod" type="text" placeholder="hide, fadeOut, slideUp" class="form-control" value="fadeOut"/>
-                                                </div>
-                                            </div>
-            
-                                            <div class="col-md-3">
-                                                <div class="form-group">
-                                                    <label class="form-label" for="showDuration">Show Duration</label>
-                                                    <input id="showDuration" type="number" placeholder="ms" class="form-control" value="300"/>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="form-label" for="hideDuration">Hide Duration</label>
-                                                    <input id="hideDuration" type="number" placeholder="ms" class="form-control" value="1000"/>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="form-label" for="timeOut">Time out</label>
-                                                    <input id="timeOut" type="number" placeholder="ms" class="form-control" value="5000"/>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="form-label" for="extendedTimeOut">Extended time out</label>
-                                                    <input id="extendedTimeOut" type="number" placeholder="ms" class="form-control" value="1000"/>
-                                                </div>
-                                            </div>
-                                        </div>
+                                            <div class="position-relative form-check"><input name="check" id="exampleCheck" type="checkbox" class="form-check-input"><label for="exampleCheck" class="form-check-label">Check me out</label></div>
+                                            <button class="mt-2 btn btn-primary">Sign in</button>
+                                        </form>
                                     </div>
-                                    <div class="card-footer d-block clearfix">
-                                        <div class="float-left">
-                                            <button type="button" class="btn btn-link text-danger" id="cleartoasts">Clear Toasts</button>
-                                            <button type="button" class="btn btn-link" id="clearlasttoast">Clear Last Toast</button>
-                                        </div>
-                                        <div class="float-right">
-                                            <button type="button" class="btn btn-success" id="showtoast">Show Toast</button>
+                                </div>
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Inline</h5>
+                                        <div>
+                                            <form class="form-inline">
+                                                <div class="mb-2 mr-sm-2 mb-sm-0 position-relative form-group"><label for="exampleEmail22" class="mr-sm-2">Email</label><input name="email" id="exampleEmail22" placeholder="something@idk.cool" type="email"
+                                                                                                                                                                               class="form-control"></div>
+                                                <div class="mb-2 mr-sm-2 mb-sm-0 position-relative form-group"><label for="examplePassword22" class="mr-sm-2">Password</label><input name="password" id="examplePassword22" placeholder="don't tell!" type="password"
+                                                                                                                                                                                     class="form-control"></div>
+                                                <button class="btn btn-primary">Submit</button>
+                                            </form>
+                                            <div class="divider"></div>
+                                            <form class="">
+                                                <div class="position-relative form-check form-check-inline"><label class="form-check-label"><input type="checkbox" class="form-check-input"> Some input</label></div>
+                                                <div class="position-relative form-check form-check-inline"><label class="form-check-label"><input type="checkbox" class="form-check-input"> Some other input</label></div>
+                                            </form>
+                                            <div class="divider"></div>
+                                            <form class="form-inline">
+                                                <div class="position-relative form-group"><label for="exampleEmail33" class="sr-only">Email</label><input name="email" id="exampleEmail33" placeholder="Email" type="email" class="mr-2 form-control"></div>
+                                                <div class="position-relative form-group"><label for="examplePassword44" class="sr-only">Password</label><input name="password" id="examplePassword44" placeholder="Password" type="password"
+                                                                                                                                                                class="mr-2 form-control"></div>
+                                                <button class="btn btn-primary">Submit</button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane tabs-animation fade" id="tab-content-2" role="tabpanel">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Alerts</h5>
-                                                <div class="alert alert-primary fade show" role="alert">This is a primary alert — check it out!</div>
-                                                <div class="alert alert-secondary fade show" role="alert">This is a secondary alert — check it out!</div>
-                                                <div class="alert alert-success fade show" role="alert">This is a success alert — check it out!</div>
-                                                <div class="alert alert-danger fade show" role="alert">This is a danger alert — check it out!</div>
-                                                <div class="alert alert-warning fade show" role="alert">This is a warning alert — check it out!</div>
-                                                <div class="alert alert-info fade show" role="alert">This is a info alert — check it out!</div>
-                                                <div class="alert alert-light fade show" role="alert">This is a light alert — check it out!</div>
-                                                <div class="alert alert-dark fade show" role="alert">This is a dark alert — check it out!</div>
+                            <div class="tab-pane tabs-animation fade" id="tab-content-1" role="tabpanel">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Grid</h5>
+                                        <form class="">
+                                            <div class="position-relative row form-group"><label for="exampleEmail" class="col-sm-2 col-form-label">Email</label>
+                                                <div class="col-sm-10"><input name="email" id="exampleEmail" placeholder="with a placeholder" type="email" class="form-control"></div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Alerts Link Color</h5>
-                                                <div class="alert alert-primary fade show" role="alert">This is a primary alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
-                                                <div class="alert alert-secondary fade show" role="alert">This is a secondary alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
-                                                <div class="alert alert-success fade show" role="alert">This is a success alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
-                                                <div class="alert alert-danger fade show" role="alert">This is a danger alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
-                                                <div class="alert alert-warning fade show" role="alert">This is a warning alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
-                                                <div class="alert alert-info fade show" role="alert">This is a info alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
-                                                <div class="alert alert-light fade show" role="alert">This is a light alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
-                                                <div class="alert alert-dark fade show" role="alert">This is a dark alert with <a href="javascript:void(0);" class="alert-link">an example link</a>. Give it a click if you like.</div>
+                                            <div class="position-relative row form-group"><label for="examplePassword" class="col-sm-2 col-form-label">Password</label>
+                                                <div class="col-sm-10"><input name="password" id="examplePassword" placeholder="password placeholder" type="password" class="form-control"></div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Alerts Content</h5>
-                                                <div class="alert alert-success fade show" role="alert"><h4 class="alert-heading">Well done!</h4>
-                                                    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-                                                    <hr>
-                                                    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p></div>
+                                            <div class="position-relative row form-group"><label for="exampleSelect" class="col-sm-2 col-form-label">Select</label>
+                                                <div class="col-sm-10"><select name="select" id="exampleSelect" class="form-control"></select></div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="main-card mb-3 card">
-                                            <div class="card-body"><h5 class="card-title">Dismissable Alerts</h5>
-                                                <div class="alert alert-info alert-dismissible fade show" role="alert">
-                                                    <button type="button" class="close" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                                    I am an alert and I can be dismissed!
+                                            <div class="position-relative row form-group"><label for="exampleSelectMulti" class="col-sm-2 col-form-label">Select Multiple</label>
+                                                <div class="col-sm-10"><select multiple="" name="selectMulti" id="exampleSelectMulti" class="form-control"></select></div>
+                                            </div>
+                                            <div class="position-relative row form-group"><label for="exampleText" class="col-sm-2 col-form-label">Text Area</label>
+                                                <div class="col-sm-10"><textarea name="text" id="exampleText" class="form-control"></textarea></div>
+                                            </div>
+                                            <div class="position-relative row form-group"><label for="exampleFile" class="col-sm-2 col-form-label">File</label>
+                                                <div class="col-sm-10"><input name="file" id="exampleFile" type="file" class="form-control-file">
+                                                    <small class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
                                                 </div>
                                             </div>
-                                        </div>
+                                            <fieldset class="position-relative row form-group">
+                                                <legend class="col-form-label col-sm-2">Radio Buttons</legend>
+                                                <div class="col-sm-10">
+                                                    <div class="position-relative form-check"><label class="form-check-label"><input name="radio2" type="radio" class="form-check-input"> Option one is this and that—be sure to include why it's great</label></div>
+                                                    <div class="position-relative form-check"><label class="form-check-label"><input name="radio2" type="radio" class="form-check-input"> Option two can be something else and selecting it will deselect option
+                                                        one</label></div>
+                                                    <div class="position-relative form-check disabled"><label class="form-check-label"><input name="radio2" disabled="" type="radio" class="form-check-input"> Option three is disabled</label></div>
+                                                </div>
+                                            </fieldset>
+                                            <div class="position-relative row form-group"><label for="checkbox2" class="col-sm-2 col-form-label">Checkbox</label>
+                                                <div class="col-sm-10">
+                                                    <div class="position-relative form-check"><label class="form-check-label"><input id="checkbox2" type="checkbox" class="form-check-input"> Check me out</label></div>
+                                                </div>
+                                            </div>
+                                            <div class="position-relative row form-check">
+                                                <div class="col-sm-10 offset-sm-2">
+                                                    <button class="btn btn-secondary">Submit</button>
+                                                </div>
+                                            </div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
