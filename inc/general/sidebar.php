@@ -32,13 +32,14 @@
 
     <div class="scrollbar-sidebar">
         <div class="app-sidebar__inner">
+
             <ul class="vertical-nav-menu">
-                <li class="app-sidebar__heading">Dashboards</li>
+                <li class="app-sidebar__heading">Modules</li>
                 <li>
-                    <a href="index.php" class="mm-active">
+                    <a href="#" class="mm-active">
                         <i class="metismenu-icon pe-7s-rocket"></i>
-                        Dashboard Example 1
-                    </a>
+                        Tenants & Utilities
+                        </a>
                 </li>
                 <li class="app-sidebar__heading">UI Components</li>
                 <li>
@@ -210,14 +211,6 @@
                     <a href="charts-chartjs.php">
                         <i class="metismenu-icon pe-7s-graph2">
                         </i>ChartJS
-                    </a>
-                </li>
-                <li class="php/app-sidebar__heading">PRO Version</li>
-                <li>
-                    <a href="https://dashboardpack.com/theme-details/architectui-dashboard-html-pro/" target="_blank">
-                        <i class="metismenu-icon pe-7s-graph2">
-                        </i>
-                        Upgrade to PRO
                     </a>
                 </li>
             </ul>
