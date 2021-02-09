@@ -12,15 +12,18 @@
         <?php include("inc/general/header.php") ?>
 
         <!--Right Scrollable Layout Options-->
-        <?php //include("inc/general/layout-options.php") ?>
+        <?php //include("inc/general/layout-options.php") 
+        ?>
 
         <div class="app-main">
             <!--Scrollable Left Sidebar-->
             <?php include("inc/general/sidebar.php") ?>
 
             <div class="app-main__outer">
-                <!--Page Module Content (replace for each page)-->
-                <?php include("inc/modules/utility-module.php"); ?>
+                <div class="load-div">
+                    <!--Page Module Content (replace for each page)-->
+                    <?php include("inc/modules/utility-module.php"); ?>
+                </div>
 
                 <!--Footer-->
                 <?php include("inc/general/footer.php"); ?>

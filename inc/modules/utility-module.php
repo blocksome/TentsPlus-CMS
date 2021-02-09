@@ -1,3 +1,21 @@
+<?php
+//Connect to database
+
+//School db login
+/*
+$dbhost = "localhost";
+$dbuser = "amphibis_joses";
+$dbpass = "miGLzU*S.xJV";
+$dbname = "amphibis_joses";
+*/
+
+$dbhost = "localhost";
+$dbuser = "root";
+$dbpass = "";
+$dbname = "tents_plus_database";
+?>
+
+
 <div class="app-main__inner">
     <div class="app-page-title">
         <div class="page-title-wrapper">
@@ -47,37 +65,65 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <!--ID-->
-                                <td class="text-center text-muted">#345</td>
-                                <td>
-                                    #05-25
-                                </td>
-                                <td class="text-center">
-                                    <div class="badge badge-warning">Pending</div>
-                                </td>
-                                <td class="text-center">
-                                    $3000.00
-                                </td>
-                                <td class="text-center">
-                                    $600.00
-                                </td>
-                                <td class="text-center">
-                                    <button type="button" id="PopoverCustomT-1" class="btn btn-info btn-sm">Display</button>
-                                </td>
-                                <td class="text-center">
-                                <button type="button" id="PopoverCustomT-1" class="btn btn-primary btn-sm">Edit</button>
-                                </td>
-                            </tr>
+
+                            <!--Run connection to populate data-->
+                            <?php
+                            $con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname); // Test if connection occurred.
+
+                            if (mysqli_connect_errno()) {
+
+                                die("Database connection failed: " .
+                                    " mysqli_connect_error()" .
+                                    "(" . mysqli_connect_errno() . ")");
+                            } else {
+                                //Run MYSQL request upon successful connection
+                                $sql = "SELECT * "; //Select everything
+                                $sql .= "FROM tenant "; //Reading from Projects table
+                                $sql .= "ORDER BY tenant_id;"; //Sort by id
+                                $result = $con->query($sql);
+                                if ($result->num_rows > 0) { //Output data of each row
+
+                                    $i = 0;
+                                    //Display rows
+                                    while ($row = mysqli_fetch_assoc($result)) {
+
+                                        echo "<tr>";
+                                        echo "<td class='text-center text-muted'>" . $row["tenant_id"] . "</td>";
+                                        echo "<td>#" . $row["unit_num"] . "</td>";
+
+                                        if ($row["rental_status"] == "Pending") {
+                                            echo "<td class='text-center'> <div class='badge badge-warning'>Pending</div> </td>";
+                                        } 
+                                        
+                                        else {
+                                            echo "<td class='text-center'> <div class='badge badge-warning'>Unknown</div> </td>";
+                                        }
+
+                                        echo "<td class='text-center'>$" . $row["rental_amount"] . "</td>";
+                                        echo "<td class='text-center'>$" . $row["rental_deposit"] . "</td>";
+                                        echo "<td class='text-center'> <button type='button' id'PopoverCustomT-1' class='btn btn-info btn-sm'>Display</button> </td>";
+                                        echo "<td class='text-center'> <button type='button' id'PopoverCustomT-1' class='btn btn-primary btn-sm'>Edit</button> </td>";
+                                        echo "</tr>";
+                                        $i++;
+                                    }
+
+                                    //echo "<span>Query complete, fetched " . $i . " result(s).</span>";
+                                } else if ($con->error) {
+                                    printf("Query failed: %s\n", $con->error);
+                                } else {
+
+                                    echo "No results!";
+                                }
+                            } ?>
                         </tbody>
                     </table>
                 </div>
                 <div class="d-block text-center card-footer">
                     <button class="mr-2 btn-icon btn-icon-only btn btn-outline-danger">
-                    <i class="pe-7s-trash btn-icon-wrapper"></i>
-                    Truncate All Data
+                        <i class="pe-7s-trash btn-icon-wrapper"></i>
+                        Truncate All Data
                     </button>
-                    
+
                 </div>
             </div>
         </div>
@@ -106,7 +152,8 @@
 
                             <div class="widget-chart-content text-center mt-5">
                                 <div class="widget-description mt-0 text-warning">
-                                    <span class="pl-1">[Name of Tenant]</span></div>
+                                    <span class="pl-1">[Name of Tenant]</span>
+                                </div>
                             </div>
                         </div>
 
@@ -137,7 +184,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
