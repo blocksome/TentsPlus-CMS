@@ -1,5 +1,23 @@
 <!--TentsPlus CMS-->
+
 <!doctype html>
+<?php
+ob_start();
+//Connect to database
+
+//School db login
+/*
+$dbhost = "localhost";
+$dbuser = "amphibis_joses";
+$dbpass = "miGLzU*S.xJV";
+$dbname = "amphibis_joses";
+*/
+$dbhost = "localhost";
+$dbuser = "root";
+$dbpass = "";
+$dbname = "tents_plus_database";
+?>
+
 <html lang="en">
 
 <!--Head-->
@@ -34,6 +52,8 @@
         </div>
     </div>
 
+    <div id="mysql-loader"></div>
+
     <!--jQquery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous">
     </script>
@@ -44,39 +64,8 @@
     <!--Local Script-->
     <script type="text/javascript" src="js/script.js"></script>
 
-
     <!--ChartJS Charts-->
     <script>
-        //Storing utility content in JavaScript
-        <?php
-        $con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname); // Test if connection occurred.
-
-        if (mysqli_connect_errno()) {
-
-            die("Database connection failed: " .
-                " mysqli_connect_error()" .
-                "(" . mysqli_connect_errno() . ")");
-        } else {
-            //Run MYSQL request upon successful connection
-            $sql = "SELECT * "; //Select everything
-            $sql .= "FROM tenant "; //Reading from Projects table
-            $sql .= "ORDER BY tenant_id;"; //Sort by id
-            $result = $con->query($sql);
-            if ($result->num_rows > 0) { //Output data of each row
-
-                while ($row = mysqli_fetch_assoc($result)) {
-        ?>
-        <?php
-                }
-            } else if ($con->error) {
-                printf("Query failed: %s\n", $con->error);
-            } else {
-
-                echo "No results!";
-            }
-        }
-        ?>
-
         //Displaying utility results
         var ctxUtility = document.getElementById('utility-chart').getContext('2d');
         var myChartUtility = new Chart(ctxUtility, {

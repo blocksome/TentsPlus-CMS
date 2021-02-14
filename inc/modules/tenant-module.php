@@ -1,21 +1,3 @@
-<?php
-//Connect to database
-
-//School db login
-/*
-$dbhost = "localhost";
-$dbuser = "amphibis_joses";
-$dbpass = "miGLzU*S.xJV";
-$dbname = "amphibis_joses";
-*/
-
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "tents_plus_database";
-?>
-
-
 <div class="app-main__inner">
     <div class="app-page-title">
         <div class="page-title-wrapper">
@@ -42,12 +24,12 @@ $dbname = "tents_plus_database";
             <div class="main-card mb-3 card">
                 <div class="card-header">Tenants
                     <div class="btn-actions-pane-right">
-                        <!--
                         <div role="group" class="btn-group-sm btn-group">
-                            <button class="active btn btn-focus">Last Week</button>
-                            <button class="btn btn-focus">All Month</button>
+                            <button class="active btn btn-focus" data-toggle='modal' data-target='#tenant-modal-insert'>
+                                <i class="fas fa-plus">
+                                </i>
+                            </button>
                         </div>
-                        -->
                     </div>
                 </div>
 
@@ -60,7 +42,6 @@ $dbname = "tents_plus_database";
                                 <th class="text-center">No. of Co-Tenants</th>
                                 <th class="text-center">Rental Status</th>
                                 <th class="text-center">Rental Amount</th>
-                                <th class="text-center">Rental Deposit</th>
                                 <th class="text-center">Amount Spent</th>
                                 <th></th>
                             </tr>
@@ -91,7 +72,7 @@ $dbname = "tents_plus_database";
                                     while ($row = mysqli_fetch_assoc($result)) {
 
                                         $i++;
-                                        echo "<tr data-tenant-row='" . $i . "'>";
+                                        echo "<tr id='tenant-row-" . $row["tenant_id"] . "'>";
                                         echo "<td class='text-center text-muted tenant-id'>" . $row["tenant_id"] . "</td>";
                                         echo "<td class='tenant-unit-num'>" . $row["unit_num"] . "</td>";
                                         echo "<td class='text-center text-muted cotenant-number'>" . $row["cotenant_num"] . "</td>";
@@ -108,9 +89,8 @@ $dbname = "tents_plus_database";
                                         }
 
                                         echo "<td class='text-center tenant-rental-amount'>$" . $row["rental_amount"] . "</td>";
-                                        echo "<td class='text-center tenant-rental-deposit'>$" . $row["rental_deposit"] . "</td>";
-                                        echo "<td class='text-center tenant-amount_spent'>$" . $row["amount_spent"] . "</td>";
-                                        echo "<td class='text-center tenant-edit-btn'> <button type='button' id'PopoverCustomT-1' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#tenant-modal'>Edit</button> </td>";
+                                        echo "<td class='text-center tenant-amount-spent'>$" . $row["amount_spent"] . "</td>";
+                                        echo "<td class='text-center tenant-edit-btn' data-tenant-id='" . $row["tenant_id"] . "'> <button type='button' id'PopoverCustomT-1' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#tenant-modal'>Edit</button> </td>";
                                         echo "</tr>";
                                     }
                                 } else if ($con->error) {
@@ -125,10 +105,7 @@ $dbname = "tents_plus_database";
                 </div>
 
                 <div class="d-block text-center card-footer">
-                    <button class="mr-2 btn-icon btn-icon-only btn btn-outline-danger">
-                        <i class="pe-7s-trash btn-icon-wrapper"></i>
-                        Truncate All Data
-                    </button>
+
 
                 </div>
             </div>
@@ -142,12 +119,7 @@ $dbname = "tents_plus_database";
                         <i class="header-icon lnr-rocket icon-gradient bg-tempting-azure"> </i>
                         Utility Charges Over Time
                     </div>
-                    <div class="btn-actions-pane-right">
-                        <div class="nav">
-                            <a href="javascript:void(0);" class="border-0 btn-pill btn-wide btn-transition active btn btn-outline-alternate">Tab 1</a>
-                            <a href="javascript:void(0);" class="ml-1 btn-pill btn-wide border-0 btn-transition  btn btn-outline-alternate second-tab-toggle-alt">Tab 2</a>
-                        </div>
-                    </div>
+
                 </div>
 
                 <div class="tab-content">
@@ -233,11 +205,11 @@ $dbname = "tents_plus_database";
             <div class="modal-body">
                 <form>
                     <label for="tenant-id">Tenant ID</label><br>
-                    <input type="text" name="tenant-id" value=""><br>
+                    <input type="text" name="tenant-id" id="tenant-modal-id" value="" placeholder="e.g. TT1234"><br>
 
                     <label for="unit-number">Unit No.</label><br>
-                    <select name="unit-number">
-                    <option value="">Select a Unit</option>
+                    <select name="unit-number" id="tenant-modal-unit-num">
+                        <option value="">Select a Unit</option>
                         <?php
                         $con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname); // Test if connection occurred.
 
@@ -259,7 +231,6 @@ $dbname = "tents_plus_database";
                                 while ($row = mysqli_fetch_assoc($result)) {
 
                                     echo '<option value="' . $row["unit_id"] . '">' . $row["unit_num"] . '</option>';
-                                    
                                 }
                             } else if ($con->error) {
                                 printf("Query failed: %s\n", $con->error);
@@ -272,10 +243,10 @@ $dbname = "tents_plus_database";
                     </select><br>
 
                     <label for="cotenant-num">No. of Co-Tenants</label><br>
-                    <input type="number" name="cotenant-num" min="1" max="5" value="1"><br>
+                    <input type="number" name="cotenant-num" min="1" max="5" id="tenant-modal-cotenant-num" value="1"><br>
 
                     <label for="rental-status">Rental Status</label><br>
-                    <select name="rental-status">
+                    <select name="rental-status" id="tenant-modal-rental-status">
                         <option value="">Select a Status</option>
                         <option value="Fully Paid">Fully Paid</option>
                         <option value="Delayed">Delayed</option>
@@ -283,19 +254,148 @@ $dbname = "tents_plus_database";
                     </select><br>
 
                     <label for="rental-amount">Rental Amount ($)</label><br>
-                    <input type="text" name="rental-amount" value=""><br>
-
-                    <label for="rental-deposit">Rental Deposit ($)</label><br>
-                    <input type="text" name="rental-deposit" value=""><br>
+                    <input type="text" name="rental-amount" id="tenant-modal-rental-amount" value="" placeholder="e.g. 5000.00"><br>
 
                     <label for="amount-spent">Amount Spent ($)</label><br>
-                    <input type="text" name="amount-spent" value=""><br>
+                    <input type="text" name="amount-spent" id="tenant-modal-amount-spent" value="" placeholder="e.g. 5000.00"><br>
                 </form>
             </div>
 
             <div class="modal-footer">
+                <button class="mr-2 btn-icon btn-icon-only btn btn-danger" id="tenant-delete-btn" style="position: absolute; left: 1vw;" data-toggle='modal' data-target='#tenant-modal-delete'>
+                    <i class="pe-7s-trash btn-icon-wrapper"></i>
+                    Delete Tenant
+                </button>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary" id="tenant-update-cfm">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Delete Confirmation-->
+<div class="modal fade" id="tenant-modal-delete" tabindex="-1" role="dialog" aria-labelledby="tenant-modal-delete-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="tenant-modal-delete-title">Hold On!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <h5>You're about to delete this Tenant. This data will be lost forever! (A very long time!)</h5>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <?php ob_start(); ?>
+
+                <button type="button" class="btn btn-danger" id="tenant-delete-cfm">Delete</button>
+
+                <?php
+                if (isset($_GET['tenant-delete-cfm'])) {
+                    $con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname); // Test if connection occurred.
+
+                    $selectedTenantID = $_COOKIE["selectedTenantID"];
+
+                    if (mysqli_connect_errno()) {
+
+                        die("Database connection failed: " .
+                            " mysqli_connect_error()" .
+                            "(" . mysqli_connect_errno() . ")");
+                    } else {
+                        //Run MYSQL request upon successful connection
+                        $sql = "DELETE ";
+                        $sql .= "FROM tenant ";
+                        $sql .= "WHERE tenant_id = $selectedTenantID;";
+                        $result = $con->query($sql);
+                        if ($con->error) {
+                            printf("Query failed: %s\n", $con->error);
+                        }
+                    }
+                }
+                ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Modal for Insert-->
+<div class="modal fade" id="tenant-modal-insert" tabindex="-1" role="dialog" aria-labelledby="tenant-modal-insert-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="tenant-modal-insert-title">Insert Tenant Data</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <form>
+                    <label for="tenant-id">Tenant ID</label><br>
+                    <input type="text" name="tenant-id" id="tenant-modal-insert-id" value="" placeholder="e.g. TT1234"><br>
+
+                    <label for="unit-number">Unit No.</label><br>
+                    <select name="unit-number" id="tenant-insert-unit-num">
+                        <option value="">Select a Unit</option>
+                        <?php
+                        $con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname); // Test if connection occurred.
+
+                        if (mysqli_connect_errno()) {
+
+                            die("Database connection failed: " .
+                                " mysqli_connect_error()" .
+                                "(" . mysqli_connect_errno() . ")");
+                        } else {
+                            //Run MYSQL request upon successful connection
+                            $sql = "SELECT * ";
+                            $sql .= "FROM unit ";
+                            $sql .= "ORDER BY unit_id;";
+                            $result = $con->query($sql);
+                            if ($result->num_rows > 0) {
+
+                                $i = 0;
+                                //Display rows
+                                while ($row = mysqli_fetch_assoc($result)) {
+
+                                    echo '<option value="' . $row["unit_id"] . '">' . $row["unit_num"] . '</option>';
+                                }
+                            } else if ($con->error) {
+                                printf("Query failed: %s\n", $con->error);
+                            } else {
+
+                                echo "No results!";
+                            }
+                        }
+                        ?>
+                    </select><br>
+
+                    <label for="cotenant-num">No. of Co-Tenants</label><br>
+                    <input type="number" name="cotenant-num" min="1" max="5" id="tenant-insert-cotenant-num" value="1"><br>
+
+                    <label for="rental-status">Rental Status</label><br>
+                    <select name="rental-status" id="tenant-insert-rental-status">
+                        <option value="">Select a Status</option>
+                        <option value="Fully Paid">Fully Paid</option>
+                        <option value="Delayed">Delayed</option>
+                        <option value="Installment">Installment</option>
+                    </select><br>
+
+                    <label for="rental-amount">Rental Amount ($)</label><br>
+                    <input type="text" name="rental-amount" id="tenant-insert-rental-amount" value="" placeholder="e.g. 5000.00"><br>
+
+                    <label for="amount-spent">Amount Spent ($)</label><br>
+                    <input type="text" name="amount-spent" id="tenant-insert-amount-spent" value="" placeholder="e.g. 5000.00"><br>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="tenant-insert-cfm">Insert Data</button>
             </div>
         </div>
     </div>

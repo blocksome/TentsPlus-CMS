@@ -1,5 +1,33 @@
 //Script for TentsPlus CMS
 
+//Variables to store selected data row
+var selectedCaseWorker;
+var selectedConsumables;
+var selectedCotenant;
+var selectedDonor;
+var selectedItem;
+var selectedItemHistory;
+var selectedPayment;
+var selectedTenant;
+var selectedTenantItem;
+var selectedTenantUtility;
+var selectedUnit;
+var selectedUnitHistory;
+
+//Variables to store selected data id
+var selectedCaseWorkerID;
+var selectedConsumablesID;
+var selectedCotenantID;
+var selectedDonorID;
+var selectedItemID;
+var selectedItemHistoryID;
+var selectedPaymentID;
+var selectedTenantID;
+var selectedTenantItemID;
+var selectedTenantUtilityID;
+var selectedUnitID;
+var selectedUnitHistoryID;
+
 $(document).ready(function () {
     moveModals();
 
@@ -44,6 +72,73 @@ $(document).ready(function () {
     //========================================================================
     //Tenant Module
 
-    
+    //Fill relevant detail in edit tenant modal
+    $("body").on("click", ".tenant-edit-btn", function () {
+        selectedTenantID = $(this).attr("data-tenant-id");
+        selectedTenant = $(`#tenant-row-${selectedTenantID} .tenant-id`).text();
+
+        $("#tenant-modal-title").text(`Edit ${selectedTenantID}`);
+        $("#tenant-modal-id").val(selectedTenant);
+        //$("#tenant-modal-unit-num").val($(`#tenant-row-${selectedID} .tenant-unit-num`).text());
+        //$("#tenant-modal-cotenant-num").val(parseInt($(`#tenant-row-${selectedID} .tenant-cotenant-number`).text()));
+        //$("#tenant-modal-rental-status").val($(`#tenant-row-${selectedID} .tenant-rental-status`).text());
+
+        var rentalAmount = $(`#tenant-row-${selectedTenantID} .tenant-rental-amount`);
+        var amountSpent = $(`#tenant-row-${selectedTenantID} .tenant-amount-spent`);
+
+        $("#tenant-modal-rental-amount").val(rentalAmount.text().slice(1, rentalAmount.text().length));
+        $("#tenant-modal-amount-spent").val(amountSpent.text().slice(1, amountSpent.text().length));
+    });
+
+    //Create Tenant
+    $("body").on("click", "#tenant-insert-cfm", function () {
+        $.ajax({
+            type: "POST",
+            url: `inc/crud/insert.php?
+            tenantID=${$("#tenant-modal-insert-id").val()}&
+            tenantUnitID=${$("#tenant-insert-unit-num").val()}&
+            tenantCotenantNum=${$("#tenant-insert-cotenant-num").val()}&
+            tenantRentalStatus=${$("#tenant-insert-rental-status").val()}&
+            tenantRentalAmount=${$("#tenant-insert-rental-amount").val()}&
+            tenantAmountSpent=${$("#tenant-insert-amount-spent").val()}`,
+            success: function(response)
+            {
+                console.log(response);
+           }
+       });
+    });
+
+    //Update Tenant
+    $("body").on("click", "#tenant-update-cfm", function () {
+        $.ajax({
+            type: "POST",
+            url: `inc/crud/update.php?
+            tenantID=${$("#tenant-modal-id").val()}&
+            tenantUnitID=${$("#tenant-modal-unit-num").val()}&
+            tenantCotenantNum=${$("#tenant-modal-cotenant-num").val()}&
+            tenantRentalStatus=${$("#tenant-modal-rental-status").val()}&
+            tenantRentalAmount=${$("#tenant-modal-rental-amount").val()}&
+            tenantAmountSpent=${$("#tenant-modal-amount-spent").val()}`,
+            success: function(response)
+            {
+                console.log(response);
+           }
+       });
+    });
+
+    //Delete Tenant
+    $("body").on("click", "#tenant-delete-cfm", function () {
+        $.ajax({
+            type: "POST",
+            url: `inc/crud/delete.php?tenantID=${selectedTenantID}`,
+            success: function(response)
+            {
+                console.log(response);
+                $(`#tenant-row-${selectedTenantID}`).remove();
+           }
+       });
+    });
+
+
     //========================================================================
 });
