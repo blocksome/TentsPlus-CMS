@@ -46,7 +46,7 @@
                                 <th></th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody id="tenant-tbody">
 
                             <!--Run connection to populate data-->
                             <?php
@@ -99,6 +99,7 @@
 
                                     echo "No results!";
                                 }
+                                
                             } ?>
                         </tbody>
                     </table>

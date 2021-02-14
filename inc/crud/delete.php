@@ -26,12 +26,17 @@ if (mysqli_connect_errno()) {
 
         $result = $con->query($sql);
         if ($con->error) {
-            printf("Query failed: %s\n", $con->error);
+            $statusMsg = "Query failed: %s\n, $con->error";
         } else {
-            echo "success";
+            $statusMsg = "success";
         }
 
     }
+
+    else{
+        $statusMsg = "No query selected";
+     }
 }
 
+echo $statusMsg;
 $con->close();

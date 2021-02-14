@@ -103,7 +103,9 @@ $(document).ready(function () {
             tenantAmountSpent=${$("#tenant-insert-amount-spent").val()}`,
             success: function(response)
             {
-                console.log(response);
+                if(response == "success"){
+                    location.reload();
+                }
            }
        });
     });
@@ -121,7 +123,9 @@ $(document).ready(function () {
             tenantAmountSpent=${$("#tenant-modal-amount-spent").val()}`,
             success: function(response)
             {
-                console.log(response);
+                if(response == "success"){
+                    location.reload();
+                }
            }
        });
     });
@@ -133,8 +137,9 @@ $(document).ready(function () {
             url: `inc/crud/delete.php?tenantID=${selectedTenantID}`,
             success: function(response)
             {
-                console.log(response);
-                $(`#tenant-row-${selectedTenantID}`).remove();
+                if(response == "success"){
+                    location.reload();
+                }
            }
        });
     });
