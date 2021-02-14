@@ -77,34 +77,62 @@ $dbname = "tents_plus_database";
                                     "(" . mysqli_connect_errno() . ")");
                             } else {
                                 //Run MYSQL request upon successful connection
-                                $sql = "SELECT * "; //Select everything
-                                $sql .= "FROM tenant "; //Reading from Projects table
-                                $sql .= "ORDER BY tenant_id;"; //Sort by id
+                                $sql = "SELECT * ";
+                                $sql .= "FROM tenant as t ";
+                                $sql .= "INNER JOIN unit as u ";
+                                $sql .= "ON t.unit_id = u.unit_id ";
+                                $sql .= "ORDER BY tenant_id;";
                                 $result = $con->query($sql);
-                                if ($result->num_rows > 0) { //Output data of each row
+                                if ($result->num_rows > 0) {
 
                                     $i = 0;
                                     //Display rows
                                     while ($row = mysqli_fetch_assoc($result)) {
 
-                                        echo "<tr>";
-                                        echo "<td class='text-center text-muted'>" . $row["tenant_id"] . "</td>";
-                                        echo "<td>#" . $row["unit_num"] . "</td>";
+                                        $i++;
+                                        echo "<tr data-utlity-row='" . $i . "'>";
+                                        echo "<td class='text-center text-muted utility-id'>" . $row["tenant_id"] . "</td>";
+                                        echo "<td class='utility-unit-num'>" . $row["unit_num"] . "</td>";
 
+                                        //Display different badges for different rental statuses
                                         if ($row["rental_status"] == "Pending") {
-                                            echo "<td class='text-center'> <div class='badge badge-warning'>Pending</div> </td>";
-                                        } 
-                                        
-                                        else {
-                                            echo "<td class='text-center'> <div class='badge badge-warning'>Unknown</div> </td>";
+                                            echo "<td class='text-center utility-rental-status'> <div class='badge badge-warning'>Pending</div> </td>";
+                                        } else if ($row["rental_status"] == "Paid") {
+                                            echo "<td class='text-center utility-rental-status'> <div class='badge badge-success'>Paid</div> </td>";
+                                        } else if ($row["rental_status"] == "Evicted") {
+                                            echo "<td class='text-center utility-rental-status'> <div class='badge badge-danger'>Evicted</div> </td>";
+                                        } else {
+                                            echo "<td class='text-center utility-rental-status'> <div class='badge badge-warning'>Unknown</div> </td>";
                                         }
 
-                                        echo "<td class='text-center'>$" . $row["rental_amount"] . "</td>";
-                                        echo "<td class='text-center'>$" . $row["rental_deposit"] . "</td>";
-                                        echo "<td class='text-center'> <button type='button' id'PopoverCustomT-1' class='btn btn-info btn-sm'>Display</button> </td>";
-                                        echo "<td class='text-center'> <button type='button' id'PopoverCustomT-1' class='btn btn-primary btn-sm'>Edit</button> </td>";
+                                        echo "<td class='text-center utility-rental-amount'>$" . $row["rental_amount"] . "</td>";
+                                        echo "<td class='text-center utility-rental-deposit'>$" . $row["rental_deposit"] . "</td>";
+                                        echo "<td class='text-center utility-display-btn'> <button type='button' id'PopoverCustomT-1' class='btn btn-info btn-sm'>Display</button> </td>";
+                                        echo "<td class='text-center utility-edit-btn'> <button type='button' id'PopoverCustomT-1' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#tenant-modal-" . $row["tenant_id"] . "'>Edit</button> </td>";
                                         echo "</tr>";
-                                        $i++;
+
+                                        //Add modal for edits
+                                        echo 
+                                        
+                                        '<div class="modal fade" id="tenant-modal-' . $row["tenant_id"] . '" tabindex="-1" role="dialog" aria-labelledby="tenant-modal-title-' . $row["tenant_id"] . '" aria-hidden="true">
+                                          <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h5 class="modal-title" id="tenant-modal-title-' . $row["tenant_id"] . '">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                <h6> example </h6>
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>';
                                     }
 
                                     //echo "<span>Query complete, fetched " . $i . " result(s).</span>";
@@ -128,6 +156,7 @@ $dbname = "tents_plus_database";
             </div>
         </div>
 
+        <!--Graph-->
         <div class="col-md-12 col-lg-5">
             <div class="mb-3 card">
                 <div class="card-header-tab card-header">
@@ -147,7 +176,7 @@ $dbname = "tents_plus_database";
                     <div class="tab-pane fade active show" id="tab-eg-55">
                         <div class="widget-chart p-3">
                             <div style="height: 350px">
-                                <canvas id="line-chart"></canvas>
+                                <canvas id="utility-chart"></canvas>
                             </div>
 
                             <div class="widget-chart-content text-center mt-5">
@@ -194,7 +223,6 @@ $dbname = "tents_plus_database";
     <!--Coloured Tabs-->
     <div class="row">
 
-
         <div class="d-xl-none d-lg-block col-md-6 col-xl-4">
             <div class="card mb-3 widget-content bg-premium-dark">
                 <div class="widget-content-wrapper text-white">
@@ -208,6 +236,7 @@ $dbname = "tents_plus_database";
                 </div>
             </div>
         </div>
+
     </div>
 
 </div>
