@@ -92,42 +92,68 @@ $(document).ready(function () {
 
     //Create Tenant
     $("body").on("click", "#tenant-insert-cfm", function () {
-        $.ajax({
-            type: "POST",
-            url: `inc/crud/insert.php?
+        //Form validation
+        if ($("#tenant-modal-insert-id").val() == "" ||
+            $("#tenant-insert-unit-num").val() == "" ||
+            $("#tenant-insert-cotenant-num").val() == "" ||
+            $("#tenant-insert-rental-status").val() == "" ||
+            $("#tenant-insert-rental-amount").val() == "" ||
+            $("#tenant-insert-amount-spent").val() == "") {
+
+            alert("You can't leave required fields empty.");
+        }
+
+        else {
+            $.ajax({
+                type: "POST",
+                url: `inc/crud/insert.php?
             tenantID=${$("#tenant-modal-insert-id").val()}&
             tenantUnitID=${$("#tenant-insert-unit-num").val()}&
             tenantCotenantNum=${$("#tenant-insert-cotenant-num").val()}&
             tenantRentalStatus=${$("#tenant-insert-rental-status").val()}&
             tenantRentalAmount=${$("#tenant-insert-rental-amount").val()}&
             tenantAmountSpent=${$("#tenant-insert-amount-spent").val()}`,
-            success: function(response)
-            {
-                if(response == "success"){
-                    location.reload();
+                success: function (response) {
+                    if (response == "success") {
+                        location.reload();
+                    }
                 }
-           }
-       });
+            });
+        }
+
+
     });
 
     //Update Tenant
     $("body").on("click", "#tenant-update-cfm", function () {
-        $.ajax({
-            type: "POST",
-            url: `inc/crud/update.php?
+        //Form validation
+        if ($("#tenant-modal-id").val() == "" ||
+            $("#tenant-modal-unit-num").val() == "" ||
+            $("#tenant-modal-cotenant-num").val() == "" ||
+            $("#tenant-modal-rental-status").val() == "" ||
+            $("#tenant-modal-rental-amount").val() == "" ||
+            $("#tenant-modal-amount-spent").val() == "") {
+
+            alert("You can't leave required fields empty.");
+        }
+        else {
+            $.ajax({
+                type: "POST",
+                url: `inc/crud/update.php?
             tenantID=${$("#tenant-modal-id").val()}&
             tenantUnitID=${$("#tenant-modal-unit-num").val()}&
             tenantCotenantNum=${$("#tenant-modal-cotenant-num").val()}&
             tenantRentalStatus=${$("#tenant-modal-rental-status").val()}&
             tenantRentalAmount=${$("#tenant-modal-rental-amount").val()}&
             tenantAmountSpent=${$("#tenant-modal-amount-spent").val()}`,
-            success: function(response)
-            {
-                if(response == "success"){
-                    location.reload();
+                success: function (response) {
+                    if (response == "success") {
+                        location.reload();
+                    }
                 }
-           }
-       });
+            });
+        }
+
     });
 
     //Delete Tenant
@@ -135,13 +161,12 @@ $(document).ready(function () {
         $.ajax({
             type: "POST",
             url: `inc/crud/delete.php?tenantID=${selectedTenantID}`,
-            success: function(response)
-            {
-                if(response == "success"){
+            success: function (response) {
+                if (response == "success") {
                     location.reload();
                 }
-           }
-       });
+            }
+        });
     });
 
 

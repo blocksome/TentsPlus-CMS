@@ -99,7 +99,6 @@
 
                                     echo "No results!";
                                 }
-                                
                             } ?>
                         </tbody>
                     </table>
@@ -205,10 +204,10 @@
 
             <div class="modal-body">
                 <form>
-                    <label for="tenant-id">Tenant ID</label><br>
+                    <label for="tenant-id">Tenant ID <span class="text-danger">*</span></label><br>
                     <input type="text" name="tenant-id" id="tenant-modal-id" value="" placeholder="e.g. TT1234"><br>
 
-                    <label for="unit-number">Unit No.</label><br>
+                    <label for="unit-number">Unit No. <span class="text-danger">*</span></label><br>
                     <select name="unit-number" id="tenant-modal-unit-num">
                         <option value="">Select a Unit</option>
                         <?php
@@ -243,10 +242,10 @@
                         ?>
                     </select><br>
 
-                    <label for="cotenant-num">No. of Co-Tenants</label><br>
+                    <label for="cotenant-num">No. of Co-Tenants <span class="text-danger">*</span></label><br>
                     <input type="number" name="cotenant-num" min="1" max="5" id="tenant-modal-cotenant-num" value="1"><br>
 
-                    <label for="rental-status">Rental Status</label><br>
+                    <label for="rental-status">Rental Status <span class="text-danger">*</span></label><br>
                     <select name="rental-status" id="tenant-modal-rental-status">
                         <option value="">Select a Status</option>
                         <option value="Fully Paid">Fully Paid</option>
@@ -254,11 +253,14 @@
                         <option value="Installment">Installment</option>
                     </select><br>
 
-                    <label for="rental-amount">Rental Amount ($)</label><br>
+                    <label for="rental-amount">Rental Amount ($) <span class="text-danger">*</span></label><br>
                     <input type="text" name="rental-amount" id="tenant-modal-rental-amount" value="" placeholder="e.g. 5000.00"><br>
 
-                    <label for="amount-spent">Amount Spent ($)</label><br>
+                    <label for="amount-spent">Amount Spent ($) <span class="text-danger">*</span></label><br>
                     <input type="text" name="amount-spent" id="tenant-modal-amount-spent" value="" placeholder="e.g. 5000.00"><br>
+
+                    <br>
+                    <h6 class="text-danger">Required Field *</h6>
                 </form>
             </div>
 
@@ -299,8 +301,6 @@
                 if (isset($_GET['tenant-delete-cfm'])) {
                     $con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname); // Test if connection occurred.
 
-                    $selectedTenantID = $_COOKIE["selectedTenantID"];
-
                     if (mysqli_connect_errno()) {
 
                         die("Database connection failed: " .
@@ -336,10 +336,10 @@
 
             <div class="modal-body">
                 <form>
-                    <label for="tenant-id">Tenant ID</label><br>
+                    <label for="tenant-id">Tenant ID <span class="text-danger">*</span></label><br>
                     <input type="text" name="tenant-id" id="tenant-modal-insert-id" value="" placeholder="e.g. TT1234"><br>
 
-                    <label for="unit-number">Unit No.</label><br>
+                    <label for="unit-number">Unit No. <span class="text-danger">*</span></label><br>
                     <select name="unit-number" id="tenant-insert-unit-num">
                         <option value="">Select a Unit</option>
                         <?php
@@ -374,10 +374,10 @@
                         ?>
                     </select><br>
 
-                    <label for="cotenant-num">No. of Co-Tenants</label><br>
+                    <label for="cotenant-num">No. of Co-Tenants <span class="text-danger">*</span></label><br>
                     <input type="number" name="cotenant-num" min="1" max="5" id="tenant-insert-cotenant-num" value="1"><br>
 
-                    <label for="rental-status">Rental Status</label><br>
+                    <label for="rental-status">Rental Status <span class="text-danger">*</span></label><br>
                     <select name="rental-status" id="tenant-insert-rental-status">
                         <option value="">Select a Status</option>
                         <option value="Fully Paid">Fully Paid</option>
@@ -385,11 +385,14 @@
                         <option value="Installment">Installment</option>
                     </select><br>
 
-                    <label for="rental-amount">Rental Amount ($)</label><br>
+                    <label for="rental-amount">Rental Amount ($) <span class="text-danger">*</span></label><br>
                     <input type="text" name="rental-amount" id="tenant-insert-rental-amount" value="" placeholder="e.g. 5000.00"><br>
 
-                    <label for="amount-spent">Amount Spent ($)</label><br>
+                    <label for="amount-spent">Amount Spent ($) <span class="text-danger">*</span></label><br>
                     <input type="text" name="amount-spent" id="tenant-insert-amount-spent" value="" placeholder="e.g. 5000.00"><br>
+
+                    <br>
+                    <h6 class="text-danger">Required Fields *</h6>
                 </form>
             </div>
 
