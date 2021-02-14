@@ -22,7 +22,7 @@
             <div class="app-main__outer">
                 <div id="load-div">
                     <!--Page Module Content (replace for each page)-->
-                    <?php include("inc/modules/utility-module.php"); ?>
+                    <?php include("inc/modules/tenant-module.php"); ?>
                 </div>
 
                 <!--Footer-->
@@ -47,15 +47,6 @@
 
     <!--ChartJS Charts-->
     <script>
-        //Declare all of the results arrays
-        //Utility Results
-        var utilityResults = [];
-
-        /*
-            Take Note:
-            Currently trying to put Utility Data in ChartJS
-        */
-
         //Storing utility content in JavaScript
         <?php
         $con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname); // Test if connection occurred.
@@ -75,7 +66,6 @@
 
                 while ($row = mysqli_fetch_assoc($result)) {
         ?>
-                    utilityResults.push(<?php echo json_encode($row); ?>);
         <?php
                 }
             } else if ($con->error) {

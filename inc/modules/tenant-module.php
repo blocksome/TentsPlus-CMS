@@ -21,12 +21,12 @@ $dbname = "tents_plus_database";
         <div class="page-title-wrapper">
             <div class="page-title-heading">
                 <div class="page-title-icon">
-                    <i class="fas fa-dollar-sign icon-gradient bg-mean-fruit">
+                    <i class="fas fa-male icon-gradient bg-mean-fruit">
                     </i>
                 </div>
                 <!--Page Title-->
-                <div>Tenants & Utilities
-                    <div class="page-title-subheading">List of Tenants and their Utility Charges over time.
+                <div>Tenants
+                    <div class="page-title-subheading">List of Tenants under TentsPlus.
                     </div>
                 </div>
             </div>
@@ -57,10 +57,11 @@ $dbname = "tents_plus_database";
                             <tr>
                                 <th class="text-center">ID</th>
                                 <th>Unit Number</th>
+                                <th class="text-center">No. of Co-Tenants</th>
                                 <th class="text-center">Rental Status</th>
                                 <th class="text-center">Rental Amount</th>
                                 <th class="text-center">Rental Deposit</th>
-                                <th class="text-center">Display Graph</th>
+                                <th class="text-center">Amount Spent</th>
                                 <th></th>
                             </tr>
                         </thead>
@@ -90,52 +91,28 @@ $dbname = "tents_plus_database";
                                     while ($row = mysqli_fetch_assoc($result)) {
 
                                         $i++;
-                                        echo "<tr data-utlity-row='" . $i . "'>";
-                                        echo "<td class='text-center text-muted utility-id'>" . $row["tenant_id"] . "</td>";
-                                        echo "<td class='utility-unit-num'>" . $row["unit_num"] . "</td>";
+                                        echo "<tr data-tenant-row='" . $i . "'>";
+                                        echo "<td class='text-center text-muted tenant-id'>" . $row["tenant_id"] . "</td>";
+                                        echo "<td class='tenant-unit-num'>" . $row["unit_num"] . "</td>";
+                                        echo "<td class='text-center text-muted cotenant-number'>" . $row["cotenant_num"] . "</td>";
 
                                         //Display different badges for different rental statuses
                                         if ($row["rental_status"] == "Delayed") {
-                                            echo "<td class='text-center utility-rental-status'> <div class='badge badge-warning'>Delayed</div> </td>";
+                                            echo "<td class='text-center tenant-rental-status'> <div class='badge badge-warning'>Delayed</div> </td>";
                                         } else if ($row["rental_status"] == "Fully Paid") {
-                                            echo "<td class='text-center utility-rental-status'> <div class='badge badge-success'>Paid</div> </td>";
+                                            echo "<td class='text-center tenant-rental-status'> <div class='badge badge-success'>Paid</div> </td>";
                                         } else if ($row["rental_status"] == "Installment") {
-                                            echo "<td class='text-center utility-rental-status'> <div class='badge badge-danger'>Installment</div> </td>";
+                                            echo "<td class='text-center tenant-rental-status'> <div class='badge badge-danger'>Installment</div> </td>";
                                         } else {
-                                            echo "<td class='text-center utility-rental-status'> <div class='badge badge-warning'>Other</div> </td>";
+                                            echo "<td class='text-center tenant-rental-status'> <div class='badge badge-warning'>Other</div> </td>";
                                         }
 
-                                        echo "<td class='text-center utility-rental-amount'>$" . $row["rental_amount"] . "</td>";
-                                        echo "<td class='text-center utility-rental-deposit'>$" . $row["rental_deposit"] . "</td>";
-                                        echo "<td class='text-center utility-display-btn'> <button type='button' id'PopoverCustomT-1' class='btn btn-info btn-sm'>Display</button> </td>";
-                                        echo "<td class='text-center utility-edit-btn'> <button type='button' id'PopoverCustomT-1' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#tenant-modal-" . $row["tenant_id"] . "'>Edit</button> </td>";
+                                        echo "<td class='text-center tenant-rental-amount'>$" . $row["rental_amount"] . "</td>";
+                                        echo "<td class='text-center tenant-rental-deposit'>$" . $row["rental_deposit"] . "</td>";
+                                        echo "<td class='text-center tenant-amount_spent'>$" . $row["amount_spent"] . "</td>";
+                                        echo "<td class='text-center tenant-edit-btn'> <button type='button' id'PopoverCustomT-1' class='btn btn-primary btn-sm' data-toggle='modal' data-target='#tenant-modal'>Edit</button> </td>";
                                         echo "</tr>";
-
-                                        //Add modal for edits
-                                        echo 
-                                        
-                                        '<div class="modal fade" id="tenant-modal-' . $row["tenant_id"] . '" tabindex="-1" role="dialog" aria-labelledby="tenant-modal-title-' . $row["tenant_id"] . '" aria-hidden="true">
-                                          <div class="modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                              <div class="modal-header">
-                                                <h5 class="modal-title" id="tenant-modal-title-' . $row["tenant_id"] . '">Modal title</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                  <span aria-hidden="true">&times;</span>
-                                                </button>
-                                              </div>
-                                              <div class="modal-body">
-                                                <h6> example </h6>
-                                              </div>
-                                              <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Save changes</button>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>';
                                     }
-
-                                    //echo "<span>Query complete, fetched " . $i . " result(s).</span>";
                                 } else if ($con->error) {
                                     printf("Query failed: %s\n", $con->error);
                                 } else {
@@ -146,6 +123,7 @@ $dbname = "tents_plus_database";
                         </tbody>
                     </table>
                 </div>
+
                 <div class="d-block text-center card-footer">
                     <button class="mr-2 btn-icon btn-icon-only btn btn-outline-danger">
                         <i class="pe-7s-trash btn-icon-wrapper"></i>
@@ -239,4 +217,86 @@ $dbname = "tents_plus_database";
 
     </div>
 
+</div>
+
+<!--Modal for Edits-->
+<div class="modal fade" id="tenant-modal" tabindex="-1" role="dialog" aria-labelledby="tenant-modal-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="tenant-modal-title">Edit Tenant Data</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <form>
+                    <label for="tenant-id">Tenant ID</label><br>
+                    <input type="text" name="tenant-id" value=""><br>
+
+                    <label for="unit-number">Unit No.</label><br>
+                    <select name="unit-number">
+                    <option value="">Select a Unit</option>
+                        <?php
+                        $con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname); // Test if connection occurred.
+
+                        if (mysqli_connect_errno()) {
+
+                            die("Database connection failed: " .
+                                " mysqli_connect_error()" .
+                                "(" . mysqli_connect_errno() . ")");
+                        } else {
+                            //Run MYSQL request upon successful connection
+                            $sql = "SELECT * ";
+                            $sql .= "FROM unit ";
+                            $sql .= "ORDER BY unit_id;";
+                            $result = $con->query($sql);
+                            if ($result->num_rows > 0) {
+
+                                $i = 0;
+                                //Display rows
+                                while ($row = mysqli_fetch_assoc($result)) {
+
+                                    echo '<option value="' . $row["unit_id"] . '">' . $row["unit_num"] . '</option>';
+                                    
+                                }
+                            } else if ($con->error) {
+                                printf("Query failed: %s\n", $con->error);
+                            } else {
+
+                                echo "No results!";
+                            }
+                        }
+                        ?>
+                    </select><br>
+
+                    <label for="cotenant-num">No. of Co-Tenants</label><br>
+                    <input type="number" name="cotenant-num" min="1" max="5" value="1"><br>
+
+                    <label for="rental-status">Rental Status</label><br>
+                    <select name="rental-status">
+                        <option value="">Select a Status</option>
+                        <option value="Fully Paid">Fully Paid</option>
+                        <option value="Delayed">Delayed</option>
+                        <option value="Installment">Installment</option>
+                    </select><br>
+
+                    <label for="rental-amount">Rental Amount ($)</label><br>
+                    <input type="text" name="rental-amount" value=""><br>
+
+                    <label for="rental-deposit">Rental Deposit ($)</label><br>
+                    <input type="text" name="rental-deposit" value=""><br>
+
+                    <label for="amount-spent">Amount Spent ($)</label><br>
+                    <input type="text" name="amount-spent" value=""><br>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
 </div>

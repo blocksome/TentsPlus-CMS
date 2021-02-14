@@ -37,8 +37,8 @@
                 <li class="app-sidebar__heading">Modules</li>
                 <li>
                     <a href="#" class="tab-btn mm-active" id="tenant-tab-btn">
-                        <i class="metismenu-icon pe-7s-rocket"></i>
-                        Tenants & Utilities
+                        <i class="metismenu-icon fas fa-male"></i>
+                        Tenants
                         </a>
                 </li>
                 <li>
