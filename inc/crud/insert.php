@@ -49,14 +49,37 @@ if (mysqli_connect_errno()) {
 
         $itemID = $_GET["itemID"];
         $itemName = $_GET["itemName"];
-        $donorID = $_GET["donorID"];
+        $itemDonorID = $_GET["itemDonorID"];
 
         $sql = "INSERT INTO item ";
         $sql .= "(item_id, item_name, donor_id) ";
         $sql .= "VALUES (";
         $sql .= "'$itemID', ";
         $sql .= "'$itemName', ";
-        $sql .= "'$donorID');";
+        $sql .= "'$itemDonorID');";
+
+        $result = $con->query($sql);
+        if ($con->error) {
+            $statusMsg = "Query failed: %s\n, $con->error";
+        } else {
+            $statusMsg = "success";
+        }
+
+    }
+
+    //Case Worker
+    else if (isset($_GET["caseWorkerID"])) {
+
+        $caseWorkerID = $_GET["caseWorkerID"];
+        $caseWorkerName = $_GET["caseWorkerName"];
+        $caseWorkerTenantID = $_GET["caseWorkerTenantID"];
+
+        $sql = "INSERT INTO case_worker ";
+        $sql .= "(case_id, case_name, tenant_id) ";
+        $sql .= "VALUES (";
+        $sql .= "'$caseWorkerID', ";
+        $sql .= "'$caseWorkerName', ";
+        $sql .= "'$caseWorkerTenantID');";
 
         $result = $con->query($sql);
         if ($con->error) {

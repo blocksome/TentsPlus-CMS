@@ -43,8 +43,15 @@
                 </li>
                 <li>
                     <a href="#" class="tab-btn" id="inventory-tab-btn">
-                        <i class="metismenu-icon pe-7s-rocket"></i>
+                        <i class="metismenu-icon fas fa-archive"></i>
                         Inventory Listing
+                        </a>
+                </li>
+
+                <li>
+                    <a href="#" class="tab-btn" id="case-worker-tab-btn">
+                        <i class="metismenu-icon fas fa-smile"></i>
+                        Case Workers
                         </a>
                 </li>
                 <li class="app-sidebar__heading">UI Components</li>

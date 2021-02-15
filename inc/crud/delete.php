@@ -51,6 +51,24 @@ if (mysqli_connect_errno()) {
 
     }
 
+    //Case Worker
+    else if (isset($_GET["caseWorkerID"])) {
+
+        $caseWorkerID = $_GET["caseWorkerID"];
+
+        $sql = "DELETE ";
+        $sql .= "FROM case_worker ";
+        $sql .= "WHERE case_id = '$caseWorkerID';";
+
+        $result = $con->query($sql);
+        if ($con->error) {
+            $statusMsg = "Query failed: %s\n, $con->error";
+        } else {
+            $statusMsg = "success";
+        }
+
+    }
+
     else{
         $statusMsg = "No query selected";
      }

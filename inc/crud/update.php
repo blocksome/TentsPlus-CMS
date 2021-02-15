@@ -48,13 +48,35 @@ if (mysqli_connect_errno()) {
 
         $itemID = $_GET["itemID"];
         $itemName = $_GET["itemName"];
-        $donorID = $_GET["donorID"];
+        $itemDonorID = $_GET["itemDonorID"];
 
         $sql = "UPDATE item ";
         $sql .= "SET item_id = '$itemID', ";
         $sql .= "item_name = '$itemName', ";
-        $sql .= "donor_id = '$donorID' ";
+        $sql .= "donor_id = '$itemDonorID' ";
         $sql .= "WHERE item_id = '$itemID';";
+
+        $result = $con->query($sql);
+        if ($con->error) {
+            $statusMsg = "Query failed: %s\n, $con->error";
+        } else {
+            $statusMsg = "success";
+        }
+
+    }
+
+    //Case Worker
+    else if (isset($_GET["caseWorkerID"])) {
+
+        $caseWorkerID = $_GET["caseWorkerID"];
+        $caseWorkerName = $_GET["caseWorkerName"];
+        $caseWorkerTenantID = $_GET["caseWorkerTenantID"];
+
+        $sql = "UPDATE case_worker ";
+        $sql .= "SET case_id = '$caseWorkerID', ";
+        $sql .= "case_name = '$caseWorkerName', ";
+        $sql .= "tenant_id = '$caseWorkerTenantID' ";
+        $sql .= "WHERE case_id = '$caseWorkerID';";
 
         $result = $con->query($sql);
         if ($con->error) {

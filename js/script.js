@@ -70,6 +70,15 @@ $(document).ready(function () {
             moveModals();
         });
     });
+
+    //Case Workers
+    $("#case-worker-tab-btn").click(function () {
+        $("#case-worker-tab-btn").addClass("mm-active");
+        removeModals();
+        $("#load-div").load("inc/modules/case-worker-module.php", function () {
+            moveModals();
+        });
+    });
     //========================================================================
 
     //========================================================================
@@ -213,7 +222,7 @@ $(document).ready(function () {
                 url: `inc/crud/insert.php?
             itemID=${$("#item-insert-id").val()}&
             itemName=${$("#item-insert-name").val()}&
-            donorID=${$("#item-insert-donor-id").val()}`,
+            itemDonorID=${$("#item-insert-donor-id").val()}`,
                 success: function (response) {
                     if (response == "success") {
                         location.reload();
@@ -242,7 +251,7 @@ $(document).ready(function () {
                 url: `inc/crud/update.php?
             itemID=${$("#item-modal-id").val()}&
             itemName=${$("#item-modal-name").val()}&
-            donorID=${$("#item-modal-donor-id").val()}`,
+            itemDonorID=${$("#item-modal-donor-id").val()}`,
                 success: function (response) {
                     if (response == "success") {
                         location.reload();
@@ -270,4 +279,98 @@ $(document).ready(function () {
         });
     });
 
+    //========================================================================
+
+    //========================================================================
+    //Case Worker Module
+
+    //Fill relevant detail in edit item modal
+    $("body").on("click", ".case-worker-edit-btn", function () {
+        selectedCaseWorkerID = $(this).attr("data-case-worker-id");
+        selectedCaseWorker = $(`#case-worker-row-${selectedCaseWorkerID} .case-worker-id`).text();
+
+        $("#case-worker-modal-title").text(`Edit ${selectedCaseWorkerID}`);
+        $("#case-worker-modal-id").val(selectedCaseWorker);
+
+        var caseWorkerName = $(`#case-worker-row-${selectedCaseWorkerID} .case-worker-name`);
+        var tenantID = $(`#case-worker-row-${selectedCaseWorkerID} .case-worker-tenant-id`);
+
+        $("#case-worker-modal-name").val(caseWorkerName.text());
+        $("#case-worker-modal-tenant-id").val(tenantID.text());
+    });
+
+    //Create Item
+    $("body").on("click", "#case-worker-insert-cfm", function () {
+        //Form validation
+        if ($("#case-worker-insert-id").val() == "" ||
+            $("#case-worker-insert-name").val() == "" ||
+            $("#case-worker-insert-tenant-id").val() == "") {
+
+            alert("You can't leave required fields empty.");
+        }
+
+        else {
+            $.ajax({
+                type: "POST",
+                url: `inc/crud/insert.php?
+            caseWorkerID=${$("#case-worker-insert-id").val()}&
+            caseWorkerName=${$("#case-worker-insert-name").val()}&
+            caseWorkerTenantID=${$("#case-worker-insert-tenant-id").val()}`,
+                success: function (response) {
+                    if (response == "success") {
+                        location.reload();
+                    }
+
+                    console.log(response);
+                }
+            });
+        }
+
+
+    });
+
+    //Update Item
+    $("body").on("click", "#case-worker-update-cfm", function () {
+        //Form validation
+        if ($("#case-worker-modal-id").val() == "" ||
+            $("#case-worker-modal-name").val() == "" ||
+            $("#case-worker-modal-tenant-id").val() == "") {
+
+            alert("You can't leave required fields empty.");
+        }
+        else {
+            $.ajax({
+                type: "POST",
+                url: `inc/crud/update.php?
+            caseWorkerID=${$("#case-worker-modal-id").val()}&
+            caseWorkerName=${$("#case-worker-modal-name").val()}&
+            caseWorkerTenantID=${$("#case-worker-modal-tenant-id").val()}`,
+                success: function (response) {
+                    if (response == "success") {
+                        location.reload();
+                    }
+
+                    console.log(response);
+                }
+            });
+        }
+
+    });
+
+    //Delete Tenant
+    $("body").on("click", "#case-worker-delete-cfm", function () {
+        $.ajax({
+            type: "POST",
+            url: `inc/crud/delete.php?itemID=${selectedCaseWorkerID}`,
+            success: function (response) {
+                if (response == "success") {
+                    location.reload();
+                }
+
+                console.log(response);
+            }
+        });
+    });
+
 });
+//========================================================================
