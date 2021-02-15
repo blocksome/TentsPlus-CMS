@@ -125,6 +125,15 @@ $(document).ready(function () {
             moveModals();
         });
     });
+
+    //Unit
+    $("#unit-view-btn").click(function () {
+        $("#unit-view-btn").addClass("mm-active");
+        removeModals();
+        $("#load-div").load("inc/modules/unit-view.php", function () {
+            moveModals();
+        });
+    });
     //========================================================================
 
     //========================================================================

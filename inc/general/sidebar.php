@@ -34,7 +34,7 @@
         <div class="app-sidebar__inner">
 
             <ul class="vertical-nav-menu">
-                <li class="app-sidebar__heading">Tables</li>
+                <li class="app-sidebar__heading">CRUD Tables</li>
                 <li>
                     <a href="#" class="tab-btn mm-active" id="tenant-tab-btn">
                         <i class="metismenu-icon fas fa-male"></i>
@@ -81,8 +81,14 @@
                 </li>
                 <li>
                     <a href="#" class="tab-btn" id="donor-view-btn">
-                        <i class="metismenu-icon fas fa-male"></i>
-                        Donors
+                        <i class="metismenu-icon fas fa-user-tie"></i>
+                        Donor
+                        </a>
+                </li>
+                <li>
+                    <a href="#" class="tab-btn" id="unit-view-btn">
+                        <i class="metismenu-icon fas fa-home"></i>
+                        Unit
                         </a>
                 </li>
             </ul>

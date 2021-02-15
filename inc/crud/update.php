@@ -1,9 +1,6 @@
 <?php
 
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "tents_plus_database";
+include("db-login.php");
 
 $con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname); // Test if connection occurred.
 
