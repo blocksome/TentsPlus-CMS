@@ -88,6 +88,15 @@ $(document).ready(function () {
             moveModals();
         });
     });
+
+    //Co-Tenants
+    $("#cotenant-tab-btn").click(function () {
+        $("#cotenant-tab-btn").addClass("mm-active");
+        removeModals();
+        $("#load-div").load("inc/modules/cotenant-module.php", function () {
+            moveModals();
+        });
+    });
     //========================================================================
 
     //========================================================================
@@ -484,6 +493,119 @@ $(document).ready(function () {
 
 
     //========================================================================
+
+    //========================================================================
+    //Co-Tenant Module
+
+    //Fill relevant detail in edit cotenant modal
+    $("body").on("click", ".cotenant-edit-btn", function () {
+        selectedCotenantID = $(this).attr("data-cotenant-id");
+        selectedCotenant = $(`#cotenant-row-${selectedCotenantID} .cotenant-id`).text();
+
+        $("#cotenant-modal-title").text(`Edit ${selectedCotenantID}`);
+        $("#cotenant-modal-id").val(selectedCotenant);
+
+        var phone = $(`#cotenant-row-${selectedCotenantID} .cotenant-phone`);
+        var tenantID = $(`#cotenant-row-${selectedCotenantID} .cotenant-tenant-id`);
+        var name = $(`#cotenant-row-${selectedCotenantID} .cotenant-name`);
+        var citizenship = $(`#cotenant-row-${selectedCotenantID} .cotenant-citizenship`);
+        var dob = $(`#cotenant-row-${selectedCotenantID} .cotenant-dob`);
+
+        $("#cotenant-modal-phone").val(phone.text());
+        $("#cotenant-modal-tenant-id").val(tenantID.text());
+        $("#cotenant-modal-name").val(name.text());
+        $("#cotenant-modal-citizenship").val(citizenship.text());
+        $("#cotenant-modal-dob").val(dob.text());
+    });
+
+    //Create Tenant
+    $("body").on("click", "#cotenant-insert-cfm", function () {
+        //Form validation
+        if ($("#cotenant-insert-id").val() == "" ||
+            $("#cotenant-insert-phone").val() == "" ||
+            $("#cotenant-insert-tenant-id").val() == "" ||
+            $("#cotenant-insert-name").val() == "" ||
+            $("#cotenant-insert-citizenship").val() == "" ||
+            $("#cotenant-insert-dob").val() == "") {
+
+            alert("You can't leave required fields empty.");
+        }
+
+        else {
+            $.ajax({
+                type: "POST",
+                url: `inc/crud/insert.php?
+            cotenantID=${$("#cotenant-insert-id").val()}&
+            cotenantPhone=${$("#cotenant-insert-phone").val()}&
+            cotenantTenantID=${$("#cotenant-insert-tenant-id").val()}&
+            cotenantName=${$("#cotenant-insert-name").val()}&
+            cotenantCitizenship=${$("#cotenant-insert-citizenship").val()}&
+            cotenantDOB=${$("#cotenant-insert-dob").val()}`,
+                success: function (response) {
+                    if (response == "success") {
+                        location.reload();
+                    }
+
+                    console.log(response);
+                }
+            });
+        }
+
+
+    });
+
+    //Update Tenant
+    $("body").on("click", "#cotenant-update-cfm", function () {
+        //Form validation
+        if ($("#cotenant-modal-id").val() == "" ||
+            $("#cotenant-modal-phone").val() == "" ||
+            $("#cotenant-modal-tenant-id").val() == "" ||
+            $("#cotenant-modal-name").val() == "" ||
+            $("#cotenant-modal-citizenship").val() == "" ||
+            $("#cotenant-modal-dob").val() == "") {
+
+            alert("You can't leave required fields empty.");
+        }
+        else {
+            $.ajax({
+                type: "POST",
+                url: `inc/crud/update.php?
+                cotenantID=${$("#cotenant-modal-id").val()}&
+                cotenantPhone=${$("#cotenant-modal-phone").val()}&
+                cotenantTenantID=${$("#cotenant-modal-tenant-id").val()}&
+                cotenantName=${$("#cotenant-modal-name").val()}&
+                cotenantCitizenship=${$("#cotenant-modal-citizenship").val()}&
+                cotenantDOB=${$("#cotenant-modal-dob").val()}`,
+                success: function (response) {
+                    if (response == "success") {
+                        location.reload();
+                    }
+
+                    console.log(response);
+                }
+            });
+        }
+
+    });
+
+    //Delete Tenant
+    $("body").on("click", "#cotenant-delete-cfm", function () {
+        $.ajax({
+            type: "POST",
+            url: `inc/crud/delete.php?cotenantID=${selectedCotenantID}`,
+            success: function (response) {
+                if (response == "success") {
+                    location.reload();
+                }
+
+                console.log(response);
+            }
+        });
+    });
+
+
+    //========================================================================
+
 });
 
 

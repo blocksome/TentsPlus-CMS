@@ -72,11 +72,29 @@ if (mysqli_connect_errno()) {
     //Consumable
     else if (isset($_GET["consumableID"])) {
 
-        $cconsumableID = $_GET["consumableID"];
+        $consumableID = $_GET["consumableID"];
 
         $sql = "DELETE ";
         $sql .= "FROM consumable ";
         $sql .= "WHERE cons_id = '$consumableID';";
+
+        $result = $con->query($sql);
+        if ($con->error) {
+            $statusMsg = "Query failed: %s\n, $con->error";
+        } else {
+            $statusMsg = "success";
+        }
+
+    }
+
+    //Co-Tenant
+    else if (isset($_GET["cotenantID"])) {
+
+        $cotenantID = $_GET["cotenantID"];
+
+        $sql = "DELETE ";
+        $sql .= "FROM cotenant ";
+        $sql .= "WHERE cot_id = '$cotenantID';";
 
         $result = $con->query($sql);
         if ($con->error) {

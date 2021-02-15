@@ -119,6 +119,35 @@ if (mysqli_connect_errno()) {
 
     }
 
+    //Co-Tenant
+    else if (isset($_GET["cotenantID"])) {
+
+        $cotenantID = $_GET["cotenantID"];
+        $cotenantPhone = $_GET["cotenantPhone"];
+        $cotenantTenantID = $_GET["cotenantTenantID"];
+        $cotenantName = $_GET["cotenantName"];
+        $cotenantCitizenship = $_GET["cotenantCitizenship"];
+        $cotenantDOB = $_GET["cotenantDOB"];
+
+        $sql = "INSERT INTO cotenant ";
+        $sql .= "(cot_id, cot_phone, tenant_id, cot_name, cot_citizenship, cot_dob) ";
+        $sql .= "VALUES (";
+        $sql .= "'$cotenantID', ";
+        $sql .= "'$cotenantPhone', ";
+        $sql .= "'$cotenantTenantID', ";
+        $sql .= "'$cotenantName', ";
+        $sql .= "'$cotenantCitizenship', ";
+        $sql .= "'$cotenantDOB');";
+
+        $result = $con->query($sql);
+        if ($con->error) {
+            $statusMsg = "Query failed: %s\n, $con->error";
+        } else {
+            $statusMsg = "success";
+        }
+
+    }
+
     else{
        $statusMsg = "No query selected";
     }
