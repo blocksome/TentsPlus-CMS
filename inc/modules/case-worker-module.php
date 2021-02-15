@@ -188,7 +188,7 @@
             <div class="modal-body">
                 <form>
                     <label for="case-worker-id">Case Worker ID <span class="text-danger">*</span></label><br>
-                    <input type="text" name="case-worker-id" id="case-worker-modal-id" value="" placeholder="e.g. CW1234"><br>
+                    <input disabled="true" type="text" name="case-worker-id" id="case-worker-modal-id" value="" placeholder="e.g. CW1234"><br>
 
                     <label for="case-worker-name">Case Worker Name <span class="text-danger">*</span></label><br>
                     <input type="text" name="case-worker-name" id="case-worker-modal-name" value="" placeholder="e.g. Joe Kurr"><br>

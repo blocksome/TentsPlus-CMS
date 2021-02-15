@@ -47,11 +47,22 @@
                         Inventory Listing
                         </a>
                 </li>
-
                 <li>
                     <a href="#" class="tab-btn" id="case-worker-tab-btn">
                         <i class="metismenu-icon fas fa-smile"></i>
                         Case Workers
+                        </a>
+                </li>
+                <li>
+                    <a href="#" class="tab-btn" id="consumable-tab-btn">
+                        <i class="metismenu-icon fas fa-apple-alt"></i>
+                        Consumables
+                        </a>
+                </li>
+                <li>
+                    <a href="#" class="tab-btn" id="cotenant-tab-btn">
+                        <i class="metismenu-icon fas fa-users"></i>
+                        Co-Tenants
                         </a>
                 </li>
                 <li class="app-sidebar__heading">UI Components</li>

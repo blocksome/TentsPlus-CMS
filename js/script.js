@@ -79,6 +79,15 @@ $(document).ready(function () {
             moveModals();
         });
     });
+
+    //Consumables
+    $("#consumable-tab-btn").click(function () {
+        $("#consumable-tab-btn").addClass("mm-active");
+        removeModals();
+        $("#load-div").load("inc/modules/consumable-module.php", function () {
+            moveModals();
+        });
+    });
     //========================================================================
 
     //========================================================================
@@ -264,7 +273,7 @@ $(document).ready(function () {
 
     });
 
-    //Delete Tenant
+    //Delete Item
     $("body").on("click", "#item-delete-cfm", function () {
         $.ajax({
             type: "POST",
@@ -284,7 +293,7 @@ $(document).ready(function () {
     //========================================================================
     //Case Worker Module
 
-    //Fill relevant detail in edit item modal
+    //Fill relevant detail in edit case worker modal
     $("body").on("click", ".case-worker-edit-btn", function () {
         selectedCaseWorkerID = $(this).attr("data-case-worker-id");
         selectedCaseWorker = $(`#case-worker-row-${selectedCaseWorkerID} .case-worker-id`).text();
@@ -299,7 +308,7 @@ $(document).ready(function () {
         $("#case-worker-modal-tenant-id").val(tenantID.text());
     });
 
-    //Create Item
+    //Create Case Worker
     $("body").on("click", "#case-worker-insert-cfm", function () {
         //Form validation
         if ($("#case-worker-insert-id").val() == "" ||
@@ -329,7 +338,7 @@ $(document).ready(function () {
 
     });
 
-    //Update Item
+    //Update Case Worker
     $("body").on("click", "#case-worker-update-cfm", function () {
         //Form validation
         if ($("#case-worker-modal-id").val() == "" ||
@@ -357,11 +366,112 @@ $(document).ready(function () {
 
     });
 
-    //Delete Tenant
+    //Delete Case Worker
     $("body").on("click", "#case-worker-delete-cfm", function () {
         $.ajax({
             type: "POST",
-            url: `inc/crud/delete.php?itemID=${selectedCaseWorkerID}`,
+            url: `inc/crud/delete.php?caseWorkerID=${selectedCaseWorkerID}`,
+            success: function (response) {
+                if (response == "success") {
+                    location.reload();
+                }
+
+                console.log(response);
+            }
+        });
+    });
+    //========================================================================
+
+    //========================================================================
+    //Consumable Module
+
+    //Fill relevant detail in edit tenant modal
+    $("body").on("click", ".consumable-edit-btn", function () {
+        selectedConsumableID = $(this).attr("data-consumable-id");
+        selectedConsumable = $(`#consumable-row-${selectedConsumableID} .consumable-id`).text();
+
+        $("#consumable-modal-title").text(`Edit ${selectedConsumableID}`);
+        $("#consumable-modal-id").val(selectedConsumable);
+
+        var consumableName = $(`#consumable-row-${selectedConsumableID} .consumable-name`);
+        var consumableLabel = $(`#consumable-row-${selectedConsumableID} .consumable-label`);
+        var consumableComment = $(`#consumable-row-${selectedConsumableID} .consumable-comment`);
+
+        $("#consumable-modal-name").val(consumableName.text());
+
+        $("#consumable-modal-label").val(consumableLabel.text());
+        $("#consumable-modal-comment").val(consumableComment.text());
+    });
+
+    //Create Consumable
+    $("body").on("click", "#consumable-insert-cfm", function () {
+        //Form validation
+        if ($("#consumable-modal-insert-id").val() == "" ||
+            $("#consumable-insert-name").val() == "" ||
+            $("#consumable-insert-status").val() == "") {
+
+            alert("You can't leave required fields empty.");
+        }
+
+        else {
+            $.ajax({
+                type: "POST",
+                url: `inc/crud/insert.php?
+            consumableID=${$("#consumable-modal-insert-id").val()}&
+            consumableName=${$("#consumable-insert-name").val()}&
+            consumableStatus=${$("#consumable-insert-status").val()}&
+            consumableLabel=${$("#consumable-insert-label").val()}&
+            consumableTenantID=${$("#consumable-insert-tenant-id").val()}&
+            consumableComment=${$("#consumable-insert-comment").val()}`,
+                success: function (response) {
+                    if (response == "success") {
+                        location.reload();
+                    }
+
+                    console.log(response);
+                }
+            });
+        }
+
+
+    });
+
+    //Update Consumable
+    $("body").on("click", "#consumable-update-cfm", function () {
+        //Form validation
+        if ($("#consumable-modal-id").val() == "" ||
+            $("#consumable-modal-name").val() == "" ||
+            $("#consumable-modal-tenant-id").val() == "") {
+
+            alert("You can't leave required fields empty.");
+        }
+        else {
+            $.ajax({
+                type: "POST",
+                url: `inc/crud/update.php?
+                consumableID=${$("#consumable-modal-id").val()}&
+                consumableName=${$("#consumable-modal-name").val()}&
+                consumableStatus=${$("#consumable-modal-status").val()}&
+                consumableLabel=${$("#consumable-modal-label").val()}&
+                consumableTenantID=${$("#consumable-modal-tenant-id").val()}&
+                consumableComment=${$("#consumable-modal-comment").val()}`,
+                success: function (response) {
+                    if (response == "success") {
+                        location.reload();
+                    }
+
+                    console.log(response);
+                }
+            });
+        }
+
+    });
+
+    //Delete Consumable
+    $("body").on("click", "#consumable-delete-cfm", function () {
+        $.ajax({
+            type: "POST",
+            url: `inc/crud/delete.php?consumableID=${selectedConsumableID}`,
             success: function (response) {
                 if (response == "success") {
                     location.reload();
@@ -372,5 +482,8 @@ $(document).ready(function () {
         });
     });
 
+
+    //========================================================================
 });
-//========================================================================
+
+

@@ -90,6 +90,35 @@ if (mysqli_connect_errno()) {
 
     }
 
+    //Consumable
+    else if (isset($_GET["consumableID"])) {
+
+        $consumableID = $_GET["consumableID"];
+        $consumableName = $_GET["consumableName"];
+        $consumableStatus = $_GET["consumableStatus"];
+        $consumableLabel = $_GET["consumableLabel"];
+        $consumableTenantID = $_GET["consumableTenantID"];
+        $consumableComment = $_GET["consumableComment"];
+
+        $sql = "INSERT INTO consumable ";
+        $sql .= "(cons_id, cons_name, cons_status, cons_label, tenant_id, cons_comment) ";
+        $sql .= "VALUES (";
+        $sql .= "'$consumableID', ";
+        $sql .= "'$consumableName', ";
+        $sql .= "'$consumableStatus', ";
+        $sql .= "'$consumableLabel', ";
+        $sql .= "'$consumableTenantID', ";
+        $sql .= "'$consumableComment');";
+
+        $result = $con->query($sql);
+        if ($con->error) {
+            $statusMsg = "Query failed: %s\n, $con->error";
+        } else {
+            $statusMsg = "success";
+        }
+
+    }
+
     else{
        $statusMsg = "No query selected";
     }

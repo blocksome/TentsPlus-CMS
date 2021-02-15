@@ -207,7 +207,7 @@
             <div class="modal-body">
                 <form>
                     <label for="tenant-id">Tenant ID <span class="text-danger">*</span></label><br>
-                    <input type="text" name="tenant-id" id="tenant-modal-id" value="" placeholder="e.g. TT1234"><br>
+                    <input disabled="true" type="text" name="tenant-id" id="tenant-modal-id" value="" placeholder="e.g. TT1234"><br>
 
                     <label for="unit-number">Unit No. <span class="text-danger">*</span></label><br>
                     <select name="unit-number" id="tenant-modal-unit-num">
