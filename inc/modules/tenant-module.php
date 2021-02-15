@@ -101,7 +101,9 @@
 
                                     echo "No results!";
                                 }
-                            } ?>
+                            } 
+                            $con->close();
+                            ?>
                         </tbody>
                     </table>
                 </div>
@@ -241,6 +243,7 @@
                                 echo "No results!";
                             }
                         }
+                        $con->close();
                         ?>
                     </select><br>
 
@@ -351,6 +354,7 @@
                                 echo "No results!";
                             }
                         }
+                        $con->close();
                         ?>
                     </select><br>
 

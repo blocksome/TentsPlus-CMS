@@ -80,7 +80,9 @@
 
                                     echo "No results!";
                                 }
-                            } ?>
+                            } 
+                            
+                            $con->close();?>
                         </tbody>
                     </table>
                 </div>
