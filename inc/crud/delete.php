@@ -105,6 +105,24 @@ if (mysqli_connect_errno()) {
 
     }
 
+    //Donor
+    else if (isset($_GET["donorID"])) {
+
+        $donorID = $_GET["donorID"];
+
+        $sql = "DELETE ";
+        $sql .= "FROM donor ";
+        $sql .= "WHERE donor_id = '$donorID';";
+
+        $result = $con->query($sql);
+        if ($con->error) {
+            $statusMsg = "Query failed: %s\n, $con->error";
+        } else {
+            $statusMsg = "success";
+        }
+
+    }
+
     else{
         $statusMsg = "No query selected";
      }

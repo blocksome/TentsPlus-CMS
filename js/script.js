@@ -38,7 +38,6 @@ $(document).ready(function () {
     //Move all modals to end of body tag
     function moveModals() {
         $("#page-content").after($(".modal"));
-        console.log("moved");
     }
 
     //Remove old modals
@@ -97,6 +96,15 @@ $(document).ready(function () {
             moveModals();
         });
     });
+
+    //Donor
+    $("#donor-tab-btn").click(function () {
+        $("#donor-tab-btn").addClass("mm-active");
+        removeModals();
+        $("#load-div").load("inc/modules/donor-module.php", function () {
+            moveModals();
+        });
+    });
     //========================================================================
 
     //========================================================================
@@ -145,7 +153,7 @@ $(document).ready(function () {
             tenantAmountSpent=${$("#tenant-insert-amount-spent").val()}`,
                 success: function (response) {
                     if (response == "success") {
-                        location.reload();
+                        location.reload(true);
                     }
 
                     console.log(response);
@@ -180,7 +188,7 @@ $(document).ready(function () {
             tenantAmountSpent=${$("#tenant-modal-amount-spent").val()}`,
                 success: function (response) {
                     if (response == "success") {
-                        location.reload();
+                        location.reload(true);
                     }
 
                     console.log(response);
@@ -197,7 +205,7 @@ $(document).ready(function () {
             url: `inc/crud/delete.php?tenantID=${selectedTenantID}`,
             success: function (response) {
                 if (response == "success") {
-                    location.reload();
+                    location.reload(true);
                 }
 
                 console.log(response);
@@ -243,7 +251,7 @@ $(document).ready(function () {
             itemDonorID=${$("#item-insert-donor-id").val()}`,
                 success: function (response) {
                     if (response == "success") {
-                        location.reload();
+                        location.reload(true);
                     }
 
                     console.log(response);
@@ -272,7 +280,7 @@ $(document).ready(function () {
             itemDonorID=${$("#item-modal-donor-id").val()}`,
                 success: function (response) {
                     if (response == "success") {
-                        location.reload();
+                        location.reload(true);
                     }
 
                     console.log(response);
@@ -289,7 +297,7 @@ $(document).ready(function () {
             url: `inc/crud/delete.php?itemID=${selectedItemID}`,
             success: function (response) {
                 if (response == "success") {
-                    location.reload();
+                    location.reload(true);
                 }
 
                 console.log(response);
@@ -336,7 +344,7 @@ $(document).ready(function () {
             caseWorkerTenantID=${$("#case-worker-insert-tenant-id").val()}`,
                 success: function (response) {
                     if (response == "success") {
-                        location.reload();
+                        location.reload(true);
                     }
 
                     console.log(response);
@@ -365,7 +373,7 @@ $(document).ready(function () {
             caseWorkerTenantID=${$("#case-worker-modal-tenant-id").val()}`,
                 success: function (response) {
                     if (response == "success") {
-                        location.reload();
+                        location.reload(true);
                     }
 
                     console.log(response);
@@ -382,7 +390,7 @@ $(document).ready(function () {
             url: `inc/crud/delete.php?caseWorkerID=${selectedCaseWorkerID}`,
             success: function (response) {
                 if (response == "success") {
-                    location.reload();
+                    location.reload(true);
                 }
 
                 console.log(response);
@@ -434,7 +442,7 @@ $(document).ready(function () {
             consumableComment=${$("#consumable-insert-comment").val()}`,
                 success: function (response) {
                     if (response == "success") {
-                        location.reload();
+                        location.reload(true);
                     }
 
                     console.log(response);
@@ -466,7 +474,7 @@ $(document).ready(function () {
                 consumableComment=${$("#consumable-modal-comment").val()}`,
                 success: function (response) {
                     if (response == "success") {
-                        location.reload();
+                        location.reload(true);
                     }
 
                     console.log(response);
@@ -483,7 +491,7 @@ $(document).ready(function () {
             url: `inc/crud/delete.php?consumableID=${selectedConsumableID}`,
             success: function (response) {
                 if (response == "success") {
-                    location.reload();
+                    location.reload(true);
                 }
 
                 console.log(response);
@@ -543,7 +551,7 @@ $(document).ready(function () {
             cotenantDOB=${$("#cotenant-insert-dob").val()}`,
                 success: function (response) {
                     if (response == "success") {
-                        location.reload();
+                        location.reload(true);
                     }
 
                     console.log(response);
@@ -578,7 +586,7 @@ $(document).ready(function () {
                 cotenantDOB=${$("#cotenant-modal-dob").val()}`,
                 success: function (response) {
                     if (response == "success") {
-                        location.reload();
+                        location.reload(true);
                     }
 
                     console.log(response);
@@ -595,7 +603,7 @@ $(document).ready(function () {
             url: `inc/crud/delete.php?cotenantID=${selectedCotenantID}`,
             success: function (response) {
                 if (response == "success") {
-                    location.reload();
+                    location.reload(true);
                 }
 
                 console.log(response);
@@ -606,6 +614,92 @@ $(document).ready(function () {
 
     //========================================================================
 
+    //========================================================================
+    //Donor Module
+
+    //Fill relevant detail in edit donor modal
+    $("body").on("click", ".donor-edit-btn", function () {
+        selectedDonorID = $(this).attr("data-donor-id");
+        selectedDonor = $(`#donor-row-${selectedDonorID} .donor-id`).text();
+
+        $("#donor-modal-title").text(`Edit ${selectedDonorID}`);
+        $("#donor-modal-id").val(selectedDonor);
+
+        var donorName = $(`#donor-row-${selectedDonorID} .donor-name`);
+
+        $("#donor-modal-name").val(donorName.text());
+    });
+
+    //Create Donor
+    $("body").on("click", "#donor-insert-cfm", function () {
+        //Form validation
+        if ($("#donor-insert-id").val() == "" ||
+            $("#donor-insert-name").val() == "") {
+
+            alert("You can't leave required fields empty.");
+        }
+
+        else {
+            $.ajax({
+                type: "POST",
+                url: `inc/crud/insert.php?
+                donorID=${$("#donor-insert-id").val()}&
+                donorName=${$("#donor-insert-name").val()}`,
+                success: function (response) {
+                    if (response == "success") {
+                        location.reload(true);
+                    }
+
+                    console.log(response);
+                }
+            });
+        }
+
+
+    });
+
+    //Update Donor
+    $("body").on("click", "#donor-update-cfm", function () {
+        //Form validation
+        if ($("#donor-modal-id").val() == "" ||
+            $("#donor-modal-name").val() == "") {
+
+            alert("You can't leave required fields empty.");
+        }
+        else {
+            $.ajax({
+                type: "POST",
+                url: `inc/crud/update.php?
+                donorID=${$("#donor-modal-id").val()}&
+                donorName=${$("#donor-modal-name").val()}`,
+                success: function (response) {
+                    if (response == "success") {
+                        location.reload(true);
+                    }
+
+                    console.log(response);
+                }
+            });
+        }
+
+    });
+
+    //Delete Donor
+    $("body").on("click", "#donor-delete-cfm", function () {
+        $.ajax({
+            type: "POST",
+            url: `inc/crud/delete.php?donorID=${selectedDonorID}`,
+            success: function (response) {
+                if (response == "success") {
+                    location.reload(true);
+                }
+
+                console.log(response);
+            }
+        });
+    });
+
+    //========================================================================
 });
 
 
