@@ -22,7 +22,7 @@
     <div class="row">
 
         <!--Table-->
-        <div class="col-md-12 col-lg-7">
+        <div class="col-md-12 col-lg-12">
             <div class="main-card mb-3 card">
                 <div class="card-header">Items
                     <div class="btn-actions-pane-right">
@@ -97,84 +97,6 @@
                 </div>
             </div>
         </div>
-
-        <!--Graph-->
-        <div class="col-md-12 col-lg-5">
-            <div class="mb-3 card">
-                <div class="card-header-tab card-header">
-                    <div class="card-header-title">
-                        <i class="header-icon lnr-rocket icon-gradient bg-tempting-azure"> </i>
-                        Utility Charges Over Time
-                    </div>
-
-                </div>
-
-                <div class="tab-content">
-                    <div class="tab-pane fade active show" id="tab-eg-55">
-                        <div class="widget-chart p-3">
-                            <div style="height: 350px">
-                                <canvas id="utility-chart"></canvas>
-                            </div>
-
-                            <div class="widget-chart-content text-center mt-5">
-                                <div class="widget-description mt-0 text-warning">
-                                    <span class="pl-1">[Name of Item]</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12 col-m-6">
-                            <div class="card mb-2 widget-content bg-arielle-smile">
-                                <div class="widget-content-wrapper text-white">
-                                    <div class="widget-content-left">
-                                        <div class="widget-heading">Clients</div>
-                                        <div class="widget-subheading">Total Clients Profit</div>
-                                    </div>
-                                    <div class="widget-content-right">
-                                        <div class="widget-numbers text-white"><span>$ 568</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12 col-m-6">
-                            <div class="card mb-2 widget-content bg-grow-early">
-                                <div class="widget-content-wrapper text-white">
-                                    <div class="widget-content-left">
-                                        <div class="widget-heading">Followers</div>
-                                        <div class="widget-subheading">People Interested</div>
-                                    </div>
-                                    <div class="widget-content-right">
-                                        <div class="widget-numbers text-white"><span>46%</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!--Coloured Tabs-->
-    <div class="row">
-
-        <div class="d-xl-none d-lg-block col-md-6 col-xl-4">
-            <div class="card mb-3 widget-content bg-premium-dark">
-                <div class="widget-content-wrapper text-white">
-                    <div class="widget-content-left">
-                        <div class="widget-heading">Products Sold</div>
-                        <div class="widget-subheading">Revenue streams</div>
-                    </div>
-                    <div class="widget-content-right">
-                        <div class="widget-numbers text-warning"><span>$14M</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
 
 </div>
 
