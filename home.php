@@ -48,33 +48,6 @@
     <!--Local Script-->
     <script type="text/javascript" src="js/script.js"></script>
 
-    <!--ChartJS Charts-->
-    <script>
-        //Displaying utility results
-        var ctxUtility = document.getElementById('utility-chart').getContext('2d');
-        var myChartUtility = new Chart(ctxUtility, {
-            type: 'line',
-            data: {
-                labels: ["test", "test2"],
-                datasets: [{
-                    label: 'Utility Bill Per Month',
-                    data: ["10", "20"],
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgba(255, 99, 132, 1)',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            beginAtZero: true
-                        }
-                    }]
-                }
-            }
-        });
-    </script>
 </body>
 
 </html>

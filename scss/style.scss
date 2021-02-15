@@ -2,6 +2,66 @@
 
 $tentsplus-green: #50AD92;
 
+#login-body{
+    background-color: $tentsplus-green;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+//Login Form Styling
+#login-form{
+    align-self: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding: 20px;
+
+    width: 50vw;
+    min-height: 60vh;
+
+    background-color: white;
+
+    border-radius: 35px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.500);
+}
+
+#content-div{
+    align-self: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding: 20px;
+
+    width: 75vw;
+    min-height: 60vh;
+
+    border-radius: 35px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.500);
+}
+
+#login-form div{
+    width: 18vw;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: space-around;
+    
+    padding: 7px;
+    padding-right: 35px;
+}
+
+#login-btn{
+    margin: 10px;
+}
+
+//Main App Styling
 #dashboard-logo{
     max-width: 100px;
     height: auto;

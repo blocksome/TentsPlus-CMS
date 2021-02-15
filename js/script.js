@@ -34,6 +34,36 @@ $(document).ready(function () {
     });
     moveModals();
 
+    //Login
+    $("#login-btn").click(function () {
+
+        $.ajax({
+            type: "POST",
+            url: `inc/crud/login.php?
+            username=${$("#login-username").val()}&
+            password=${$("#login-password").val()}`,
+            success: function (response) {
+                if (response == "success") {
+                    //Redirect to home
+                    location.href = "home.php";
+                }
+
+                else{
+                    $("#error-msg").text(response);
+                }
+                console.log(response);
+            }
+        });
+
+
+    });
+
+    //Logout
+    $("#logout-btn").click(function () {
+        location.href = "index.php";
+        console.log("logged out");
+    });
+
     //========================================================================
     //Move all modals to end of body tag
     function moveModals() {
