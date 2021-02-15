@@ -1,22 +1,7 @@
 <!--TentsPlus CMS-->
 
 <!doctype html>
-<?php
-ob_start();
-//Connect to database
-
-//School db login
-/*
-$dbhost = "localhost";
-$dbuser = "amphibis_joses";
-$dbpass = "miGLzU*S.xJV";
-$dbname = "amphibis_joses";
-*/
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "tents_plus_database";
-?>
+<?php include("inc/crud/db-login.php"); ?>
 
 <html lang="en">
 
@@ -40,7 +25,6 @@ $dbname = "tents_plus_database";
             <div class="app-main__outer">
                 <div id="load-div">
                     <!--Page Module Content (replace for each page)-->
-                    <?php include("inc/modules/tenant-module.php"); ?>
                 </div>
 
                 <!--Footer-->

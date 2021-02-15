@@ -29,6 +29,9 @@ var selectedUnitID;
 var selectedUnitHistoryID;
 
 $(document).ready(function () {
+    $("#load-div").load("inc/modules/tenant-module.php", function () {
+        moveModals();
+    });
     moveModals();
 
     //========================================================================
@@ -63,7 +66,7 @@ $(document).ready(function () {
     $("#inventory-tab-btn").click(function () {
         $("#inventory-tab-btn").addClass("mm-active");
         removeModals();
-        $("#load-div").load("inc/modules/inventory-module.php", function () {
+        $("#load-div").load("inc/modules/item-module.php", function () {
             moveModals();
         });
     });
@@ -117,6 +120,8 @@ $(document).ready(function () {
                     if (response == "success") {
                         location.reload();
                     }
+
+                    console.log(response);
                 }
             });
         }
@@ -150,6 +155,8 @@ $(document).ready(function () {
                     if (response == "success") {
                         location.reload();
                     }
+
+                    console.log(response);
                 }
             });
         }
@@ -165,10 +172,102 @@ $(document).ready(function () {
                 if (response == "success") {
                     location.reload();
                 }
+
+                console.log(response);
             }
         });
     });
 
 
     //========================================================================
+
+    //========================================================================
+    //Inventory Module
+
+    //Fill relevant detail in edit item modal
+    $("body").on("click", ".item-edit-btn", function () {
+        selectedItemID = $(this).attr("data-item-id");
+        selectedItem = $(`#item-row-${selectedItemID} .item-id`).text();
+
+        $("#item-modal-title").text(`Edit ${selectedItemID}`);
+        $("#item-modal-id").val(selectedItem);
+
+        var itemName = $(`#item-row-${selectedItemID} .item-name`);
+
+        $("#item-modal-name").val(itemName.text());
+    });
+
+    //Create Item
+    $("body").on("click", "#item-insert-cfm", function () {
+        //Form validation
+        if ($("#item-insert-id").val() == "" ||
+            $("#item-insert-name").val() == "" ||
+            $("#item-donor-id").val() == "") {
+
+            alert("You can't leave required fields empty.");
+        }
+
+        else {
+            $.ajax({
+                type: "POST",
+                url: `inc/crud/insert.php?
+            itemID=${$("#item-insert-id").val()}&
+            itemName=${$("#item-insert-name").val()}&
+            donorID=${$("#item-insert-donor-id").val()}`,
+                success: function (response) {
+                    if (response == "success") {
+                        location.reload();
+                    }
+
+                    console.log(response);
+                }
+            });
+        }
+
+
+    });
+
+    //Update Item
+    $("body").on("click", "#item-update-cfm", function () {
+        //Form validation
+        if ($("#item-modal-id").val() == "" ||
+            $("#item-modal-name").val() == "" ||
+            $("#item-modal-donor-id").val() == "") {
+
+            alert("You can't leave required fields empty.");
+        }
+        else {
+            $.ajax({
+                type: "POST",
+                url: `inc/crud/update.php?
+            itemID=${$("#item-modal-id").val()}&
+            itemName=${$("#item-modal-name").val()}&
+            donorID=${$("#item-modal-donor-id").val()}`,
+                success: function (response) {
+                    if (response == "success") {
+                        location.reload();
+                    }
+
+                    console.log(response);
+                }
+            });
+        }
+
+    });
+
+    //Delete Tenant
+    $("body").on("click", "#item-delete-cfm", function () {
+        $.ajax({
+            type: "POST",
+            url: `inc/crud/delete.php?itemID=${selectedItemID}`,
+            success: function (response) {
+                if (response == "success") {
+                    location.reload();
+                }
+
+                console.log(response);
+            }
+        });
+    });
+
 });

@@ -16,13 +16,31 @@ if (mysqli_connect_errno()) {
     //Run MYSQL request upon successful connection
 
     //Tenant
-    if ($_GET["tenantID"] != null || $_GET["tenantID"] != "") {
+    if (isset($_GET["tenantID"])) {
 
-        $selectedTenantID = $_GET["tenantID"];
+        $tenantID = $_GET["tenantID"];
 
         $sql = "DELETE ";
         $sql .= "FROM tenant ";
-        $sql .= "WHERE tenant_id = '$selectedTenantID';";
+        $sql .= "WHERE tenant_id = '$tenantID';";
+
+        $result = $con->query($sql);
+        if ($con->error) {
+            $statusMsg = "Query failed: %s\n, $con->error";
+        } else {
+            $statusMsg = "success";
+        }
+
+    }
+
+    //Item
+    else if (isset($_GET["itemID"])) {
+
+        $itemID = $_GET["itemID"];
+
+        $sql = "DELETE ";
+        $sql .= "FROM item ";
+        $sql .= "WHERE item_id = '$itemID';";
 
         $result = $con->query($sql);
         if ($con->error) {

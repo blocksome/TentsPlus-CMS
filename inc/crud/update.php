@@ -16,7 +16,7 @@ if (mysqli_connect_errno()) {
     //Run MYSQL request upon successful connection
 
     //Tenant
-    if ($_GET["tenantID"] != null || $_GET["tenantID"] != "") {
+    if (isset($_GET["tenantID"])) {
 
         $tenantID = $_GET["tenantID"];
         $tenantUnitID = $_GET["tenantUnitID"];
@@ -33,6 +33,28 @@ if (mysqli_connect_errno()) {
         $sql .= "rental_amount = '$tenantRentalAmount', ";
         $sql .= "amount_spent = '$tenantAmountSpent' ";
         $sql .= "WHERE tenant_id = '$tenantID';";
+
+        $result = $con->query($sql);
+        if ($con->error) {
+            $statusMsg = "Query failed: %s\n, $con->error";
+        } else {
+            $statusMsg = "success";
+        }
+
+    }
+
+    //Item
+    else if (isset($_GET["itemID"])) {
+
+        $itemID = $_GET["itemID"];
+        $itemName = $_GET["itemName"];
+        $donorID = $_GET["donorID"];
+
+        $sql = "UPDATE item ";
+        $sql .= "SET item_id = '$itemID', ";
+        $sql .= "item_name = '$itemName', ";
+        $sql .= "donor_id = '$donorID' ";
+        $sql .= "WHERE item_id = '$itemID';";
 
         $result = $con->query($sql);
         if ($con->error) {
