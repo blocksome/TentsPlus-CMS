@@ -72,6 +72,19 @@
                         </a>
                 </li>
                 
+                <li class="app-sidebar__heading">Views</li>
+                <li>
+                    <a href="#" class="tab-btn" id="tenant-view-btn">
+                        <i class="metismenu-icon fas fa-male"></i>
+                        Tenants
+                        </a>
+                </li>
+                <li>
+                    <a href="#" class="tab-btn" id="donor-view-btn">
+                        <i class="metismenu-icon fas fa-male"></i>
+                        Donors
+                        </a>
+                </li>
             </ul>
         </div>
     </div>

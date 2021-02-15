@@ -48,6 +48,7 @@ $(document).ready(function () {
 
     //========================================================================
     //Routing interactions
+    //Modules
     $(".tab-btn").click(function () {
         $(".tab-btn").removeClass("mm-active");
     });
@@ -102,6 +103,25 @@ $(document).ready(function () {
         $("#donor-tab-btn").addClass("mm-active");
         removeModals();
         $("#load-div").load("inc/modules/donor-module.php", function () {
+            moveModals();
+        });
+    });
+
+    //Views
+    //Tenants
+    $("#tenant-view-btn").click(function () {
+        $("#tenant-view-btn").addClass("mm-active");
+        removeModals();
+        $("#load-div").load("inc/modules/tenant-view.php", function () {
+            moveModals();
+        });
+    });
+
+    //Donors
+    $("#donor-view-btn").click(function () {
+        $("#donor-view-btn").addClass("mm-active");
+        removeModals();
+        $("#load-div").load("inc/modules/donor-view.php", function () {
             moveModals();
         });
     });
