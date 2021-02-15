@@ -1,1 +1,16 @@
 //Styling for TentsPlus CMS
+
+$tentsplus-green: #50AD92;
+
+#dashboard-logo{
+    max-width: 100px;
+    height: auto;
+}
+
+.app-header, .scrollbar-sidebar{
+    background-color: $tentsplus-green;
+}
+
+#user-info{
+    color: white;
+}

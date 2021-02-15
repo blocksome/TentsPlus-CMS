@@ -9223,9 +9223,14 @@ a, button, .btn {
 }
 
 .app-header__logo .logo-src {
-    height: 23px;
-    width: 97px;
-    background: url(../assets/images/logo-inverse.png)
+    height: 40px;
+    width: 40px;
+    /*
+    background: url(../assets/images/tentsplus-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px 30px;
+    */
 }
 
 .app-header__menu, .app-header__mobile-menu {
@@ -9469,7 +9474,7 @@ a, button, .btn {
     font-size: .8rem;
     margin: .75rem 0;
     font-weight: bold;
-    color: #3f6ad8;
+    color: white;
     white-space: nowrap;
     position: relative
 }
@@ -9535,7 +9540,7 @@ a, button, .btn {
     padding: 0 1.5rem 0 45px;
     position: relative;
     border-radius: .25rem;
-    color: #343a40;
+    color: white;
     white-space: nowrap;
     transition: all .2s;
     margin: .1rem 0
@@ -9543,6 +9548,7 @@ a, button, .btn {
 
 .vertical-nav-menu li a:hover {
     background: #e0f3ff;
+    color: #50AD92;
     text-decoration: none
 }
 
@@ -9563,7 +9569,7 @@ a, button, .btn {
 }
 
 .vertical-nav-menu li a.mm-active {
-    color: #343a40;
+    color: #50AD92;
     background: #e0f3ff;
     font-weight: bold
 }
@@ -10014,9 +10020,11 @@ a, button, .btn {
     background: rgba(255, 255, 255, 0.45)
 }
 
+/*
 .app-theme-white .app-footer .app-footer__inner, .app-theme-white .app-header {
     background: #fafbfc
 }
+*/
 
 .app-theme-white.fixed-header .app-header__logo {
     background: rgba(250, 251, 252, 0.1)
@@ -21151,7 +21159,7 @@ legend {
 }
 
 .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
-    background-color: #3f6ad8
+    background-color: white
 }
 
 .hamburger-box {
@@ -21170,7 +21178,7 @@ legend {
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 24px;
     height: 2px;
-    background-color: #3f6ad8;
+    background-color: white;
     border-radius: 10px;
     position: absolute;
     transition-property: transform;

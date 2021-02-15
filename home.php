@@ -28,7 +28,7 @@
                 </div>
 
                 <!--Footer-->
-                <?php include("inc/general/footer.php"); ?>
+                <?php //include("inc/general/footer.php"); ?>
             </div>
 
             <!--Google Maps API-->
